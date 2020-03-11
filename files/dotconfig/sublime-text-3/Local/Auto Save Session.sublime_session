@@ -1,0 +1,468 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3207,
+	"last_window_id": 6,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1031.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/akos/Dropbox/projects/Kapustin-Witten/Haydys monopoles paper/Haydys_paper.tex",
+				"/home/akos/Dropbox/active/goncalo stuff/schwarzschild instantons/Paper_v2.1/schwarzschild.tex",
+				"/home/akos/.config/i3status/config",
+				"/home/akos/.config/i3/config",
+				"/home/akos/Dropbox/stuff/latex/cv/akosnagy-cv.tex",
+				"/home/akos/Dropbox/stuff/other/web/index.html",
+				"/home/akos/.archey3.cfg",
+				"/home/akos/Dropbox/stuff/other/misc/arch_backup/files/Qten.txt",
+				"/home/akos/Dropbox/stuff/other/misc/arch_backup/files/Qtem.txt",
+				"/home/akos/Dropbox/stuff/other/misc/arch_backup/archinstall.txt",
+				"/home/akos/Dropbox/stuff/other/misc/arch_backup/files/other/arch.conf",
+				"/home/akos/Dropbox/stuff/other/misc/arch/archinstall.txt",
+				"/home/akos/.config/kitty/kitty.conf",
+				"/home/akos/.config/kitty/config",
+				"/home/akos/config"
+			],
+			"find":
+			{
+				"height": 46.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"{remark}",
+					"\"\n",
+					"$ws",
+					"Mod1"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"",
+					"$mod"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1920.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/akos/Dropbox/stuff/other/misc/arch_backup/archinstall.txt",
+					"settings":
+					{
+						"buffer_size": 2551,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/akos/.config/i3status/config",
+				"/home/akos/.config/i3s/config",
+				"/home/akos/.config/i3/config",
+				"/home/akos/Dropbox/stuff/other/misc/arch_backup/archinstall.txt",
+				"/home/akos/.xinitrc",
+				"/home/akos/Dropbox/active/bps_to_nahm/bps_to_nahm.tex",
+				"/run/media/akos/Xubuntu 18.04.2 LTS amd64/md5sum.txt",
+				"/etc/fstab",
+				"/home/akos/Dropbox/active/bps_to_nahm/references.bib",
+				"/home/akos/Dropbox/projects/Kapustin-Witten/Haydys monopoles paper/Haydys_paper.tex",
+				"/home/akos/Dropbox/active/goncalo stuff/schwarzschild instantons/Response to Reports/Reply to Report.tex",
+				"/home/akos/Dropbox/active/goncalo stuff/schwarzschild instantons/Paper_v2.1/schwarzschild.tex",
+				"/home/akos/Dropbox/active/goncalo stuff/schwarzschild instantons/Response to Reports/Reply to Report 2.tex",
+				"/home/akos/Dropbox/stuff/latex/cv/akosnagy-cv.tex",
+				"/home/akos/Dropbox/stuff/other/web/index.html",
+				"/home/akos/.archey3.cfg",
+				"/home/akos/Dropbox/stuff/other/misc/arch_backup/files/Qten.txt",
+				"/home/akos/Dropbox/stuff/other/misc/arch_backup/files/Qtem.txt",
+				"/home/akos/Dropbox/stuff/other/misc/arch_backup/files/other/arch.conf",
+				"/home/akos/Dropbox/stuff/other/misc/arch/archinstall.txt",
+				"/home/akos/.config/kitty/kitty.conf",
+				"/home/akos/.config/kitty/config",
+				"/home/akos/config"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"\\cN",
+					"leql",
+					"\\rho (x) - R",
+					"r^{",
+					"\\rl",
+					"\\r",
+					"\\rl",
+					"\\mathbb{R}",
+					"|x|",
+					"phd",
+					"d_t",
+					"The proo",
+					"limit ",
+					"L^{",
+					"L^{\\infty}",
+					"L^{",
+					"L^{2",
+					"Thus,",
+					"Hence,",
+					"eq:degree",
+					"\\deg",
+					"\\log",
+					"respectively",
+					"eq:gs",
+					"eq:gsi",
+					"eq:sigma",
+					"the the ",
+					"KW",
+					", in par",
+					"\\mathbb{H}^n_K",
+					"mathbbH",
+					"{H}",
+					"which sat",
+					"+\\infty",
+					"+ \\infty",
+					"energiesequal",
+					"{remark}",
+					"vort",
+					"nonA",
+					"non-",
+					"{remark}",
+					"\"\n",
+					"$ws",
+					"Mod1"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\\rl",
+					"\\rho (x)",
+					"L^\\infty",
+					"\\ln",
+					"\\mathbb{H}_K^n",
+					"mathbb{H}",
+					"H",
+					"\\infty",
+					"",
+					"$mod"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/akos/Dropbox/stuff/other/misc/arch_backup/archinstall.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2551,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										179,
+										179
+									]
+								],
+								"settings":
+								{
+									"WordCount":
+									{
+										"changes": 12,
+										"count": 129,
+										"modified": false,
+										"selection": false,
+										"status": -1,
+										"syntax": "plain text"
+									},
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,960,24,1918,1055,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"added_words":
+	[
+		"holomorphic",
+		"equivariant",
+		"nonuniqueness",
+		"linearizations",
+		"eigenspaces",
+		"gauge"
+	],
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}

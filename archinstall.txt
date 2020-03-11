@@ -1,0 +1,173 @@
+files to save:
+--------------
+
+/home/akos/.config/
+	kitty
+	mpv
+	pcmanfm
+	psd
+	qBittorrent
+	qpdfview
+	sublime
+	sway
+	waybar
+	yay
+
+/home/akos/.archey3.cfg
+/home/akos/.gtk-bookmarks
+/home/akos/.zprofile
+/home/akos/.zshrc
+
+/etc/pacman.d/*
+/etc/pacman.conf
+/etc/makepkg.conf
+/etc/mkinitcpio.conf
+/etc/fstab
+/etc/defaults/*
+
+/etc/sysctl.d/50-security.conf
+/etc/sysctl.d/99-sysctl.conf
+
+
+
+package list:
+-------------
+
+yay -Qqtt > Qqtt.txt
+
+
+
+reflector usage:
+----------------
+
+reflector --protocol https --latest 50 --number 5 --age 12 --sort rate --save /etc/pacman.d/mirrorlist
+
+
+
+add to in fstab:
+----------------
+
+# cache to tmpfs
+tmpfs			/home/akos/.cache	tmpfs	rw,size=2G,nr_inodes=10k,noexec,nodev,nosuid,uid=akos,gid=wheel,mode=1700	0 0
+
+
+
+content of /etc/sudoers:
+------------------------
+
+Defaults editor=/usr/bin/rnano
+root ALL=(ALL) ALL
+%wheel ALL=(ALL) ALL
+akos ALL=(ALL) NOPASSWD: /usr/bin/psd-overlay-helper
+
+
+
+content of /boot/loader/loader.conf:
+------------------------------------
+
+default         arch
+timeout			0
+console-mode    max
+editor          no
+
+
+
+content of /boot/loader/entries/arch.conf:
+------------------------------------------
+
+title	arch linux
+linux	/vmlinuz-linux-zen
+initrd	/intel-ucode.img
+initrd	/initramfs-linux-zen.img
+options	root=LABEL=ROOT quiet vga=current rd.systemd.show_status=auto udev.log_priority=3 modprobe.blacklist=pcspkr,btusb,bluetooth nowatchdog zswap.enabled=1 vm.swappiness=1 vm.vfs_cache_pressure=50 vm.dirty_background_bytes=16777216 vm.dirty_bytes=50331648
+
+# change label through https://wiki.archlinux.org/index.php/Persistent_block_device_naming#by-label
+
+
+
+content of /etc/systemd/system.conf:
+------------------------------------
+
+DefaultTimeoutStartSec=3s
+DefaultTimeoutStopSec=3s
+
+
+
+content of /etc/systemd/journald.conf:
+--------------------------------------
+
+SystemMaxUse=100M
+
+
+
+content of /etc/sysctl.d/50-security.conf:
+------------------------------------------
+
+kernel.dmesg_restrict=1
+kernel.kptr_restrict=1
+
+
+
+content of /etc/sysctl.d/99-sysctl.conf:
+----------------------------------------
+
+net.core.netdev_max_backlog = 100000
+net.core.netdev_budget = 50000
+net.core.netdev_budget_usecs = 5000
+net.core.somaxconn = 1024
+net.core.rmem_default = 1048576
+net.core.rmem_max = 16777216
+net.core.wmem_default = 1048576
+net.core.wmem_max = 16777216
+net.core.optmem_max = 65536
+net.ipv4.tcp_rmem = 4096 1048576 2097152
+net.ipv4.tcp_wmem = 4096 65536 16777216
+net.ipv4.udp_rmem_min = 8192
+net.ipv4.udp_wmem_min = 8192
+net.ipv4.tcp_fastopen = 3
+
+
+
+content of /etc/pacman.d/hooks/systemd-boot.hook:
+-------------------------------------------------
+
+[Trigger]
+Type = Package
+Operation = Upgrade
+Target = systemd
+
+[Action]
+Description = Updating systemd-boot
+When = PostTransaction
+Exec = /usr/bin/bootctl update
+
+
+
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+
+
+
+other:
+------
+
+	useradd -m -g users -G wheel -s /bin/zsh akos
+	bios passwd+boot from ssd
+
+maybe:
+------
+
+	firefox
+	zfs (wait till nonaur)
+	full disk encryption (learn first)
+	no swap (research that)
+	iwd (if no PAP is needed)
+
+EFISTUB Project:
+----------------
+
+	this doesn't work:
+	------------------
+
+	efibootmgr --disk /dev/nvme0n1  --part 2 --create --label "arch linux" --loader /vmlinuz-linux-zen --unicode 'root=/dev/nvme0n1p1 rw initrd=\initramfs-linux-zen.img initrd=\intel-ucode.img quiet vga=current rd.systemd.show_status=auto udev.log_priority=3 modprobe.blacklist=pcspkr,btusb,bluetooth nowatchdog zswap.enabled=1 vm.swappiness=1 vm.vfs_cache_pressure=50 vm.dirty_background_bytes=16777216 vm.dirty_bytes=50331648' --verbose

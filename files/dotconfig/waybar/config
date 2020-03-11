@@ -1,0 +1,55 @@
+{
+    "position": "bottom",
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["network", "backlight", "pulseaudio", "battery", "clock"],
+    "sway/workspaces": {
+        "format": "{name}",
+        "disable-scroll": true
+    },
+    "sway/window": {
+        "max-length": 100,
+        "tooltip": false
+    },
+    "network": {
+        "format-wifi": " {essid} @ {signalStrength}%",
+        "format-disconnected": " disconnected",
+        "format-alt": "{ipaddr}/{cidr} {icon}",
+        "format-alt-click": "click-right",
+        "on-click": "nm-connection-editor",
+        "tooltip": false
+    },
+    "backlight": {
+    	"format": "{icon} {percent}%",
+        "format-icons": {
+            "default": ["🔅", "🔆"]
+        },
+        "on-scroll-up": "brightnessctl --device=intel_backlight set +2%",
+        "on-scroll-down": "brightnessctl --device=intel_backlight set 2%-",
+        "on-click": "brightnessctl --device=intel_backlight set 40%"
+    },
+	"pulseaudio": {
+		"format": "{icon} {volume}%",
+		"format-muted": "🔇",
+		"format-icons": {
+			"default": ["🔈", "🔉", "🔊"]
+		},
+        "on-click": "pulsemixer --toggle-mute",
+        "on-click-right": "kitty pulsemixer"
+	},
+    "battery": {
+        "format": "{icon} FULL",
+        "format-charging": "{icon}  {capacity}%",
+        "format-discharging": "{icon}  {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "interval": 30,
+        "states": {
+            "warning": 25,
+            "critical": 10
+        }
+    },
+    "clock": {
+        "format": "{:%A, %B %e, %Y, %l:%M %P}",
+        "tooltip": false
+    }
+}
