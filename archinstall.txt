@@ -7,7 +7,7 @@ files to save:
 	pcmanfm
 	psd
 	qBittorrent
-	qpdfview
+	evince
 	sublime
 	sway
 	waybar
@@ -128,8 +128,8 @@ net.ipv4.tcp_fastopen = 3
 
 
 
-content of /etc/pacman.d/hooks/systemd-boot.hook:
--------------------------------------------------
+content of /etc/pacman.d/hooks/1-systemd-boot.hook:
+---------------------------------------------------
 
 [Trigger]
 Type = Package
@@ -140,6 +140,40 @@ Target = systemd
 Description = Updating systemd-boot
 When = PostTransaction
 Exec = /usr/bin/bootctl update
+
+
+
+content of /etc/pacman.d/hooks/2-clearcache.hook:
+-------------------------------------------------
+
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Deleting outdated packages...
+When = PostTransaction
+Exec = /usr/bin/paccache --remove --verbose --keep 2
+
+
+
+content of /etc/pacman.d/hooks/3-clearcache.hook:
+-------------------------------------------------
+
+[Trigger]
+Operation = Remove
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Deleting uninstalled packages...
+When = PostTransaction
+Exec = /usr/bin/paccache --remove --verbose --uninstalled --keep 0
 
 
 
@@ -158,7 +192,6 @@ other:
 maybe:
 ------
 
-	firefox
 	zfs (wait till nonaur)
 	full disk encryption (learn first)
 	no swap (research that)
