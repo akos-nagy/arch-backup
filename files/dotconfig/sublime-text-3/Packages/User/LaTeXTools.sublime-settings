@@ -102,7 +102,7 @@
 	// The program to compile the latex template files, possible values are
 	// pdflatex, xelatex, lualatex, latex
 	// DON'T(!) use tex engines like pdftex
-	"preview_math_latex_compile_program": "pdflatex",
+	"preview_math_latex_compile_program": "xelatex",
 
 	// The color of the text in the preview math phantoms.
 	// Ensure you have the latex xcolor package available to change the color.
@@ -212,7 +212,7 @@
 		// "texpath" : "C:\\texlive\\2011\\bin\\win32;$PATH",
 		"texpath" : "",
 		// TeX distro: "miktex" or "texlive"
-		"distro" : "miktex",
+		"distro" : "texlive",
 		// Command to invoke Sumatra. If blank, "SumatraPDF.exe" is used (it has to be on your PATH)
 		"sumatra": "",
 		// Command to invoke Sublime Text. Used if the keep_focus toggle is true.
@@ -231,7 +231,7 @@
 		// non-standard location or want to use a particular version of python.
 		// Both Python2 and Python3 are supported, but must have the DBus bindings
 		// installed.
-		"python": "/usr/bin/python",
+		"python": "",
 		// The name of the ST2 or ST3 executable. On Ubuntu, both subl and sublime-text are
 		// available for ST2; adjust as needed for other platforms, and for ST3
 		"sublime": "sublime-text",

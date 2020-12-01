@@ -1,6 +1,6 @@
 # Define CPUs governor
 # valid governors: ondemand, performance, powersave, conservative, userspace.
-governor='performance'
+#governor='ondemand'
 
 # Limit frequency range
 # Valid suffixes: Hz, kHz (default), MHz, GHz, THz
@@ -24,6 +24,6 @@ governor='performance'
 #  Sets a register on supported Intel processore which allows software to convey
 # its policy for the relative importance of performance versus energy savings to
 # the  processor. See man (1) CPUPOWER-SET for additional details.
-perf_bias=0
+#perf_bias=
 
 # vim:set ts=2 sw=2 ft=sh et:

@@ -1,35 +1,35 @@
 {
     "position": "bottom",
     "modules-left": ["sway/workspaces"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["network", "backlight", "pulseaudio", "battery", "clock"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "backlight", "pulseaudio", "battery", "tray"],
     "sway/workspaces": {
         "format": "{name}",
         "disable-scroll": true
     },
     "sway/window": {
         "max-length": 100,
-        "tooltip": false
+        "tooltip": "false"
     },
     "network": {
-        "format-wifi": " {essid} @ {signalStrength}%",
-        "format-disconnected": " disconnected",
-        "format-alt": "{ipaddr}/{cidr} {icon}",
+        "format-wifi": "{icon}  {essid} {signalStrength}%",
+        "format-disconnected": "{icon} disconnected",
+        "format-alt": "{icon} {ipaddr}/{cidr}",
         "format-alt-click": "click-right",
-        "on-click": "nm-connection-editor",
-        "tooltip": false
+        "format-icons": "",
+        "tooltip": "false"
     },
     "backlight": {
-    	"format": "{icon} {percent}%",
+    	"format": "{icon}  {percent}%",
         "format-icons": {
             "default": ["🔅", "🔆"]
         },
-        "on-scroll-up": "brightnessctl --device=intel_backlight set +2%",
-        "on-scroll-down": "brightnessctl --device=intel_backlight set 2%-",
+        "on-scroll-up": "brightnessctl --device=intel_backlight set +5%",
+        "on-scroll-down": "brightnessctl --device=intel_backlight set 5%-",
         "on-click": "brightnessctl --device=intel_backlight set 40%"
     },
 	"pulseaudio": {
-		"format": "{icon} {volume}%",
+		"format": "{icon}  {volume}%",
 		"format-muted": "🔇",
 		"format-icons": {
 			"default": ["🔈", "🔉", "🔊"]
@@ -38,18 +38,20 @@
         "on-click-right": "kitty pulsemixer"
 	},
     "battery": {
-        "format": "{icon} FULL",
-        "format-charging": "{icon}  {capacity}%",
-        "format-discharging": "{icon}  {capacity}%",
+        "format": "{icon}  {capacity}%",
+        "format-charging": "{icon}  {capacity}%    {time} until full",
+        "format-discharging": "{icon}  {capacity}%    {time} until dead",
         "format-icons": ["", "", "", "", ""],
-        "interval": 30,
         "states": {
             "warning": 25,
             "critical": 10
         }
     },
     "clock": {
-        "format": "{:%A, %B %e, %Y, %l:%M %P}",
-        "tooltip": false
-    }
+        "format": "{:%A, %B %e, %Y, %I:%M %p}"
+    },
+    "tray": {
+    	"icon-size": 18,
+    	"spacing": 10
+	}
 }

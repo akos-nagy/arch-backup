@@ -1,4 +1,4 @@
-# With:       reflector --protocol https --latest 50 --number 5 --age 24 --sort rate --save /etc/pacman.d/mirrorlist
-# When:       2020-01-25 18:45:59 UTC
+# With:       reflector --protocol https --latest 100 --number 10 --age 24 --sort rate --save /etc/pacman.d/mirrorlist
+# When:       2020-12-01 21:07:30 UTC
 
-Server = https://arch.mirror.constant.com/$repo/os/$arch
+Server = https://mirror.osbeck.com/archlinux/$repo/os/$arch

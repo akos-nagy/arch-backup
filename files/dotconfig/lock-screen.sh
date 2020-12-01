@@ -1,0 +1,1 @@
+/usr/bin/swaylock --daemonize --ignore-empty-password --screenshots --effect-blur 7x5 --indicator --indicator-radius 100 --clock --timestr='%l:%M %p' --datestr='%A, %-m/%-e/%y' ;

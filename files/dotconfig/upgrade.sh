@@ -7,17 +7,14 @@ archey3
 
 printf "   ${cyan}system upgrade using yay${normal}\n\n" ;
 
+#printf "\n ${magenta}running: ${green}yay -Sy --needed --noconfirm archlinux-keyring${normal} \n\n" ;
+#/usr/bin/yay -Sy --needed --noconfirm archlinux-keyring ;
+
 sudo printf "\n ${magenta}running: ${green}yay --noconfirm --sudoloop -Syu${normal} \n\n" ;
 /usr/bin/yay --noconfirm --sudoloop -Syu ;
 
 printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm -Rns \$(yay -Qtdq)" ;
 /usr/bin/yay --noconfirm -Rns $(yay -Qtdq) ;
-
-printf "\n ${magenta}removing uninstalled packages from pacman cache: ${green}paccache --remove --verbose --uninstalled --keep 0${normal} \n\n" ;
-/usr/bin/paccache -rvuk0 ;
-
-printf "\n ${magenta}removing old packages from pacman cache: ${green}paccache --remove --verbose --keep 2${normal} \n\n" ;
-/usr/bin/paccache -rvk2 ;
 
 printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${normal} \n\n" ;
 /usr/bin/systemctl --failed ;
