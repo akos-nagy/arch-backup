@@ -13,8 +13,8 @@ printf "   ${cyan}system upgrade using yay${normal}\n\n" ;
 sudo printf "\n ${magenta}running: ${green}yay --noconfirm --sudoloop -Syu${normal} \n\n" ;
 /usr/bin/yay --noconfirm --sudoloop -Syu ;
 
-printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm -Rns \$(yay -Qtdq)" ;
-/usr/bin/yay --noconfirm -Rns $(yay -Qtdq) ;
+printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm --clean" ;
+/usr/bin/yay --noconfirm --clean ;
 
 printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${normal} \n\n" ;
 /usr/bin/systemctl --failed ;
