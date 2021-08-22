@@ -81,7 +81,7 @@ title	arch linux
 linux	/vmlinuz-linux-zen
 initrd	/intel-ucode.img
 initrd	/initramfs-linux-zen.img
-options	root=LABEL=ROOT quiet vga=current rd.systemd.show_status=auto udev.log_priority=3 modprobe.blacklist=pcspkr,btusb,bluetooth nowatchdog zswap.enabled=1 vm.swappiness=1 vm.vfs_cache_pressure=50 vm.dirty_background_bytes=16777216 vm.dirty_bytes=50331648
+options	root=LABEL=ROOT quiet vga=current rd.systemd.show_status=auto udev.log_priority=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth
 
 # change label through https://wiki.archlinux.org/index.php/Persistent_block_device_naming#by-label
 
@@ -125,6 +125,12 @@ net.ipv4.tcp_wmem = 4096 65536 16777216
 net.ipv4.udp_rmem_min = 8192
 net.ipv4.udp_wmem_min = 8192
 net.ipv4.tcp_fastopen = 3
+
+vm.swappiness=10
+vm.vfs_cache_pressure=50
+vm.dirty_background_bytes=16777216
+vm.dirty_bytes=50331648
+vm.dirty_writeback_centisecs=1500
 
 
 

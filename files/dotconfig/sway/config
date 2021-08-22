@@ -1,13 +1,14 @@
 set $mod Mod4
 
-output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
+output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper1.jpg fill
+
+exec google-chrome-stable --no-startup-window
 
 bindsym $mod+q kill
 
 bindsym $mod+Return exec kitty
 
 bindsym $mod+d exec wofi --show drun --insensitive --lines 5
-bindsym $mod+Shift+s exec skypeforlinux
 
 bindsym $mod+u exec kitty sh /home/akos/.config/upgrade.sh
 
@@ -17,6 +18,7 @@ bindsym $mod+p exec pcmanfm --new-win
 bindsym $mod+s exec subl
 bindsym $mod+e exec evince
 bindsym $mod+z exec zoom
+bindsym $mod+Shift+s exec skypeforlinux
 
 bindsym $mod+Escape       	exec sh /home/akos/.config/lock-screen.sh
 bindsym $mod+Shift+Escape	exec systemctl poweroff --ignore-inhibitors
@@ -80,8 +82,8 @@ bar {
 }
 
 exec swayidle -w \
-          timeout 2900 'sh /home/akos/.config/lock-screen.sh' \
-          timeout 21200 'swaymsg "output * dpms off"' \
+          timeout 900 'sh /home/akos/.config/lock-screen.sh' \
+          timeout 1800 'swaymsg "output * dpms off"' \
                resume 'swaymsg "output * dpms on"' \
           before-sleep 'sh /home/akos/.config/lock-screen.sh'
 
@@ -92,7 +94,6 @@ bindsym $mod+m			exec pulsemixer --unmute --set-volume 100
 
 bindsym XF86MonBrightnessUp	exec brightnessctl --device=intel_backlight set +10%
 bindsym XF86MonBrightnessDown	exec brightnessctl --device=intel_backlight set 10%-
-bindsym $mod+b			exec brightnessctl --device=intel_backlight set 40%
 
 hide_edge_borders	both
 default_border		none
