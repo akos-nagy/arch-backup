@@ -15,7 +15,6 @@ files to save:
 	yay
 
 /home/akos/.archey3.cfg
-/home/akos/.gtk-bookmarks
 /home/akos/.xinirc
 /home/akos/.zprofile
 /home/akos/.zshrc
@@ -25,8 +24,9 @@ files to save:
 /etc/makepkg.conf
 /etc/mkinitcpio.conf
 /etc/fstab
-/etc/defaults/*
+/etc/defaults/* (???)
 
+/etc/sysctl.d/50-coredump.conf
 /etc/sysctl.d/50-security.conf
 /etc/sysctl.d/99-sysctl.conf
 
@@ -81,7 +81,7 @@ title	arch linux
 linux	/vmlinuz-linux-zen
 initrd	/intel-ucode.img
 initrd	/initramfs-linux-zen.img
-options	root=LABEL=ROOT quiet vga=current rd.systemd.show_status=auto udev.log_priority=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth
+options	root=LABEL=ROOT quiet rd.systemd.show_status=auto udev.log_priority=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth
 
 # change label through https://wiki.archlinux.org/index.php/Persistent_block_device_naming#by-label
 
@@ -102,6 +102,13 @@ SystemMaxUse=100M
 
 
 
+content of /etc/sysctl.d/50-coredump.conf:
+------------------------------------------
+
+kernel.core_pattern=|/bin/false
+
+
+
 content of /etc/sysctl.d/50-security.conf:
 ------------------------------------------
 
@@ -114,7 +121,7 @@ content of /etc/sysctl.d/99-sysctl.conf:
 ----------------------------------------
 
 net.core.netdev_max_backlog = 100000
-net.core.somaxconn = 1024
+net.core.somaxconn = 8192
 net.core.rmem_default = 1048576
 net.core.rmem_max = 16777216
 net.core.wmem_default = 1048576

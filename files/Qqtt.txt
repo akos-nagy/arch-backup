@@ -51,6 +51,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-zeroconf
 pkgconf
+powertop
 profile-sync-daemon
 pulsemixer
 qbittorrent
@@ -69,6 +70,7 @@ swaylock-effects-git
 texlive-bibtexextra
 texlive-fontsextra
 texlive-latexextra
+texlive-pictures
 texlive-science
 unzip
 waybar
