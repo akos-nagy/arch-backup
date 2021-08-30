@@ -8,14 +8,14 @@ bindsym $mod+q kill
 
 bindsym $mod+Return exec kitty
 
-bindsym $mod+d exec wofi --show drun --insensitive --lines 5
+bindsym $mod+d exec wofi --show drun --insensitive --gtk-dark --hide-scroll --lines 5
 
 bindsym $mod+u exec kitty sh /home/akos/.config/upgrade.sh
 
 bindsym $mod+c exec google-chrome-stable
 bindsym $mod+i exec google-chrome-stable --incognito
 bindsym $mod+p exec pcmanfm --new-win
-bindsym $mod+s exec subl
+bindsym $mod+s exec subl --launch-or-new-window
 bindsym $mod+e exec evince
 bindsym $mod+z exec zoom
 bindsym $mod+Shift+s exec skypeforlinux
@@ -82,8 +82,8 @@ bar {
 }
 
 exec swayidle -w \
-          timeout 900 'sh /home/akos/.config/lock-screen.sh' \
-          timeout 1800 'swaymsg "output * dpms off"' \
+          timeout 600 'sh /home/akos/.config/lock-screen.sh' \
+          timeout 630 'swaymsg "output * dpms off"' \
                resume 'swaymsg "output * dpms on"' \
           before-sleep 'sh /home/akos/.config/lock-screen.sh'
 
