@@ -210,10 +210,10 @@ maybe:
 	no swap (research that)
 	iwd (if no PAP is needed)
 
-EFISTUB Project:
-----------------
+EFISTUB:
+--------
 
-	this doesn't work:
-	------------------
+	this might work:
+	----------------
 
-	efibootmgr --disk /dev/nvme0n1  --part 2 --create --label "arch linux" --loader /vmlinuz-linux-zen --unicode 'root=/dev/nvme0n1p1 rw initrd=\initramfs-linux-zen.img initrd=\intel-ucode.img quiet vga=current rd.systemd.show_status=auto udev.log_priority=3 modprobe.blacklist=pcspkr,btusb,bluetooth nowatchdog zswap.enabled=1 vm.swappiness=1 vm.vfs_cache_pressure=50 vm.dirty_background_bytes=16777216 vm.dirty_bytes=50331648' --verbose
+	efibootmgr --disk /dev/nvme0n1 --part 2 --create --label "arch linux" --loader /vmlinuz-linux-zen --unicode 'root=/dev/nvme0n1p1 rw initrd=\initramfs-linux-zen.img initrd=\intel-ucode.img quiet rd.systemd.show_status=auto udev.log_priority=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth' --verbose
