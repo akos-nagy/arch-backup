@@ -28,7 +28,8 @@ files to save:
 
 /etc/sysctl.d/50-coredump.conf
 /etc/sysctl.d/50-security.conf
-/etc/sysctl.d/99-sysctl.conf
+/etc/sysctl.d/99-performance.conf
+/etc/udev/rules.d/60-ioschedulers.rules:
 
 
 
@@ -117,8 +118,8 @@ kernel.kptr_restrict=1
 
 
 
-content of /etc/sysctl.d/99-sysctl.conf:
-----------------------------------------
+content of /etc/sysctl.d/99-performance.conf:
+---------------------------------------------
 
 net.core.netdev_max_backlog = 100000
 net.core.somaxconn = 8192
@@ -133,11 +134,20 @@ net.ipv4.udp_rmem_min = 8192
 net.ipv4.udp_wmem_min = 8192
 net.ipv4.tcp_fastopen = 3
 
-vm.swappiness=10
+vm.swappiness=1
 vm.vfs_cache_pressure=50
-vm.dirty_background_bytes=16777216
-vm.dirty_bytes=50331648
+vm.dirty_background_ratio = 3
+vm.dirty_ratio = 10
 vm.dirty_writeback_centisecs=1500
+
+
+
+content of /etc/udev/rules.d/60-ioschedulers.rules:
+---------------------------------------------------
+
+ACTION=="add|change", KERNEL=="nvme[0-9]n[0-9]", ATTR{queue/scheduler}="none"
+ACTION=="add|change", KERNEL=="sd[a-z]|mmcblk[0-9]*", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="mq-deadline"
+ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="bfq"
 
 
 
