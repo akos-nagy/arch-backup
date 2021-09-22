@@ -25,6 +25,8 @@ files to save:
 /etc/mkinitcpio.conf
 /etc/fstab
 /etc/defaults/* (???)
+/etc/resolv.conf.head
+/etc/iwd/main.conf
 
 /etc/sysctl.d/50-coredump.conf
 /etc/sysctl.d/50-security.conf
@@ -52,6 +54,26 @@ add to in fstab:
 
 # cache to tmpfs
 tmpfs			/home/akos/.cache	tmpfs	rw,size=2G,nr_inodes=10k,noexec,nodev,nosuid,uid=akos,gid=wheel,mode=1700	0 0
+
+
+
+content of /etc/resolv.conf.head:
+---------------------------------
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+
+
+
+content of /etc/iwd/main.conf:
+------------------------------
+[Network]
+NameResolvingService=systemd
+
+[Scan]
+DisablePeriodicScan=true
+
+[General]
+EnableNetworkConfiguration=true
 
 
 
@@ -219,11 +241,3 @@ maybe:
 	full disk encryption (learn first)
 	no swap (research that)
 	iwd (if no PAP is needed)
-
-EFISTUB:
---------
-
-	this might work:
-	----------------
-
-	efibootmgr --disk /dev/nvme0n1 --part 2 --create --label "arch linux" --loader /vmlinuz-linux-zen --unicode 'root=/dev/nvme0n1p1 rw initrd=\initramfs-linux-zen.img initrd=\intel-ucode.img quiet rd.systemd.show_status=auto udev.log_priority=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth' --verbose
