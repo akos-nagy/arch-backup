@@ -31,7 +31,7 @@ files to save:
 /etc/sysctl.d/50-coredump.conf
 /etc/sysctl.d/50-security.conf
 /etc/sysctl.d/99-performance.conf
-/etc/udev/rules.d/60-ioschedulers.rules:
+/etc/udev/rules.d/60-ioschedulers.rules
 
 
 
@@ -45,7 +45,7 @@ yay -Qqtt > Qqtt.txt
 reflector usage:
 ----------------
 
-reflector --protocol https --latest 50 --number 5 --age 12 --sort rate --save /etc/pacman.d/mirrorlist
+reflector --country US,CA --protocol https --latest 50 --number 5 --age 24 --sort rate --save /etc/pacman.d/mirrorlist --verbose
 
 
 
@@ -59,6 +59,7 @@ tmpfs			/home/akos/.cache	tmpfs	rw,size=2G,nr_inodes=10k,noexec,nodev,nosuid,uid
 
 content of /etc/resolv.conf.head:
 ---------------------------------
+
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 
@@ -66,6 +67,7 @@ nameserver 8.8.4.4
 
 content of /etc/iwd/main.conf:
 ------------------------------
+
 [Network]
 NameResolvingService=systemd
 
@@ -239,5 +241,3 @@ maybe:
 
 	zfs (wait till nonaur)
 	full disk encryption (learn first)
-	no swap (research that)
-	iwd (if no PAP is needed)
