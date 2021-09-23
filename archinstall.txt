@@ -123,6 +123,7 @@ DefaultTimeoutStopSec=3s
 content of /etc/systemd/journald.conf:
 --------------------------------------
 
+Storage=none
 SystemMaxUse=100M
 
 
