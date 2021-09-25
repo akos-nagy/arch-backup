@@ -24,10 +24,14 @@ files to save:
 /etc/makepkg.conf
 /etc/mkinitcpio.conf
 /etc/fstab
-/etc/defaults/* (???)
+
 /etc/resolv.conf.head
 /etc/iwd/main.conf
 /etc/ca-certificates/extracted/cadir/eduroam.pem
+/etc/systemd/resolved.conf.d/dns_over_tls.conf
+
+/etc/defaults/cpupower
+/etc/defaults/ufw
 
 /etc/sysctl.d/50-coredump.conf
 /etc/sysctl.d/50-security.conf
@@ -71,6 +75,7 @@ content of /etc/iwd/main.conf:
 
 [Network]
 NameResolvingService=systemd
+EnableIPv6=true
 
 [Scan]
 DisablePeriodicScan=true
@@ -89,8 +94,8 @@ EAP-Identity=anonymous@ucsb.edu
 EAP-PEAP-CACert=/etc/ca-certificates/extracted/cadir/eduroam.pem
 EAP-PEAP-ServerDomainMask=eduroam.wireless.ucsb.edu
 EAP-PEAP-Phase2-Method=MSCHAPV2
-EAP-PEAP-Phase2-Identity=akos@ucsb.edu
-EAP-PEAP-Phase2-Password=h7dWhpsE2yQ!
+EAP-PEAP-Phase2-Identity=[insert username]@ucsb.edu
+EAP-PEAP-Phase2-Password=[insert password]
 
 [Settings]
 AutoConnect=true
@@ -125,6 +130,16 @@ G9w84FoVxp7Z8VlIMCFlA2zs6SFz7JsDoeA3raAVGI/6ugLOpyypEBMs1OUIJqsi
 l2D4kF501KKaU73yqWjgom7C12yxow+ev+to51byrvLjKzg6CYG1a4XXvi3tPxq3
 smPi9WIsgtRqAEFQ8TmDn5XpNpaYbg==
 -----END CERTIFICATE-----
+
+
+
+/etc/systemd/resolved.conf.d/dns_over_tls.conf:
+-----------------------------------------------
+
+[Resolve]
+DNS=8.8.8.8#dns.google
+FallbackDNS=8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google
+DNSOverTLS=yes
 
 
 
