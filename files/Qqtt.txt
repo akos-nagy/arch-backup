@@ -1,5 +1,6 @@
 alsa-utils
 archey3
+axel
 base
 brightnessctl
 ccache
@@ -13,7 +14,6 @@ evince
 exa
 feh
 ffmpegthumbnailer
-firewalld
 gcc
 gendesk
 go
@@ -37,7 +37,7 @@ mesa-demos
 mlocate
 mpv
 nano
-network-manager-applet
+nftables
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
@@ -54,6 +54,7 @@ pkgconf
 powertop
 profile-sync-daemon
 pulsemixer
+python2
 qbittorrent
 qt5-wayland
 realtime-privileges
@@ -72,6 +73,7 @@ texlive-fontsextra
 texlive-latexextra
 texlive-pictures
 texlive-science
+ufw
 unzip
 waybar
 wget
