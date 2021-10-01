@@ -20,7 +20,6 @@ gendesk
 go
 google-chrome
 gvfs-mtp
-hsetroot
 intel-media-sdk
 intel-ucode
 iwd
@@ -43,9 +42,7 @@ noto-fonts-extra
 ntfs-3g
 otf-font-awesome
 patch
-pavucontrol
 pcmanfm
-picom
 pipewire-alsa
 pipewire-jack-dropin
 pipewire-zeroconf
@@ -76,7 +73,6 @@ waybar
 wget
 wofi
 xarchiver
-xf86-video-intel
 xorg-xwayland
 yay
 youtube-dl
