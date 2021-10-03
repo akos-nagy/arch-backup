@@ -20,7 +20,13 @@ printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${
 /usr/bin/systemctl --failed ;
 
 printf "\n ${magenta}searching for errors in the log files: ${green}journalctl --priority=3 --catalog --boot${normal} \n\n" ;
-/usr/bin/journalctl -p 3 -xb ;
+/usr/bin/journalctl --priority=3 --catalog --boot ;
+
+printf "\n ${magenta}running: ${green}systemd-analyze${normal} \n\n" ;
+/usr/bin/systemd-analyze ;
+
+printf "\n ${magenta}running: ${green}profile-cleaner gc${normal} \n\n" ;
+/usr/bin/profile-cleaner gc ;
 
 printf "\n\n\n ${cyan}done! press any key to quit...${normal} "
 
