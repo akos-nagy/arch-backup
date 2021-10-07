@@ -306,3 +306,10 @@ maybe:
 
 	zfs (wait till nonaur)
 	full disk encryption (learn first)
+
+things that need xwayland:
+--------------------------
+
+	steam
+	skype
+	qbittorrent
