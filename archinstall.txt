@@ -298,6 +298,7 @@ Exec = /usr/bin/paccache --remove --verbose --uninstalled --keep 0
 other:
 ------
 
+	/etc/environment export QML_DISABLE_DISK_CACHE=1 (i think this is for games)
 	useradd -m -g users -G wheel -s /bin/zsh akos
 	bios passwd+boot from ssd
 
