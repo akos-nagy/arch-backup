@@ -10,7 +10,7 @@ dhcpcd
 dialog
 downgrade
 dropbox
-evince
+evince-no-gnome
 exa
 feh
 ffmpegthumbnailer
@@ -53,8 +53,7 @@ pulsemixer
 qbittorrent
 realtime-privileges
 reflector
-rofi
-skypeforlinux-stable-bin
+speedify
 steam-native-runtime
 sublime-text
 sudo
