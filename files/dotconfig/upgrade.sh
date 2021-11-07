@@ -16,11 +16,11 @@ sudo printf "\n ${magenta}running: ${green}yay --noconfirm --sudoloop -Syu${norm
 printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm --clean" ;
 /usr/bin/yay --noconfirm --clean ;
 
-printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${normal} \n\n" ;
-/usr/bin/systemctl --failed ;
+# printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${normal} \n\n" ;
+# /usr/bin/systemctl --failed ;
 
-printf "\n ${magenta}searching for errors in the log files: ${green}journalctl --priority=3 --catalog --boot${normal} \n\n" ;
-/usr/bin/journalctl --priority=3 --catalog --boot ;
+# printf "\n ${magenta}searching for errors in the log files: ${green}journalctl --priority=3 --catalog --boot${normal} \n\n" ;
+# /usr/bin/journalctl --priority=3 --catalog --boot ;
 
 printf "\n ${magenta}running: ${green}systemd-analyze${normal} \n\n" ;
 /usr/bin/systemd-analyze ;
