@@ -83,7 +83,6 @@ export GREP_OPTIONS=' — color=auto'
 export PATH="/usr/lib/ccache/bin/:$PATH"
 export GOPATH=$HOME/Dropbox/stuff/other/code/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
-export MY_GIT_TOKEN=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
 
 autoload -Uz compinit
 compinit
