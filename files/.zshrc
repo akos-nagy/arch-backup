@@ -1,13 +1,22 @@
-alias ls='exa -hal --group-directories-first'
+alias ls='exa -hal --group-directories-first --icons'
+
+function acp() {
+	git add .
+	git commit -m "$1"
+	git push
+}
 
 PROMPT=$'%B%n@%m %~ > %b'
 
 export EDITOR=rnano
 export VISUAL=rnano
+
+export GREP_OPTIONS=' — color=auto'
+
 export PATH="/usr/lib/ccache/bin/:$PATH"
 export GOPATH=$HOME/Dropbox/stuff/other/code/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
-export MY_GIT_TOKEN=XXX
+export MY_GIT_TOKEN=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
 
 autoload -Uz compinit
 compinit
