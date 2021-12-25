@@ -182,6 +182,7 @@
 		"infimum",
 		"subsequence",
 		"Abrikosov",
+		"linearized",
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"font_face": "Noto Sans Mono",

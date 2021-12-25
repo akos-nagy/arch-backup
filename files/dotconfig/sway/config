@@ -6,7 +6,7 @@ set $mod Mod4
 
 # xwayland disable
 
-output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper2.jpg fill
+output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 
 exec google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland --no-startup-window
 
@@ -14,7 +14,7 @@ bindsym $mod+q kill
 
 bindsym $mod+Return exec kitty
 
-bindsym $mod+d exec wofi --show drun --width 300 --insensitive --gtk-dark --hide-scroll --lines 8
+bindsym $mod+d exec wofi --show drun --width 250 --insensitive --gtk-dark --hide-scroll --lines 8
 
 bindsym $mod+u exec kitty sh /home/akos/.config/upgrade.sh
 
@@ -24,14 +24,16 @@ bindsym $mod+p exec pcmanfm --new-win
 bindsym $mod+s exec subl --launch-or-new-window
 bindsym $mod+a exec atril
 
+bindsym Print exec grim screenshot.png
+
 bindsym $mod+Escape       	exec sh /home/akos/.config/lock-screen.sh
 bindsym $mod+Shift+Escape	exec systemctl poweroff --ignore-inhibitors
 bindsym $mod+Shift+Delete	exec systemctl reboot --ignore-inhibitors
 
-bindsym $mod+Left	focus left
-bindsym $mod+Down	focus down
-bindsym $mod+Up		focus up
-bindsym $mod+Right	focus right
+bindsym $mod+Left		focus left
+bindsym $mod+Down		focus down
+bindsym $mod+Up			focus up
+bindsym $mod+Right		focus right
 
 bindsym $mod+Shift+Left		move left
 bindsym $mod+Shift+Down		move down
