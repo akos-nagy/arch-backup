@@ -183,10 +183,17 @@
 		"subsequence",
 		"Abrikosov",
 		"linearized",
+		"auxillary",
+		"diagonalized",
+		"decompositions",
+		"monotonicity",
+		"homological",
+		"invariance",
+		"geometers",
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"font_face": "Noto Sans Mono",
-	"font_size": 13,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"Vintage"

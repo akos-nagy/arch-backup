@@ -8,7 +8,9 @@ set $mod Mod4
 
 output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 
-exec google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland --no-startup-window
+exec google-chrome-stable --no-startup-window --enable-features=UseOzonePlatform
+
+# google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland --no-startup-window
 
 bindsym $mod+q kill
 
@@ -16,10 +18,12 @@ bindsym $mod+Return exec kitty
 
 bindsym $mod+d exec wofi --show drun --width 250 --insensitive --gtk-dark --hide-scroll --lines 8
 
-bindsym $mod+u exec kitty sh /home/akos/.config/upgrade.sh
+bindsym $mod+u exec kitty zsh /home/akos/.config/upgrade.sh
 
-bindsym $mod+c exec google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
-bindsym $mod+i exec google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland --incognito
+bindsym $mod+c exec google-chrome-stable --enable-features=UseOzonePlatform
+# bindsym $mod+c google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
+bindsym $mod+i exec google-chrome-stable --enable-features=UseOzonePlatform --incognito
+# bindsym $mod+i google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland --incognito
 bindsym $mod+p exec pcmanfm --new-win
 bindsym $mod+s exec subl --launch-or-new-window
 bindsym $mod+a exec atril
@@ -32,7 +36,7 @@ bindsym $mod+Shift+Delete	exec systemctl reboot --ignore-inhibitors
 
 bindsym $mod+Left		focus left
 bindsym $mod+Down		focus down
-bindsym $mod+Up			focus up
+bindsym $mod+Up		focus up
 bindsym $mod+Right		focus right
 
 bindsym $mod+Shift+Left		move left
@@ -88,8 +92,8 @@ bar {
 }
 
 exec swayidle -w \
-          timeout 600 'sh /home/akos/.config/lock-screen.sh' \
-          timeout 630 'swaymsg "output * dpms off"' \
+          timeout 1800 'sh /home/akos/.config/lock-screen.sh' \
+          timeout 1830 'swaymsg "output * dpms off"' \
                resume 'swaymsg "output * dpms on"' \
           before-sleep 'sh /home/akos/.config/lock-screen.sh'
 
