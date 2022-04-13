@@ -8,9 +8,9 @@ axel
 base
 bison
 brightnessctl
+cabextract
 ccache
 cpupower
-crda
 dhcpcd
 dialog
 downgrade
@@ -24,6 +24,7 @@ gcc
 gendesk
 go
 google-chrome
+grim
 gvfs-mtp
 intel-media-sdk
 intel-ucode
@@ -49,13 +50,14 @@ otf-font-awesome
 patch
 pcmanfm-gtk3
 pipewire-alsa
-pipewire-jack-dropin
 pipewire-zeroconf
 pkgconf
 profile-cleaner
 profile-sync-daemon
 pulsemixer
+python-pip
 qbittorrent
+qt6-wayland
 realtime-privileges
 reflector
 speedify
@@ -64,7 +66,7 @@ sublime-text
 sudo
 sway
 swayidle
-swaylock-effects
+swaylock-effects-git
 t1utils
 texlive-bibtexextra
 texlive-fontsextra
@@ -75,6 +77,7 @@ unzip
 waybar
 wayland-protocols
 wget
+wireless-regdb
 wofi
 xarchiver
 xorg-xwayland

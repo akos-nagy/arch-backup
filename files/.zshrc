@@ -1,5 +1,9 @@
 alias ls='exa -hal --group-directories-first --icons'
 
+function ltx_comp() {
+	zsh /home/akos/.config/compile.sh $1 $2
+}
+
 function acp() {
 	git add .
 	git commit -m "$1"

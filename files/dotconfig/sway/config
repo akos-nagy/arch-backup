@@ -8,9 +8,7 @@ set $mod Mod4
 
 output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 
-exec google-chrome-stable --no-startup-window --enable-features=UseOzonePlatform
-
-# google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland --no-startup-window
+exec google-chrome-stable --no-startup-window --enable-features=UseOzonePlatform --ozone-platform=wayland
 
 bindsym $mod+q kill
 
@@ -20,10 +18,8 @@ bindsym $mod+d exec wofi --show drun --width 250 --insensitive --gtk-dark --hide
 
 bindsym $mod+u exec kitty zsh /home/akos/.config/upgrade.sh
 
-bindsym $mod+c exec google-chrome-stable --enable-features=UseOzonePlatform
-# bindsym $mod+c google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
-bindsym $mod+i exec google-chrome-stable --enable-features=UseOzonePlatform --incognito
-# bindsym $mod+i google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland --incognito
+bindsym $mod+c exec google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
+bindsym $mod+i exec google-chrome-stable --incognito --enable-features=UseOzonePlatform --ozone-platform=wayland
 bindsym $mod+p exec pcmanfm --new-win
 bindsym $mod+s exec subl --launch-or-new-window
 bindsym $mod+a exec atril
