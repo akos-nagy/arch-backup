@@ -1,6 +1,6 @@
 alias ls='exa -hal --group-directories-first --icons'
 
-function ltx_comp() {
+function ltxcomp() {
 	zsh /home/akos/.config/compile.sh $1 $2
 }
 
