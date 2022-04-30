@@ -83,6 +83,10 @@ contents of /home/akos/.zshrc:
 
 alias ls='exa -hal --group-directories-first --icons'
 
+function ltxcomp() {
+	zsh /home/akos/.config/compile.sh $1 $2
+}
+
 function acp() {
 	git add .
 	git commit -m "$1"
@@ -236,8 +240,11 @@ DefaultTimeoutStopSec=3s
 content of /etc/systemd/journald.conf:
 --------------------------------------
 
+[Journal]
 Storage=none
 SystemMaxUse=100M
+SystemMaxFileSize=1G
+SystemMaxFiles=5
 
 
 
