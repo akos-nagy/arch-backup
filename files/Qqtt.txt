@@ -31,6 +31,8 @@ intel-ucode
 iwd
 kitty
 lib32-gamemode
+lib32-libid3tag
+lib32-librsvg
 lib32-vulkan-mesa-layers
 linux-firmware
 linux-zen
