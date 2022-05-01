@@ -28,10 +28,6 @@ files to save:
 /etc/resolv.conf.head
 /etc/iwd/main.conf
 /etc/ca-certificates/extracted/cadir/eduroam.pem
-/etc/systemd/resolved.conf.d/dns_over_tls.conf
-
-/etc/defaults/cpupower
-/etc/defaults/ufw
 
 /etc/sysctl.d/50-coredump.conf
 /etc/sysctl.d/50-security.conf
@@ -138,8 +134,8 @@ EnableNetworkConfiguration=true
 
 
 
-content of /var/lib/eduroam.8021x:
-----------------------------------
+content of /var/lib/iwd/eduroam.8021x:
+--------------------------------------
 
 [Security]
 EAP-Method=PEAP
@@ -183,16 +179,6 @@ G9w84FoVxp7Z8VlIMCFlA2zs6SFz7JsDoeA3raAVGI/6ugLOpyypEBMs1OUIJqsi
 l2D4kF501KKaU73yqWjgom7C12yxow+ev+to51byrvLjKzg6CYG1a4XXvi3tPxq3
 smPi9WIsgtRqAEFQ8TmDn5XpNpaYbg==
 -----END CERTIFICATE-----
-
-
-
-/etc/systemd/resolved.conf.d/dns_over_tls.conf:
------------------------------------------------
-
-[Resolve]
-DNS=8.8.8.8#dns.google
-FallbackDNS=8.8.4.4#dns.google 2001:4860:4860::8888#dns.google 2001:4860:4860::8844#dns.google
-DNSOverTLS=yes
 
 
 
@@ -266,7 +252,7 @@ kernel.kptr_restrict=1
 content of /etc/sysctl.d/99-performance.conf:
 ---------------------------------------------
 
-net.core.netdev_max_backlog = 100000
+net.core.netdev_max_backlog = 16384
 net.core.somaxconn = 8192
 net.core.rmem_default = 1048576
 net.core.rmem_max = 16777216
@@ -279,11 +265,11 @@ net.ipv4.udp_rmem_min = 8192
 net.ipv4.udp_wmem_min = 8192
 net.ipv4.tcp_fastopen = 3
 
-vm.swappiness=1
-vm.vfs_cache_pressure=50
+vm.swappiness = 100
+vm.vfs_cache_pressure = 100
 vm.dirty_background_ratio = 3
 vm.dirty_ratio = 10
-vm.dirty_writeback_centisecs=1500
+vm.dirty_writeback_centisecs = 1500
 
 
 
@@ -352,8 +338,9 @@ Exec = /usr/bin/paccache --remove --verbose --uninstalled --keep 0
 other:
 ------
 
-	/etc/environment export QML_DISABLE_DISK_CACHE=1 (i think this is for games)
 	useradd -m -g users -G wheel -s /bin/zsh akos
+	edit /etc/issue
+	start fstrim.timer
 	bios passwd+boot from ssd
 
 maybe:

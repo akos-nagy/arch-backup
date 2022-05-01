@@ -8,7 +8,6 @@ axel
 base
 bison
 brightnessctl
-cabextract
 ccache
 cpupower
 dhcpcd
