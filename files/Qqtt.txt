@@ -1,6 +1,5 @@
 alsa-utils
 archey3
-asp
 atril
 autoconf
 automake
@@ -30,9 +29,6 @@ intel-ucode
 iwd
 kitty
 lib32-gamemode
-lib32-libid3tag
-lib32-librsvg
-lib32-vulkan-mesa-layers
 linux-firmware
 linux-zen
 linux-zen-headers
@@ -42,7 +38,6 @@ meson
 mlocate
 mpv
 nano
-nftables
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
@@ -56,12 +51,9 @@ pkgconf
 profile-cleaner
 profile-sync-daemon
 pulsemixer
-python-pip
 qbittorrent
 qt6-wayland
-realtime-privileges
 reflector
-speedify
 steam-native-runtime
 sublime-text
 sudo
@@ -76,9 +68,7 @@ texlive-pictures
 texlive-science
 unzip
 waybar
-wayland-protocols
 wget
-wireless-regdb
 wofi
 xarchiver
 xorg-xwayland
