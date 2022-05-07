@@ -14,7 +14,7 @@ bindsym $mod+q kill
 
 bindsym $mod+Return exec kitty
 
-bindsym $mod+d exec wofi --show drun --width 250 --insensitive --gtk-dark --hide-scroll --lines 8
+bindsym $mod+d exec wofi --show drun --style=/home/akos/.config/wofi/wofi.css --width 300 --prompt="" --insensitive --hide-scroll --lines 8
 
 bindsym $mod+u exec kitty zsh /home/akos/.config/upgrade.sh
 
