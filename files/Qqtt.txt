@@ -54,6 +54,7 @@ pulsemixer
 qbittorrent
 qt6-wayland
 reflector
+speedify
 steam-native-runtime
 sublime-text
 sudo
