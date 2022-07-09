@@ -1,14 +1,6 @@
-alias ls='exa -hal --group-directories-first --icons'
+. ~/.aliases
 
-function ltxcomp() {
-	zsh /home/akos/.config/compile.sh $1 $2
-}
-
-function acp() {
-	git add .
-	git commit -m "$1"
-	git push
-}
+. ~/.functions
 
 PROMPT=$'%B%n@%m %~ > %b'
 
