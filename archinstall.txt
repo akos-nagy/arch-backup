@@ -1,9 +1,7 @@
 files to save:
 --------------
 
-/home/akos/.config/
-	i3
-	i3status
+/home/akos/.config/[]
 	kitty
 	mpv
 	pcmanfm
@@ -14,11 +12,13 @@ files to save:
 	waybar
 	yay
 
+/home/akos/.aliases
 /home/akos/.archey3.cfg
-/home/akos/.xinirc
+/home/akos/.functions
 /home/akos/.zprofile
 /home/akos/.zshrc
 
+/etc/issue
 /etc/pacman.d/*
 /etc/pacman.conf
 /etc/makepkg.conf
@@ -47,7 +47,7 @@ yay -Qqtt > Qqtt.txt
 reflector usage:
 ----------------
 
-reflector --country US,CA --protocol https --latest 50 --number 5 --age 24 --sort rate --save /etc/pacman.d/mirrorlist --verbose
+reflector --country US --protocol https --latest 50 --number 10 --age 24 --sort rate --save /etc/pacman.d/mirrorlist --verbose 
 
 
 
@@ -78,17 +78,9 @@ tmpfs			/home/akos/.cache	tmpfs	rw,size=4G,nr_inodes=10k,noexec,nodev,nosuid,uid
 contents of /home/akos/.zshrc:
 ------------------------------
 
-alias ls='exa -hal --group-directories-first --icons'
+. ~/.aliases
 
-function ltxcomp() {
-	zsh /home/akos/.config/compile.sh $1 $2
-}
-
-function acp() {
-	git add .
-	git commit -m "$1"
-	git push
-}
+. ~/.functions
 
 PROMPT=$'%B%n@%m %~ > %b'
 
@@ -109,6 +101,28 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt appendhistory
+
+
+
+contents of /home/akos/.aliases:
+--------------------------------
+
+alias ls='exa -hal --group-directories-first --icons'
+
+
+
+contents of /home/akos/.functions:
+----------------------------------
+
+function ltxcomp() {
+        zsh /home/akos/.config/compile.sh $1 $2
+}
+
+function acp() {
+        git add .
+        git commit -m "$1"
+        git push
+}
 
 
 
@@ -135,6 +149,14 @@ EnableNetworkConfiguration=true
 
 
 
+contents of /etc/issue:
+-----------------------
+
+
+        welcome to arch linux \r (\l) on \n
+
+
+
 contents of /var/lib/iwd/eduroam.8021x:
 ---------------------------------------
 
@@ -149,13 +171,6 @@ EAP-PEAP-Phase2-Password=[insert password]
 
 [Settings]
 AutoConnect=true
-
-
-
-contents of /etc/security/faillock.conf:
-----------------------------------------
-
-deny = 0
 
 
 
@@ -187,6 +202,13 @@ G9w84FoVxp7Z8VlIMCFlA2zs6SFz7JsDoeA3raAVGI/6ugLOpyypEBMs1OUIJqsi
 l2D4kF501KKaU73yqWjgom7C12yxow+ev+to51byrvLjKzg6CYG1a4XXvi3tPxq3
 smPi9WIsgtRqAEFQ8TmDn5XpNpaYbg==
 -----END CERTIFICATE-----
+
+
+
+contents of /etc/security/faillock.conf:
+----------------------------------------
+
+deny = 0
 
 
 
@@ -347,7 +369,6 @@ other:
 ------
 
 	useradd -m -g users -G wheel -s /bin/zsh akos
-	edit /etc/issue
 	start fstrim.timer
 	bios passwd+boot from ssd
 
