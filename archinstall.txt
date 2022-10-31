@@ -141,11 +141,14 @@ contents of /etc/iwd/main.conf:
 NameResolvingService=systemd
 EnableIPv6=true
 
+[General]
+EnableNetworkConfiguration=true
+
 [Scan]
 DisablePeriodicScan=true
 
-[General]
-EnableNetworkConfiguration=true
+[Service]
+ExecStartPre=/usr/bin/sleep 2
 
 
 
