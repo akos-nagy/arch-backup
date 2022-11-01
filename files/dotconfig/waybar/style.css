@@ -31,21 +31,25 @@ window#waybar {
 }
 
 #backlight {
+	color: #ffffff;
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 #pulseaudio {
+	color: #ffffff;
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 #battery {
+	color: #ffffff;
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 #clock {
+	color: #ffffff;
 	font-weight: bold;
 }
 
