@@ -24,6 +24,7 @@ window#waybar {
 	color: #00ff00;
 	padding-left: 5px;
 	padding-right: 5px;
+	background: transparent;
 }
 
 #network.disconnected {
@@ -34,12 +35,14 @@ window#waybar {
 	color: #ffffff;
 	padding-left: 5px;
 	padding-right: 5px;
+	background: transparent;
 }
 
 #pulseaudio {
 	color: #ffffff;
 	padding-left: 5px;
 	padding-right: 5px;
+	background: transparent;
 }
 
 #battery {

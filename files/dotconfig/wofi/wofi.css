@@ -6,7 +6,6 @@
 
 window {
     margin: 5px;
-    border: transparent;
     color: red;
     background-color: black;
 }
@@ -25,18 +24,11 @@ window {
 #outer-box {
     margin: 5px;
     border-radius: 5px;
-    border: transparent;
-}
-
-#scroll {
-
 }
 
 #text {
     margin: 5px;
     color: white;
-    /* border: 2px solid cyan; */
-    /* background-color: cyan; */
 }
 
 #entry:selected {

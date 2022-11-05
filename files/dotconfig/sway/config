@@ -4,7 +4,7 @@ exec dbus-update-activation-environment 2>/dev/null && \
 
 set $mod Mod4
 
-# xwayland disable
+xwayland disable
 
 output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 
@@ -29,6 +29,8 @@ bindsym Print exec grim screenshot.png
 bindsym $mod+Escape       	exec sh /home/akos/.config/lock-screen.sh
 bindsym $mod+Shift+Escape	exec systemctl poweroff --ignore-inhibitors
 bindsym $mod+Shift+Delete	exec systemctl reboot --ignore-inhibitors
+
+bindsym $mod+Shift+s		output eDP-1 toggle
 
 bindsym $mod+Left		focus left
 bindsym $mod+Down		focus down
