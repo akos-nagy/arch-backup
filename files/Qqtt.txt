@@ -8,19 +8,18 @@ base
 bison
 brightnessctl
 ccache
+cmake
 cpupower
 dhcpcd
 dialog
 downgrade
 dropbox
 exa
-feh
 ffmpegthumbnailer
 flex
 gamemode
-gcc
+gcc-go
 gendesk
-go
 google-chrome
 grim
 gvfs-mtp
@@ -28,7 +27,6 @@ intel-media-sdk
 intel-ucode
 iwd
 kitty
-lib32-gamemode
 linux-firmware
 linux-zen
 linux-zen-headers
@@ -45,6 +43,7 @@ ntfs-3g
 otf-font-awesome
 patch
 pcmanfm-gtk3
+pdftk
 pipewire-alsa
 pipewire-zeroconf
 pkgconf
@@ -59,8 +58,10 @@ steam-native-runtime
 sublime-text
 sudo
 sway
+swaybg
 swayidle
-swaylock-effects-git
+swayimg
+swaylock-effects
 t1utils
 texlive-bibtexextra
 texlive-fontsextra
@@ -68,7 +69,9 @@ texlive-latexextra
 texlive-pictures
 texlive-science
 unzip
+vim
 waybar
+wayland-protocols
 wget
 wofi
 xarchiver
@@ -76,5 +79,4 @@ xorg-xwayland
 yay
 youtube-dl
 zip
-zoom
 zsh-completions
