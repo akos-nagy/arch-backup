@@ -4,7 +4,7 @@ exec dbus-update-activation-environment 2>/dev/null && \
 
 set $mod Mod4
 
-xwayland disable
+# xwayland disable
 
 output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 
@@ -32,15 +32,15 @@ bindsym $mod+Shift+Delete	exec systemctl reboot --ignore-inhibitors
 
 bindsym $mod+Shift+s		output eDP-1 toggle
 
-bindsym $mod+Left		focus left
-bindsym $mod+Down		focus down
+bindsym $mod+Left             focus left
+bindsym $mod+Down	       	focus down
 bindsym $mod+Up			focus up
-bindsym $mod+Right		focus right
+bindsym $mod+Right            focus right
 
 bindsym $mod+Shift+Left		move left
 bindsym $mod+Shift+Down		move down
 bindsym $mod+Shift+Up		move up
-bindsym $mod+Shift+Right	move right
+bindsym $mod+Shift+Right      move right
 
 bindsym $mod+h split h
 bindsym $mod+v split v
@@ -90,10 +90,10 @@ bar {
 }
 
 exec swayidle -w \
-          timeout 1800 'sh /home/akos/.config/lock-screen.sh' \
+          timeout 1800 'screenlock' \
           timeout 1830 'swaymsg "output * dpms off"' \
                resume 'swaymsg "output * dpms on"' \
-          before-sleep 'sh /home/akos/.config/lock-screen.sh'
+          before-sleep 'screenlock'
 
 bindsym XF86AudioRaiseVolume	exec pulsemixer --unmute --change-volume +10
 bindsym XF86AudioLowerVolume	exec pulsemixer --unmute --change-volume -10

@@ -4,8 +4,8 @@
 
 PROMPT=$'%B%n@%m %~ > %b'
 
-export EDITOR=rnano
-export VISUAL=rnano
+export EDITOR=vim
+export VISUAL=vim
 
 export GREP_OPTIONS=' — color=auto'
 
