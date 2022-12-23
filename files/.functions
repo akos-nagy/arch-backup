@@ -1,9 +1,97 @@
-function ltxcomp() {
-	zsh /home/akos/.config/compile.sh $1 $2
-}
-
 function acp() {
 	git add .
 	git commit -m "$1"
 	git push
+}
+
+function upgrade() {
+	magenta=$(tput setaf 5)
+	green=$(tput setaf 2)
+	cyan=$(tput setaf 6)
+	normal=$(tput sgr0)
+
+	archey3
+
+	printf "   ${cyan}system upgrade using yay${normal}\n\n" ;
+
+	#printf "\n ${magenta}running: ${green}yay -Sy --needed --noconfirm archlinux-keyring${normal} \n\n" ;
+	#/usr/bin/yay -Sy --needed --noconfirm archlinux-keyring ;
+
+	sudo printf "\n ${magenta}running: ${green}yay --noconfirm --sudoloop -Syu${normal} \n\n" ;
+	/usr/bin/yay --noconfirm --sudoloop -Syu ;
+
+	printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm --clean" ;
+	/usr/bin/yay --noconfirm --clean ;
+
+	# printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${normal} \n\n" ;
+	# /usr/bin/systemctl --failed ;
+
+	# printf "\n ${magenta}searching for errors in the log files: ${green}journalctl --priority=3 --catalog --boot${normal} \n\n" ;
+	# /usr/bin/journalctl --priority=3 --catalog --boot ;
+
+	printf "\n ${magenta}running: ${green}systemd-analyze${normal} \n\n" ;
+	/usr/bin/systemd-analyze ;
+
+	printf "\n ${magenta}running: ${green}profile-cleaner gc${normal} \n\n" ;
+	/usr/bin/profile-cleaner gc ;
+
+	printf "\n\n\n ${cyan}done! press any key to quit...${normal} "
+
+	read -s -n 1
+}
+
+function ltxcomp() {
+	color=$(tput setaf 2)
+	normal=$(tput sgr0)
+	start=`date +%s%N`
+
+	if [[ $2 -eq -1 ]]; then
+
+		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		xelatex $1.tex &&
+		rm $1.aux &
+		rm $1.bbl &
+		rm $1.blg &
+		rm $1.brf &
+		rm $1.log &
+		rm $1.out &
+		rm $1.toc &
+		rm $1.xdv
+		printf "\n ${color}compilation three times and cleanup done\n time needed: $((($(date +%s%N)-$start)/1000000)) milliseconds${normal} \n\n"
+
+	elif [[ $2 -eq 0 ]]; then
+
+		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		bibtex $1.aux &&
+		bibtex $1.aux &&
+		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		xelatex $1.tex &&
+		printf "\n bibliography updated\n ${color}compilation done\n time needed: $((($(date +%s%N)-$start)/1000000)) milliseconds${normal} \n\n"
+
+	elif [ $2 -eq 1 ]; then
+
+		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		printf "\n ${color}compilation done once\n time needed: $((($(date +%s%N)-$start)/1000000)) milliseconds${normal} \n\n"
+
+	elif [ $2 -eq 2 ]; then
+
+		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		printf "\n ${color}compilation done twice\n time needed: $((($(date +%s%N)-$start)/1000000)) milliseconds${normal} \n\n"
+
+	elif [ $2 -ge 3 ]; then
+
+		for (( i=1; i<$2; i++ ))
+		do
+			xelatex -no-pdf -interaction=batchmode $1.tex &&
+		done
+
+		xelatex $1.tex &&
+		printf "\n ${color}compilation done $2 times\n time needed: $((($(date +%s%N)-$start)/1000000)) milliseconds${normal} \n\n"
+
+	else
+		printf "\n bad input :( \n\n"
+	fi
 }

@@ -25,7 +25,6 @@ files to save:
 /etc/mkinitcpio.conf
 /etc/fstab
 
-/etc/resolv.conf.head
 /etc/iwd/main.conf
 /etc/ca-certificates/extracted/cadir/eduroam.pem
 /etc/security/faillock.conf

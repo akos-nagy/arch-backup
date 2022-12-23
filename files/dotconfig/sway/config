@@ -4,7 +4,7 @@ exec dbus-update-activation-environment 2>/dev/null && \
 
 set $mod Mod4
 
-# xwayland disable
+xwayland disable
 
 output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 
@@ -26,7 +26,7 @@ bindsym $mod+a exec atril
 
 bindsym Print exec grim screenshot.png
 
-bindsym $mod+Escape       	exec sh /home/akos/.config/lock-screen.sh
+bindsym $mod+Escape       	exec swaylock --daemonize --ignore-empty-password --screenshots --effect-blur 7x5 --indicator --indicator-radius 100 --clock --timestr='%l:%M %p' --datestr='%A, %-m/%-e/%y' --fade-in 0.5
 bindsym $mod+Shift+Escape	exec systemctl poweroff --ignore-inhibitors
 bindsym $mod+Shift+Delete	exec systemctl reboot --ignore-inhibitors
 
@@ -35,7 +35,7 @@ bindsym $mod+Shift+s		output eDP-1 toggle
 bindsym $mod+Left             focus left
 bindsym $mod+Down	       	focus down
 bindsym $mod+Up			focus up
-bindsym $mod+Right            focus right
+bindsym $mod+Right		     focus right
 
 bindsym $mod+Shift+Left		move left
 bindsym $mod+Shift+Down		move down
@@ -105,5 +105,5 @@ bindsym XF86MonBrightnessDown	exec brightnessctl --device=intel_backlight set 10
 
 hide_edge_borders	both
 default_border		none
-gaps inner		3
+gaps inner		5
 smart_gaps		on

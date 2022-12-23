@@ -17,7 +17,6 @@ dropbox
 exa
 ffmpegthumbnailer
 flex
-gamemode
 gcc-go
 gendesk
 google-chrome
@@ -54,7 +53,6 @@ qbittorrent
 qt6-wayland
 reflector
 speedify
-steam-native-runtime
 sublime-text
 sudo
 sway
