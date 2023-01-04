@@ -147,7 +147,7 @@ EnableNetworkConfiguration=true
 DisablePeriodicScan=true
 
 [Service]
-ExecStartPre=/usr/bin/sleep 2
+ExecStartPre=/usr/bin/sleep 5
 
 
 
