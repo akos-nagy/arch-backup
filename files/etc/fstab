@@ -2,17 +2,17 @@
 # See fstab(5) for details.
 
 # <file system> <dir> <type> <options> <dump> <pass>
-# /dev/nvme0n1p1 UUID=1abd036a-eef2-4437-898f-2702bc5af356
-/dev/nvme0n1p1      	/         	ext4      	rw,noatime	0 1
+# /dev/nvme0n1p1 UUID=ed768204-9370-4d4f-a342-3026644a9076
+/dev/nvme0n1p1          /           ext4        rw,noatime  0 1
 
-# /dev/nvme0n1p2 UUID=22E0-D70F
-/dev/nvme0n1p2      	/boot     	vfat      	rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+# /dev/nvme0n1p2 UUID=C4B2-68EA
+/dev/nvme0n1p2          /boot       vfat        rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 2
 
-# /dev/nvme0n1p4 UUID=4b088aa7-3946-40cb-a66c-7e395ac15fda
-/dev/nvme0n1p4      	/home     	ext4      	rw,noatime	0 2
+# /dev/nvme0n1p4 UUID=59e2bb90-a212-46a4-a7ec-cbdede48be41
+/dev/nvme0n1p4          /home       ext4        rw,noatime  0 2
 
-# /dev/nvme0n1p3 UUID=d335a80f-9027-4294-bce2-b6c6f68919fc
-/dev/nvme0n1p3      	none      	swap      	defaults  	0 0
+# /dev/nvme0n1p3 UUID=d7237b60-ddcc-45c3-bb8f-ff10f07d9d99
+/dev/nvme0n1p3          none        swap        defaults    0 0
 
 # cache in tmpfs
-tmpfs			/home/akos/.cache	tmpfs	rw,size=4G,nr_inodes=10k,noexec,nodev,nosuid,uid=akos,gid=wheel,mode=1700	0 0
+tmpfs                   /home/akos/.cache       tmpfs   rw,size=4G,nr_inodes=10k,noexec,nodev,nosuid,uid=akos,gid=wheel,mode=1700       0 0

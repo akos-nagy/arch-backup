@@ -4,7 +4,7 @@ exec dbus-update-activation-environment 2>/dev/null && \
 
 set $mod Mod4
 
-xwayland disable
+# xwayland disable
 
 output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 

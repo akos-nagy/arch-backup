@@ -1,24 +1,248 @@
 {
+	"file_history":
+	[
+		"/home/akos/.config/pcmanfm/default/pcmanfm.conf",
+		"/home/akos/Dropbox/quantum/leet/maxProfit.py",
+		"/home/akos/Dropbox/quantum/leet/twoSum.py",
+		"/home/akos/Dropbox/quantum/leet/add_two.py",
+		"/home/akos/Dropbox/quantum/leet/threeSum.py",
+		"/home/akos/Dropbox/quantum/leet/threeSumClosest.py",
+		"/home/akos/Dropbox/quantum/leet/solveSudoku.py",
+		"/home/akos/git/web/ucsb-dg-seminar.html",
+		"/home/akos/Dropbox/quantum/coding/leet/solveSudoku.py",
+		"/home/akos/.histfile",
+		"/home/akos/Dropbox/quantum/coding/leet/isValidSudoku.py",
+		"/home/akos/Dropbox/quantum/coding/leet/solveSudoku_production.py",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/math119b-midterm-1.tex",
+		"/home/akos/Dropbox/stuff/latex/lor/Yaping-Li_letter/Yaping-Liu_letter.tex",
+		"/home/akos/yue-yang_letter/yue-yang_letter.tex",
+		"/home/akos/Dropbox/quantum/coding/leet/threeSumClosest.py",
+		"/home/akos/Dropbox/quantum/coding/leet/mySqrt.py",
+		"/home/akos/Dropbox/quantum/coding/leet/maxDistance.py",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/syllabus/syllabus-math119b-winter2023.tex",
+		"/home/akos/Dropbox/quantum/coding/leet/nextPermutation.py",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW3/math119b-HW3.tex",
+		"/home/akos/Dropbox/quantum/coding/leet/isValid.py",
+		"/home/akos/Dropbox/quantum/coding/leet/maxArea.py",
+		"/home/akos/maxArea.py",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/practice/math119b-midterm-1_practice.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW1/math119b-HW1.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/concepts/math119b-midterm-1_concepts.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/math119b-midterm-2.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/practice/math119b-midterm-2_practice.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/concepts/math119b-midterm-2_concepts.tex",
+		"/home/akos/Dropbox/quantum/coding/leet/myAtoi.py",
+		"/home/akos/Dropbox/quantum/coding/leet/longestCommonPrefix.py",
+		"/home/akos/Dropbox/quantum/coding/leet/lengthOfLongestSubstring.py",
+		"/home/akos/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/akos/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/akos/Dropbox/quantum/coding/leet/int_to_roman.py",
+		"/home/akos/Dropbox/quantum/coding/leet/roman_to_int.py",
+		"/home/akos/Dropbox/quantum/coding/leet/add_two.py",
+		"/home/akos/Dropbox/quantum/coding/leet/fruits.py",
+		"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/nahm_to_bps.tex",
+		"/home/akos/temp/leet/fruits.py",
+		"/home/akos/temp/leet/leet.py",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW2/math119b-HW2.tex",
+		"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/references.bib",
+		"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/Bib-Benoit.bib",
+		"/home/akos/Dropbox/projects/majorana/majorana.tex",
+		"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/exams/midterm/concepts/math119a-midterm_concepts.tex",
+		"/home/akos/git/web/index.html",
+		"/home/akos/Dropbox/stuff/latex/cv/akosnagy-cv.tex",
+		"/home/akos/temp/leet/palindrom.py",
+		"/home/akos/.config/sway/config",
+		"/home/akos/.config/kitty/kitty.conf",
+		"/home/akos/temp/nahm_question/nahm.tex",
+		"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/Bib-monopoles.bib",
+		"/home/akos/git/nonmaximal_bps_paper/bps_to_nahm/bps_to_nahm.tex",
+		"/home/akos/Dropbox/active/goncalo_stuff/Donaldson-Segal_program/Asymptotics of monopoles/MonopolesAsym.tex",
+		"/home/akos/Dropbox/temp/leet/palindrom.py",
+		"/home/akos/nahm_question/nahm.tex",
+		"/home/akos/nahm.tex",
+		"/home/akos/Dropbox/temp/title.txt",
+		"/home/akos/KS_York/keller-segel.html",
+		"/home/akos/Dropbox/active/keller-segel/curved_keller-segel/curved_keller-segel.tex",
+		"/home/akos/Dropbox/stuff/latex/nsf_grant/etc/old/akos-2021/description/akos_nsf_project_description.tex",
+		"/home/akos/Dropbox/stuff/talks(html)/GL_talk-ONEPAS/GL_talk-ONEPAS.html",
+		"/home/akos/Dropbox/stuff/latex/job_stuff/research statement/akosnagy-rs.tex",
+		"/home/akos/JFA#1/round2/JFA_1_2.tex",
+		"/home/akos/Dropbox/jfa.txt",
+		"/home/akos/jfa.txt",
+		"/home/akos/ams_abstract.txt",
+		"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/HW/HW8/math119a-HW8.tex",
+		"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/HW/HW6/math119a-HW6.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW4/math119b-HW4.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW5/math119b-HW5.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW6/math119b-HW6.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW7/math119b-HW7.tex",
+		"/home/akos/ben_perron_letter/ben_perron_letter.tex",
+		"/home/akos/git/arch-backup/archinstall.txt",
+		"/home/akos/Dropbox/stuff/talks(html)/HBT_UCSB/hyperbolic_bloch_transform.html",
+		"/home/akos/title.txt",
+		"/home/akos/Dropbox/stuff/latex/lor/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119b-spring2023/syllabus/syllabus-math119a-fall2022.tex",
+		"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/TAMS submit/reply_to_TAMS_report_1/reply_to_TAMS_report_1.tex",
+		"/home/akos/leet/leet.py",
+		"/home/akos/Dropbox/stuff/talks(html)/HBT_Vancouver/hyperbolic_bloch_transform.html",
+		"/home/akos/Dropbox/stuff/latex/lor/kathryn_chen_letter/kathryn_chen_letter.tex",
+		"/home/akos/feier-wang_letter/feier-wang_letter.tex",
+		"/home/akos/Dropbox/stuff/latex/lor/josie_wu_letter/josie_wu_letter.tex",
+		"/home/akos/Dropbox/stuff/latex/lor/cui_letter/cui_letter.tex",
+		"/home/akos/Dropbox/stuff/latex/lor/yuxin_zhang_letter/yuxin_zhang_letter.tex",
+		"/home/akos/Dropbox/stuff/latex/job_stuff/cover letter/akosnagy-coverletter.tex",
+		"/home/akos/Dropbox/stuff/latex/job_stuff/publication list/akosnagy-publicationlist.tex",
+		"/home/akos/Dropbox/stuff/latex/job_stuff/cv/akosnagy-cv.tex",
+		"/home/akos/Dropbox/stuff/latex/job_stuff/publication list/akosnagy-publicationlist.pdf",
+		"/home/akos/Dropbox/stuff/teaching/future/math8-spring2023/syllabus/syllabus-math8-spring2023.tex",
+		"/home/akos/yike_wu_letter/yike_wu_letter.tex",
+		"/home/akos/Dropbox/stuff/latex/lor/xuanchen_ren_letter/xuanchen_ren_letter.tex",
+		"/home/akos/Dropbox/stuff/latex/lor/cindy_su_letter/cindy_su_letter.tex",
+		"/home/akos/Dropbox/stuff/latex/lor/kevin_yu_letter/kevin_yu_letter.tex",
+		"/home/akos/Dropbox/stuff/teaching/old/math119a-fall2022/syllabus/syllabus-math119a-fall2022.tex",
+		"/home/akos/.gitconfig",
+		"/home/akos/.git-credentials",
+		"/home/akos/temp/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+		"/home/akos/temp/kevin_yu_letter/kevin_yu_letter.tex",
+		"/home/akos/Dropbox/active/instantons_on_S2xR2/instanton_paper/instantons_on_S2xR2.tex",
+		"/home/akos/Dropbox/projects/majorana/references.bib",
+		"/home/akos/kevin_yu_letter/kevin_yu_letter.tex",
+		"/home/akos/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+		"/home/akos/HBT_Vancouver/hyperbolic_bloch_transform.html",
+		"/home/akos/Dropbox/projects/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/hyperbolic_bloch.tex",
+		"/home/akos/Dropbox/stuff/talks(html)/G2-mono_MSRI/G2-monopoles.html",
+		"/home/akos/downloads/S0001870822004819.bib",
+		"/home/akos/Dropbox/projects/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/references.bib",
+		"/home/akos/.zshrc",
+		"/home/akos/xuanchen_ren_letter/xuanchen_ren_letter.tex",
+		"/home/akos/yuxin_zhang_letter/yuxin_zhang_letter.tex",
+		"/home/akos/cindy_su_letter/cindy_su_letter.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/exams/final/math119a-final.tex",
+		"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/exams/final/math4b-final.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/syllabus/syllabus-math119a-fall2022.tex",
+		"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/exams/final/practice/math119a-final_practice.tex",
+		"/home/akos/temp/Yaping-Li_letter/Yaping-Liu_letter.tex",
+		"/home/akos/temp/Yaping-Li_letter/Yaping-Li_letter.tex",
+		"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/exams/final/practice/math4b-final_practice.tex",
+		"/home/akos/.aliases",
+		"/home/akos/pengweixia_letter/pengweixia_letter.tex",
+		"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/syllabus/syllabus-math4b-fall2022.tex",
+		"/home/akos/.functions",
+		"/home/akos/.config/upgrade.sh"
+	],
 	"folder_history":
 	[
 		"/home/akos/.config/waybar",
 		"/home/akos/git/arch_backup"
 	],
-	"last_version": 4126,
-	"last_window_id": 61,
+	"last_version": 4143,
+	"last_window_id": 112,
 	"log_indexing": false,
-	"next_update_check": 1651423055,
+	"next_update_check": 1676283052,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 600.0,
+		"new_window_height": 1046.0,
 		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			27.0
+		],
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"i_",
+						"i_min"
+					],
+					[
+						"i_m",
+						"i_max"
+					],
+					[
+						"l",
+						"l_E"
+					],
+					[
+						"n",
+						"numbers"
+					],
+					[
+						"shou",
+						"should_box"
+					],
+					[
+						"cha",
+						"change_counter"
+					],
+					[
+						"chga",
+						"change_counter"
+					],
+					[
+						"max",
+						"max_size"
+					],
+					[
+						"ma",
+						"max_ind"
+					],
+					[
+						"shoul",
+						"should_box"
+					],
+					[
+						"sh",
+						"should_row"
+					],
+					[
+						"no",
+						"not_done"
+					],
+					[
+						"th",
+						"threes"
+					],
+					[
+						"i",
+						"isValidSudoku"
+					],
+					[
+						"ra",
+						"raiser"
+					],
+					[
+						"d",
+						"digits"
+					],
+					[
+						"in",
+						"intToRoman"
+					],
+					[
+						"fru",
+						"fruits"
+					],
+					[
+						"fr",
+						"fruitscopy"
+					],
+					[
+						"marg",
+						"margin-top"
+					],
+					[
+						"Y",
+						"type"
+					],
+					[
+						"float",
+						"float64"
+					],
 					[
 						"margin-",
 						"margin-right"
@@ -30,10 +254,6 @@
 					[
 						"text",
 						"text-align"
-					],
-					[
-						"marg",
-						"margin-top"
 					],
 					[
 						"conti",
@@ -69,6 +289,10 @@
 				[
 					[
 						"Package Control: ",
+						"Package Control: List Packages"
+					],
+					[
+						"Package Control: remo",
 						"Package Control: Remove Package"
 					],
 					[
@@ -104,142 +328,142 @@
 			},
 			"file_history":
 			[
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/midterm/math8-midterm.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm1/math145-midterm1.tex",
+				"/home/akos/Dropbox/quantum/leet/maxProfit.py",
+				"/home/akos/Dropbox/quantum/leet/twoSum.py",
+				"/home/akos/Dropbox/quantum/leet/add_two.py",
+				"/home/akos/Dropbox/quantum/leet/threeSum.py",
+				"/home/akos/Dropbox/quantum/leet/threeSumClosest.py",
+				"/home/akos/Dropbox/quantum/leet/solveSudoku.py",
 				"/home/akos/git/web/ucsb-dg-seminar.html",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm1/concepts/math145-midterm1_concepts.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW5/math145-HW5.tex",
+				"/home/akos/Dropbox/quantum/coding/leet/solveSudoku.py",
+				"/home/akos/.histfile",
+				"/home/akos/Dropbox/quantum/coding/leet/isValidSudoku.py",
+				"/home/akos/Dropbox/quantum/coding/leet/solveSudoku_production.py",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/math119b-midterm-1.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/Yaping-Li_letter/Yaping-Liu_letter.tex",
+				"/home/akos/yue-yang_letter/yue-yang_letter.tex",
+				"/home/akos/Dropbox/quantum/coding/leet/threeSumClosest.py",
+				"/home/akos/Dropbox/quantum/coding/leet/mySqrt.py",
+				"/home/akos/Dropbox/quantum/coding/leet/maxDistance.py",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/syllabus/syllabus-math119b-winter2023.tex",
+				"/home/akos/Dropbox/quantum/coding/leet/nextPermutation.py",
+				"/home/akos/Dropbox/quantum/coding/leet/isValid.py",
+				"/home/akos/Dropbox/quantum/coding/leet/maxArea.py",
+				"/home/akos/maxArea.py",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/practice/math119b-midterm-1_practice.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW3/math119b-HW3.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW1/math119b-HW1.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/concepts/math119b-midterm-1_concepts.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/math119b-midterm-2.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/practice/math119b-midterm-2_practice.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/concepts/math119b-midterm-2_concepts.tex",
+				"/home/akos/Dropbox/quantum/coding/leet/myAtoi.py",
+				"/home/akos/Dropbox/quantum/coding/leet/longestCommonPrefix.py",
+				"/home/akos/Dropbox/quantum/coding/leet/lengthOfLongestSubstring.py",
+				"/home/akos/Dropbox/quantum/coding/leet/int_to_roman.py",
+				"/home/akos/Dropbox/quantum/coding/leet/roman_to_int.py",
+				"/home/akos/Dropbox/quantum/coding/leet/add_two.py",
+				"/home/akos/Dropbox/quantum/coding/leet/fruits.py",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/nahm_to_bps.tex",
+				"/home/akos/temp/leet/leet.py",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/references.bib",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/Bib-Benoit.bib",
+				"/home/akos/Dropbox/projects/majorana/majorana.tex",
+				"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/exams/midterm/concepts/math119a-midterm_concepts.tex",
 				"/home/akos/git/web/index.html",
 				"/home/akos/Dropbox/stuff/latex/cv/akosnagy-cv.tex",
-				"/home/akos/.histfile",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-fall2020/exams/MT1/math8-mt1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/old/MT1/practice/math8-MT1_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/old/MT1/math8-MT1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/old/MT2/math8-mt2.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-fall2020/exams/MT1/practice/math8-mt1_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-fall2020/exams/MT2/math8-mt2.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-fall2020/exams/MT2/practice/math8-mt2_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/exams/MT1/practice/math8-MT1_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/midterm/practice/math8-midterm_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm1/practice/math145-midterm1_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW4/math145-HW4.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW3/math145-HW3.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW2/math145-HW2.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW1/math145-HW1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm/practice/math145-midterm_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm/math145-midterm.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/syllabus/syllabus-math145-spring2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/syllabus/syllabus-math8-spring2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW5/math8-HW5.tex",
-				"/home/akos/Dropbox/projects/majorana/majorana.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2022/exams/MT1/math8-MT1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/midterm/practice/math145-midterm_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm/concepts/math145-midterm_concepts.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/midterm/concepts/math8-midterm_concepts.tex",
-				"/home/akos/git/nonmaximal_bps_paper/bps_to_nahm/bps_to_nahm.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW4/math8-HW4.tex",
-				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/nahm_to_bps.tex",
-				"/home/akos/nahm_to_bps/nahm_to_bps.tex",
-				"/home/akos/git/nonmaximal_bps_paper/bps_to_nahm/references.bib",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-winter2022/exams/final/makeup/math4b-final_makeup.tex",
-				"/home/akos/Dropbox/stuff/talks(html)/G2-mono_UOregon/G2-monopoles.html",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2022/HW/HW3/math8-HW3.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW7/math8-HW7.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW6/math8-HW6.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/10/math8-HW10.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/08/math8-HW08.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/06/math8-HW06.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/07/math8-HW07.tex",
-				"/home/akos/downloads/2003.11180",
-				"/home/akos/Dropbox/stuff/talks(html)/G2-mono_UOregon/g2monopoles.html",
-				"/home/akos/Dropbox/stuff/talks(html)/g2talk-oregon/g2monopoles.html",
-				"/home/akos/downloads/HW_template.tex",
-				"/home/akos/.config/compile.sh",
-				"/home/akos/Dropbox/active/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/hyperbolic_bloch.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW3/math8-HW3.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/04/math8-HW04.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/03/math8-HW03.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/02/math8-HW02.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW2/math8-HW2.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/05/math8-HW05.tex",
-				"/home/akos/downloads/courseid_16210_participants.csv",
-				"/home/akos/.config/waybar/config",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW1/math8-HW1.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2022/exams/MT2/math8-mt2.tex",
-				"/home/akos/HW_template.tex",
-				"/home/akos/Dropbox/active/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/compile.sh",
-				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/references.bib",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-winter2022/exams/final/math4b-final.aux",
-				"/home/akos/Dropbox/stuff/latex/lor/kathryn_chen_letter/kathryn_chen_letter.tex",
-				"/home/akos/jingyuan_zheng-letter/jingyuan_zheng-letter.tex",
-				"/home/akos/Dropbox/stuff/latex/lor/katherine_letter/katherine_letter.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/MT1/math8-MT1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW1/math8-HW1.tex",
-				"/home/akos/Dropbox/projects/goncalo_stuff/Donaldson-Segal_program/Asymptotics of monopoles/MonopolesAsym.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2022/syllabus/syllabus-math8-winter2022.tex",
-				"/home/akos/Dropbox/active/job_stuff/research statement/akosnagy-rs.tex",
-				"/home/akos/Dropbox/active/job_stuff/research statement/references.bib",
-				"/home/akos/Dropbox/stuff/other/misc/Computer_Information",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-fall2020/syllabus/syllabus-math4b-fall2020.tex",
-				"/home/akos/Dropbox/stuff/latex/cv/akosnagy-cv.pdf",
-				"/home/akos/Dropbox/active/job_stuff/cover letter/ucr/akosnagy-coverletter.tex",
-				"/home/akos/Dropbox/g2talk-stony_brook/g2monopoles.html",
-				"/home/akos/Dropbox/g2talk-simons/g2monopoles.html",
-				"/home/akos/downloads/W22_MATH8_31641All.csv",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/final/makeup/math4b-final_makeup.tex",
-				"/home/akos/Dropbox/active/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/references.bib",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/final/concepts/math4b-Final_concepts.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/final/math4b-final.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/final/math8-final.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/MT2/math8-mt2.tex",
-				"/home/akos/temp/daniel_li-letter/daniel_li-letter.tex",
-				"/home/akos/Dropbox/stuff/latex/lor/jiale_gao_letter/jiale_gao_letter.tex",
-				"/home/akos/temp/xinhang_li-letter/xinhang_li-letter.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/final/practice/math8-final_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/Final/practice/math4b-final_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/Final/math4b-final.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-fall2020/exams/final/math4b-final.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/syllabus/syllabus-math8-winter2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW8/math8-HW8.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW9/math8-HW9.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/syllabus/syllabus-math8-winter2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/MT2/makeup/math8-mt2_makeup.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/Final/concepts/math4b-Final_concepts.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/other/extras/linalg-summary/math4b-systems_summary.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/syllabus/syllabus-math4b-winter2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-spring2021/exams/MT3/practice/math4b-MT3_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-spring2021/exams/MT3/math4b-MT3.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-summer2021/exams/MT3/math4b-MT3.tex",
-				"/home/akos/git/web/seminar.css",
+				"/home/akos/temp/leet/palindrom.py",
 				"/home/akos/.config/sway/config",
-				"/home/akos/Dropbox/projects/KS/curved_keller-segel/curved_keller-segel.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/MT2/math4b-MT2.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/MT2/makeup/math4b-MT2_makeup.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/MT2/practice/math4b-MT2_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW7/math8-HW7.tex",
-				"/home/akos/aoe4.sh",
-				"/home/akos/hyperbolic_bloch/hyperbolic_bloch.tex",
-				"/home/akos/kathryn_chen_letter/kathryn_chen_letter.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/MT2/practice/math8-mt2_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/other/extras/2nd_order_nonhomogeneous/math4b-second_order_nonhomogeneous_summary.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/Elementary-Differential-Equations-and-Boundary-Value-Problems-Boyce-11th-Edition.pdf",
-				"/home/akos/helgason.pdf",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW6/math8-HW6.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/MT1/math8-MT1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW5/math8-HW5.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/old/24/math8-HW24.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/HW/21/math8-HW21.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/HW/22/math8-HW22.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/HW/23/math8-HW23.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/HW/24/math8-HW24.tex"
+				"/home/akos/.config/kitty/kitty.conf",
+				"/home/akos/temp/nahm_question/nahm.tex",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/Bib-monopoles.bib",
+				"/home/akos/git/nonmaximal_bps_paper/bps_to_nahm/bps_to_nahm.tex",
+				"/home/akos/Dropbox/active/goncalo_stuff/Donaldson-Segal_program/Asymptotics of monopoles/MonopolesAsym.tex",
+				"/home/akos/Dropbox/temp/leet/palindrom.py",
+				"/home/akos/nahm_question/nahm.tex",
+				"/home/akos/nahm.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW2/math119b-HW2.tex",
+				"/home/akos/Dropbox/temp/title.txt",
+				"/home/akos/KS_York/keller-segel.html",
+				"/home/akos/Dropbox/active/keller-segel/curved_keller-segel/curved_keller-segel.tex",
+				"/home/akos/Dropbox/stuff/latex/nsf_grant/etc/old/akos-2021/description/akos_nsf_project_description.tex",
+				"/home/akos/Dropbox/stuff/talks(html)/GL_talk-ONEPAS/GL_talk-ONEPAS.html",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/research statement/akosnagy-rs.tex",
+				"/home/akos/JFA#1/round2/JFA_1_2.tex",
+				"/home/akos/Dropbox/jfa.txt",
+				"/home/akos/jfa.txt",
+				"/home/akos/ams_abstract.txt",
+				"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/HW/HW8/math119a-HW8.tex",
+				"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/HW/HW6/math119a-HW6.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW4/math119b-HW4.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW5/math119b-HW5.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW6/math119b-HW6.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW7/math119b-HW7.tex",
+				"/home/akos/ben_perron_letter/ben_perron_letter.tex",
+				"/home/akos/git/arch-backup/archinstall.txt",
+				"/home/akos/Dropbox/stuff/talks(html)/HBT_UCSB/hyperbolic_bloch_transform.html",
+				"/home/akos/title.txt",
+				"/home/akos/Dropbox/stuff/latex/lor/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-spring2023/syllabus/syllabus-math119a-fall2022.tex",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/TAMS submit/reply_to_TAMS_report_1/reply_to_TAMS_report_1.tex",
+				"/home/akos/leet/leet.py",
+				"/home/akos/Dropbox/stuff/talks(html)/HBT_Vancouver/hyperbolic_bloch_transform.html",
+				"/home/akos/Dropbox/stuff/latex/lor/kathryn_chen_letter/kathryn_chen_letter.tex",
+				"/home/akos/feier-wang_letter/feier-wang_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/josie_wu_letter/josie_wu_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/cui_letter/cui_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/yuxin_zhang_letter/yuxin_zhang_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/cover letter/akosnagy-coverletter.tex",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/publication list/akosnagy-publicationlist.tex",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/cv/akosnagy-cv.tex",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/publication list/akosnagy-publicationlist.pdf",
+				"/home/akos/Dropbox/stuff/teaching/future/math8-spring2023/syllabus/syllabus-math8-spring2023.tex",
+				"/home/akos/yike_wu_letter/yike_wu_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/xuanchen_ren_letter/xuanchen_ren_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/cindy_su_letter/cindy_su_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/kevin_yu_letter/kevin_yu_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/old/math119a-fall2022/syllabus/syllabus-math119a-fall2022.tex",
+				"/home/akos/.gitconfig",
+				"/home/akos/.git-credentials",
+				"/home/akos/temp/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+				"/home/akos/temp/kevin_yu_letter/kevin_yu_letter.tex",
+				"/home/akos/Dropbox/active/instantons_on_S2xR2/instanton_paper/instantons_on_S2xR2.tex",
+				"/home/akos/Dropbox/projects/majorana/references.bib",
+				"/home/akos/kevin_yu_letter/kevin_yu_letter.tex",
+				"/home/akos/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+				"/home/akos/HBT_Vancouver/hyperbolic_bloch_transform.html",
+				"/home/akos/Dropbox/projects/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/hyperbolic_bloch.tex",
+				"/home/akos/Dropbox/stuff/talks(html)/G2-mono_MSRI/G2-monopoles.html",
+				"/home/akos/downloads/S0001870822004819.bib",
+				"/home/akos/Dropbox/projects/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/references.bib",
+				"/home/akos/.zshrc",
+				"/home/akos/xuanchen_ren_letter/xuanchen_ren_letter.tex",
+				"/home/akos/yuxin_zhang_letter/yuxin_zhang_letter.tex",
+				"/home/akos/cindy_su_letter/cindy_su_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/exams/final/math119a-final.tex",
+				"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/exams/final/math4b-final.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/syllabus/syllabus-math119a-fall2022.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/exams/final/practice/math119a-final_practice.tex",
+				"/home/akos/temp/Yaping-Li_letter/Yaping-Liu_letter.tex",
+				"/home/akos/temp/Yaping-Li_letter/Yaping-Li_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/exams/final/practice/math4b-final_practice.tex",
+				"/home/akos/.aliases",
+				"/home/akos/pengweixia_letter/pengweixia_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/syllabus/syllabus-math4b-fall2022.tex",
+				"/home/akos/.functions",
+				"/home/akos/.config/upgrade.sh",
+				"/home/akos/git/arch-backup/files/dotconfig/sway/config",
+				"/home/akos/.config/compile.sh",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/HW/HW7/math119a-HW7.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/exams/final/concepts/math119a-final_concepts.tex"
 			],
 			"find":
 			{
-				"height": 34.0
+				"height": 49.0
 			},
 			"find_in_files":
 			{
-				"height": 130.0,
+				"height": 136.0,
 				"where_history":
 				[
 				]
@@ -249,134 +473,46 @@
 				"case_sensitive": true,
 				"find_history":
 				[
-					"subse",
-					"\\cT",
-					"itemize",
-					"\\left\\{",
-					"\\section*",
-					"Differe",
-					"Monge",
-					"Kahler",
-					"enumerate",
-					"Solution",
-					"$.",
-					"\\inf",
-					"\\noindent {\\small Show a complete solution and all of your work.}",
-					"[1.",
-					"\\cR_1",
-					"\\id_{",
-					"eq:mono1",
-					"To summ",
-					"\\todo",
-					"_i",
-					"which pro",
-					"|d",
-					"rule",
-					"will",
-					"\\rho (x)",
-					"\\prime",
-					"abstract",
-					"Zoom",
-					"image",
-					"eq:weitzenbocknablaPsi",
-					"eq:weitzenbockPsi",
-					"\\Xi",
-					"\\image",
-					"mono1",
-					"ker_",
-					"_{L^2 \\left( \\E \\right)}",
-					"hypothesis:HFS",
-					"\\id_\\Gamma",
-					"A_i",
-					"\\cI",
-					"\\image",
-					"(\\cL_t)",
-					"\\mo",
-					"coker",
-					"\\mathrm{image}",
-					"= 0.",
-					"$",
-					" 2 ",
-					"2 ",
-					"eq:kappa_parallel",
-					"BPS",
-					"sec:main",
-					"eq:mu_kappa_commutator",
-					"\\cC_",
-					"\\cC",
-					"Xianzh",
-					"Sigma",
-					"(dx^j)",
-					"(dx^i)",
-					"(F_\\nabla)",
-					"|df|",
-					"\\nabla^* \\nabla",
-					"Weitz",
-					"_{L^2 \\left( \\E \\right)}",
-					"hypothesis:monodecay",
-					"\\Phi_t",
-					"AP06",
-					"fadel_asymptotic_2020",
-					"\\cL_t^*",
-					"\\cL_t ",
-					"(\\rl^3; \\E)",
-					"(\\E)",
-					"(\\nabla, \\Phi)",
-					"eqdef",
-					"rest of ",
-					"fix",
-					"section{",
-					"section",
-					"q:Finfty_form",
-					"eq:flat_kappa",
-					"eq:flat_mu",
-					"eq:limDPhi",
-					"eq:limPhi",
-					"eq:limA",
-					"eq:BPSeq",
-					"q:YMH2",
-					"eq:YMH1",
-					"Final",
-					"st, let us compute, usi",
-					"Daniel",
-					"Daniel Li",
-					"underline",
-					"Problems from ",
-					"ath 8",
-					"tentative",
-					"Section ",
-					"Chapter 1, ",
-					"{\\nabla}",
-					"\\left( \\fU_\\nabla \\right)^{- 1}",
-					"A^\\nab",
-					"\\fU^",
-					"A^{\\left[ \\varrho, \\uv \\right]}",
-					"\\nabla^{\\left[ \\varrho, \\uv \\right]}",
-					"\\cU^",
-					"mathfrak",
-					"U^\\nabla",
-					"U^{\\left[ \\varrho, \\uv \\right]}",
-					"\\Irrep",
-					"\\Rep",
-					"Dirac}",
-					"hypoth",
-					"hypothesis:Gamma",
-					"sec:general",
-					"\\vol^",
-					"\\vol",
-					" \\& \\#",
-					"\n\n       Material: ",
-					" (remote)",
-					"^\\prime",
-					"\\whrho",
-					"\\BZ",
-					" map",
-					"Fadel",
-					"_{aa",
-					"_{a",
-					"\\U",
-					"A \\c",
-					"a_i"
+					"List",
+					"print",
+					"List",
+					"preemptives.remove(bag)",
+					"column",
+					"row",
+					"should",
+					"isit",
+					"print",
+					",,",
+					"Yuxin",
+					"Zhang",
+					"print",
+					"max_lenght",
+					"print",
+					"opt[",
+					"board",
+					"options",
+					"brd",
+					"options",
+					"start",
+					"options",
+					"board",
+					"0",
+					"print",
+					"threes",
+					",",
+					"\"\",\"\"",
+					",",
+					",.",
+					"print",
+					">0:",
+					">0 or",
+					"map",
+					"\\emph{",
+					",",
+					"\t",
+					" // ",
+					"\")",
+					"s.append("
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -384,134 +520,33 @@
 				"regex": false,
 				"replace_history":
 				[
-					"\\subsection*",
-					"K&auml;hler",
-					"itemize",
-					"Answer",
-					"[",
-					"R",
-					"eq:Agmon_nabla_Psi",
-					"eq:Agmon_Psi",
-					"\\Theta",
+					"list",
 					"",
-					"theorem:HFS",
-					"\\id",
-					"K_i",
-					"\\bI",
-					"\\left( \\cL_t^\\m \\right)",
-					"\\left( \\rd x^j \\right)",
-					"\\left( \\rd x^i \\right)",
-					"\\left( F_\\nabla \\right)",
-					"|\\rd f|",
-					"\\Delta_\\nabla",
+					"j",
 					"",
-					"eq:curvature_at_infinity",
-					"almorox_holomorphic_2006",
-					"fadel_asymptotic_2022",
-					"\\left( \\cL_t^\\m \\right)^*",
-					"\\cL_t^\\m ",
-					"\\left( \\E \\right)",
-					"\\left( \\nabla, \\Phi \\right)",
-					"eq:curvature_at_infinity",
-					"eq:kappa_parallel",
-					"eq:mu_parallel",
-					"eq:mono4",
-					"eq:mono3",
-					"eq:mono2",
-					"eq:mono1",
-					"eq:YMH_2",
-					"eq:YMH_1",
-					"Jingyuan",
-					"Jingyuan Zheng",
-					"ul",
-					"Problems from Section ",
-					"Chapter 1, Section ",
-					"",
-					"\\nabla",
-					"\\left( \\fU_\\nabla^{- 1} \\right)",
-					"A_\\nab",
-					"\\fU_",
-					"A^\\nabla",
-					"\\nabla",
-					"\\fU^",
-					"\\cU^\\nabla",
-					"U^\\nabla",
-					"\\Rep",
-					"\\Irrep",
-					"hypothesis:HFS",
-					"sec:abstract",
-					"\\rd \\mu^",
-					"--",
-					" Material: ",
-					" ",
-					"         ",
-					"",
-					"\\left[ \\varrho, \\uv \\right]",
-					"U^{\\whrho}",
-					"U^\\varrho",
-					"u^\\varrho",
-					"\\cE^{\\whrho}",
-					"U_{\\whrho}",
-					"\\left( \\dim \\left( \\whrho \\right) \\right)",
-					"\\widetilde{U}",
-					"\\BZ",
-					"BT_abstract",
-					"(y)",
-					"(x)",
-					"^{\\whrho}",
-					"\\gamma",
-					"widetilde{T}",
-					"\\whrho",
-					"\\bH",
-					"\\id_",
-					"\\id_\\E",
-					"Daniel",
-					"his",
-					"Xinhang",
-					"Xinhang Li",
-					"x_0",
-					"\\left[ \\varrho \\right]",
-					"\\Phi^{[\\varrho]}",
-					"\\upphi_",
-					"\\varphi_",
-					"\\varphi",
-					"X",
-					"\\varrho",
-					"\\rho_",
-					"{\\alpha, \\beta, \\gamma}",
-					"{\\alpha, \\beta}",
-					"sec:nahm_data",
-					"",
-					"\\su",
-					"1_\\bH",
-					"\\e",
-					"underline",
-					"m \\left( \\left[ V, \\rho \\right] \\right)",
-					"\\left[ V, \\rho \\right]",
-					"\\Rep_\\Gamma",
-					"\\BZ",
-					"mathrm",
-					"textnormal",
-					"\\dot{\\uppsi}",
-					"\\cH_0^\\cN",
-					"\\cH_1^\\cN",
-					"Kathryn",
-					"Kathryn Chen",
-					"\\rd^{(a)} T_\\alpha^{(a)}",
-					"\\rd^{(a)} \\uppsi_a",
-					"\\rd T",
-					"\\rd \\uppsi",
-					"\\rd_t \\uppsi",
-					"\\cS",
-					"charbonneau_nahm_2022",
-					" ",
-					"Jaden",
-					"Jaden Chau",
-					"#abstract0",
-					"id=\"abstract0",
-					"You can continue your work",
-					"ineq:D_gap_1",
-					"E^\\cN"
+					"j",
+					"i",
+					"Yue",
+					"Yang",
+					"max_size",
+					"options[",
+					"brd",
+					"opt",
+					"board",
+					"opt",
+					"brd",
+					"sums",
+					"\",\"",
+					",\".\"",
+					" == 0:",
+					" == 0 and",
+					"stuff",
+					"\\ul{",
+					"\",\"",
+					"    ",
+					"//",
+					"\"",
+					"s = s + "
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
@@ -523,7 +558,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 34.0
+				"height": 37.0
 			},
 			"input":
 			{
@@ -537,7 +572,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 64.0
+				"height": 70.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -577,7 +612,7 @@
 			{
 			}
 		},
-		"new_window_width": 800.0
+		"new_window_width": 1920.0
 	},
 	"windows":
 	[
@@ -586,6 +621,94 @@
 			{
 				"selected_items":
 				[
+					[
+						"i_",
+						"i_min"
+					],
+					[
+						"i_m",
+						"i_max"
+					],
+					[
+						"l",
+						"l_E"
+					],
+					[
+						"n",
+						"numbers"
+					],
+					[
+						"shou",
+						"should_box"
+					],
+					[
+						"cha",
+						"change_counter"
+					],
+					[
+						"chga",
+						"change_counter"
+					],
+					[
+						"max",
+						"max_size"
+					],
+					[
+						"ma",
+						"max_ind"
+					],
+					[
+						"shoul",
+						"should_box"
+					],
+					[
+						"sh",
+						"should_row"
+					],
+					[
+						"no",
+						"not_done"
+					],
+					[
+						"th",
+						"threes"
+					],
+					[
+						"i",
+						"isValidSudoku"
+					],
+					[
+						"ra",
+						"raiser"
+					],
+					[
+						"d",
+						"digits"
+					],
+					[
+						"in",
+						"intToRoman"
+					],
+					[
+						"fru",
+						"fruits"
+					],
+					[
+						"fr",
+						"fruitscopy"
+					],
+					[
+						"marg",
+						"margin-top"
+					],
+					[
+						"Y",
+						"type"
+					],
+					[
+						"float",
+						"float64"
+					],
 					[
 						"margin-",
 						"margin-right"
@@ -597,10 +720,6 @@
 					[
 						"text",
 						"text-align"
-					],
-					[
-						"marg",
-						"margin-top"
 					],
 					[
 						"conti",
@@ -627,1818 +746,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm1/math145-midterm1.tex",
+					"file": "/home/akos/git/arch-backup/archinstall.txt",
 					"settings":
 					{
-						"buffer_size": 6028,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							4,
-							1,
-							"insert",
-							{
-								"characters": "15"
-							},
-							"AwAAACQUAAAAAAAAJRQAAAAAAAAAAAAAJRQAAAAAAAAlFAAAAAAAAAcAAAAxMCArIDEwJRQAAAAAAAAmFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACQUAAAAAAAAKxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							7,
-							1,
-							"insert",
-							{
-								"characters": "LEt"
-							},
-							"BAAAAEAUAAAAAAAAQRQAAAAAAAAAAAAAQRQAAAAAAABBFAAAAAAAAK4AAABJbiBhbGwgY2FzZXMgYmVsb3cgc3Vic2V0cyBvZiAkXHJsXjIkIGFyZSBlcXVpcHBlZCB3aXRoIHRoZSBldWNsaWRlYW4gbWV0cmljIChhbmQgdGh1cyB0aGUgc3RhbmRhcmQgdG9wb2xvZ3kpLiBQcm92ZSB0aGF0IHRoZXJlIGlzIGEgaG9tZW9tb3JwaGlzbSBiZXR3ZWVuIHRoZSBmb2xsb3dpbmcgc2V0czpBFAAAAAAAAEIUAAAAAAAAAAAAAEIUAAAAAAAAQxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEAUAAAAAAAA7hQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							8,
-							1,
-							"insert",
-							{
-								"characters": " $"
-							},
-							"AgAAAEMUAAAAAAAARBQAAAAAAAAAAAAARBQAAAAAAABFFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEMUAAAAAAAAQxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							9,
-							4,
-							"left_delete",
-							null,
-							"BAAAAEQUAAAAAAAARBQAAAAAAAABAAAAJEMUAAAAAAAAQxQAAAAAAAABAAAAIEIUAAAAAAAAQhQAAAAAAAABAAAAdEEUAAAAAAAAQRQAAAAAAAABAAAARQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEUUAAAAAAAARRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							10,
-							1,
-							"insert",
-							{
-								"characters": "et"
-							},
-							"AgAAAEEUAAAAAAAAQhQAAAAAAAAAAAAAQhQAAAAAAABDFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEEUAAAAAAAAQRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							11,
-							1,
-							"insert",
-							{
-								"characters": " $$"
-							},
-							"AwAAAEMUAAAAAAAARBQAAAAAAAAAAAAARBQAAAAAAABFFAAAAAAAAAAAAABFFAAAAAAAAEYUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEMUAAAAAAAAQxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							13,
-							1,
-							"insert",
-							{
-								"characters": "H"
-							},
-							"AQAAAEUUAAAAAAAARhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEUUAAAAAAAARRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							14,
-							1,
-							"insert",
-							{
-								"characters": " \\eqdeg"
-							},
-							"BwAAAEYUAAAAAAAARxQAAAAAAAAAAAAARxQAAAAAAABIFAAAAAAAAAAAAABIFAAAAAAAAEkUAAAAAAAAAAAAAEkUAAAAAAAAShQAAAAAAAAAAAAAShQAAAAAAABLFAAAAAAAAAAAAABLFAAAAAAAAEwUAAAAAAAAAAAAAEwUAAAAAAAATRQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEYUAAAAAAAARhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							15,
-							1,
-							"insert",
-							{
-								"characters": " \\left\\{"
-							},
-							"CAAAAE0UAAAAAAAAThQAAAAAAAAAAAAAThQAAAAAAABPFAAAAAAAAAAAAABPFAAAAAAAAFAUAAAAAAAAAAAAAFAUAAAAAAAAURQAAAAAAAAAAAAAURQAAAAAAABSFAAAAAAAAAAAAABSFAAAAAAAAFMUAAAAAAAAAAAAAFMUAAAAAAAAVBQAAAAAAAAAAAAAVBQAAAAAAABVFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAE0UAAAAAAAATRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							16,
-							1,
-							"insert",
-							{
-								"characters": "  \\right\\}"
-							},
-							"CgAAAFUUAAAAAAAAVhQAAAAAAAAAAAAAVhQAAAAAAABXFAAAAAAAAAAAAABXFAAAAAAAAFgUAAAAAAAAAAAAAFgUAAAAAAAAWRQAAAAAAAAAAAAAWRQAAAAAAABaFAAAAAAAAAAAAABaFAAAAAAAAFsUAAAAAAAAAAAAAFsUAAAAAAAAXBQAAAAAAAAAAAAAXBQAAAAAAABdFAAAAAAAAAAAAABdFAAAAAAAAF4UAAAAAAAAAAAAAF4UAAAAAAAAXxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFUUAAAAAAAAVRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							18,
-							1,
-							"insert",
-							{
-								"characters": "."
-							},
-							"AQAAAGAUAAAAAAAAYRQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGAUAAAAAAAAYBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							20,
-							1,
-							"insert_snippet",
-							{
-								"contents": "($0)"
-							},
-							"AQAAAFYUAAAAAAAAWBQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFYUAAAAAAAAVhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							23,
-							1,
-							"insert",
-							{
-								"characters": "x,"
-							},
-							"AgAAAFcUAAAAAAAAWBQAAAAAAAAAAAAAWBQAAAAAAABZFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFcUAAAAAAAAVxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							24,
-							1,
-							"insert",
-							{
-								"characters": " y"
-							},
-							"AgAAAFkUAAAAAAAAWhQAAAAAAAAAAAAAWhQAAAAAAABbFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFkUAAAAAAAAWRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							26,
-							1,
-							"insert",
-							{
-								"characters": " \\in"
-							},
-							"BAAAAFwUAAAAAAAAXRQAAAAAAAAAAAAAXRQAAAAAAABeFAAAAAAAAAAAAABeFAAAAAAAAF8UAAAAAAAAAAAAAF8UAAAAAAAAYBQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFwUAAAAAAAAXBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							27,
-							1,
-							"insert",
-							{
-								"characters": " rl^2"
-							},
-							"BQAAAGAUAAAAAAAAYRQAAAAAAAAAAAAAYRQAAAAAAABiFAAAAAAAAAAAAABiFAAAAAAAAGMUAAAAAAAAAAAAAGMUAAAAAAAAZBQAAAAAAAAAAAAAZBQAAAAAAABlFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGAUAAAAAAAAYBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							28,
-							1,
-							"insert",
-							{
-								"characters": " |"
-							},
-							"AgAAAGUUAAAAAAAAZhQAAAAAAAAAAAAAZhQAAAAAAABnFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGUUAAAAAAAAZRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							29,
-							1,
-							"left_delete",
-							null,
-							"AQAAAGYUAAAAAAAAZhQAAAAAAAABAAAAfA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGcUAAAAAAAAZxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							30,
-							1,
-							"insert",
-							{
-								"characters": "\\dmi"
-							},
-							"BAAAAGYUAAAAAAAAZxQAAAAAAAAAAAAAZxQAAAAAAABoFAAAAAAAAAAAAABoFAAAAAAAAGkUAAAAAAAAAAAAAGkUAAAAAAAAahQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGYUAAAAAAAAZhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							31,
-							3,
-							"left_delete",
-							null,
-							"AwAAAGkUAAAAAAAAaRQAAAAAAAABAAAAaWgUAAAAAAAAaBQAAAAAAAABAAAAbWcUAAAAAAAAZxQAAAAAAAABAAAAZA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGoUAAAAAAAAahQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							32,
-							1,
-							"insert",
-							{
-								"characters": "middle|"
-							},
-							"BwAAAGcUAAAAAAAAaBQAAAAAAAAAAAAAaBQAAAAAAABpFAAAAAAAAAAAAABpFAAAAAAAAGoUAAAAAAAAAAAAAGoUAAAAAAAAaxQAAAAAAAAAAAAAaxQAAAAAAABsFAAAAAAAAAAAAABsFAAAAAAAAG0UAAAAAAAAAAAAAG0UAAAAAAAAbhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGcUAAAAAAAAZxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							33,
-							1,
-							"insert",
-							{
-								"characters": " y"
-							},
-							"AgAAAG4UAAAAAAAAbxQAAAAAAAAAAAAAbxQAAAAAAABwFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG4UAAAAAAAAbhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							34,
-							1,
-							"insert",
-							{
-								"characters": " >"
-							},
-							"AgAAAHAUAAAAAAAAcRQAAAAAAAAAAAAAcRQAAAAAAAByFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHAUAAAAAAAAcBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							35,
-							1,
-							"insert",
-							{
-								"characters": " 0"
-							},
-							"AgAAAHIUAAAAAAAAcxQAAAAAAAAAAAAAcxQAAAAAAAB0FAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHIUAAAAAAAAchQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							38,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAH8UAAAAAAAAgBQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAH8UAAAAAAAAfxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							39,
-							2,
-							"left_delete",
-							null,
-							"AgAAAH8UAAAAAAAAfxQAAAAAAAABAAAAIH4UAAAAAAAAfhQAAAAAAAABAAAALg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIAUAAAAAAAAgBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							40,
-							1,
-							"insert",
-							{
-								"characters": " and"
-							},
-							"BAAAAH4UAAAAAAAAfxQAAAAAAAAAAAAAfxQAAAAAAACAFAAAAAAAAAAAAACAFAAAAAAAAIEUAAAAAAAAAAAAAIEUAAAAAAAAghQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAH4UAAAAAAAAfhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							41,
-							1,
-							"insert",
-							{
-								"characters": "\n\\begin"
-							},
-							"BwAAAIIUAAAAAAAAgxQAAAAAAAAAAAAAgxQAAAAAAACEFAAAAAAAAAAAAACEFAAAAAAAAIUUAAAAAAAAAAAAAIUUAAAAAAAAhhQAAAAAAAAAAAAAhhQAAAAAAACHFAAAAAAAAAAAAACHFAAAAAAAAIgUAAAAAAAAAAAAAIgUAAAAAAAAiRQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIIUAAAAAAAAghQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							42,
-							1,
-							"insert_snippet",
-							{
-								"contents": "{$0}"
-							},
-							"AQAAAIkUAAAAAAAAixQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIkUAAAAAAAAiRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							43,
-							1,
-							"insert",
-							{
-								"characters": "eqat"
-							},
-							"BAAAAIoUAAAAAAAAixQAAAAAAAAAAAAAixQAAAAAAACMFAAAAAAAAAAAAACMFAAAAAAAAI0UAAAAAAAAAAAAAI0UAAAAAAAAjhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIoUAAAAAAAAihQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							44,
-							2,
-							"left_delete",
-							null,
-							"AgAAAI0UAAAAAAAAjRQAAAAAAAABAAAAdIwUAAAAAAAAjBQAAAAAAAABAAAAYQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI4UAAAAAAAAjhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							45,
-							1,
-							"insert",
-							{
-								"characters": "quation"
-							},
-							"BwAAAIwUAAAAAAAAjRQAAAAAAAAAAAAAjRQAAAAAAACOFAAAAAAAAAAAAACOFAAAAAAAAI8UAAAAAAAAAAAAAI8UAAAAAAAAkBQAAAAAAAAAAAAAkBQAAAAAAACRFAAAAAAAAAAAAACRFAAAAAAAAJIUAAAAAAAAAAAAAJIUAAAAAAAAkxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIwUAAAAAAAAjBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							48,
-							1,
-							"left_delete",
-							null,
-							"AQAAAIwUAAAAAAAAjBQAAAAAAAABAAAAcQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI0UAAAAAAAAjRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							51,
-							1,
-							"insert",
-							{
-								"characters": "\n\\"
-							},
-							"AgAAAJMUAAAAAAAAlBQAAAAAAAAAAAAAlBQAAAAAAACVFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJMUAAAAAAAAkxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							52,
-							1,
-							"left_delete",
-							null,
-							"AQAAAJQUAAAAAAAAlBQAAAAAAAABAAAAXA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJUUAAAAAAAAlRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							53,
-							1,
-							"insert",
-							{
-								"characters": "]"
-							},
-							"AQAAAJQUAAAAAAAAlRQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJQUAAAAAAAAlBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							54,
-							1,
-							"left_delete",
-							null,
-							"AQAAAJQUAAAAAAAAlBQAAAAAAAABAAAAXQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJUUAAAAAAAAlRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							55,
-							1,
-							"insert",
-							{
-								"characters": "\n\\end"
-							},
-							"BQAAAJQUAAAAAAAAlRQAAAAAAAAAAAAAlRQAAAAAAACWFAAAAAAAAAAAAACWFAAAAAAAAJcUAAAAAAAAAAAAAJcUAAAAAAAAmBQAAAAAAAAAAAAAmBQAAAAAAACZFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJQUAAAAAAAAlBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							56,
-							1,
-							"insert_snippet",
-							{
-								"contents": "{$0}"
-							},
-							"AQAAAJkUAAAAAAAAmxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJkUAAAAAAAAmRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							57,
-							1,
-							"insert",
-							{
-								"characters": "equation"
-							},
-							"CAAAAJoUAAAAAAAAmxQAAAAAAAAAAAAAmxQAAAAAAACcFAAAAAAAAAAAAACcFAAAAAAAAJ0UAAAAAAAAAAAAAJ0UAAAAAAAAnhQAAAAAAAAAAAAAnhQAAAAAAACfFAAAAAAAAAAAAACfFAAAAAAAAKAUAAAAAAAAAAAAAKAUAAAAAAAAoRQAAAAAAAAAAAAAoRQAAAAAAACiFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJoUAAAAAAAAmhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							59,
-							1,
-							"reindent",
-							null,
-							"AQAAAJQUAAAAAAAAlRQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJQUAAAAAAAAlBQAAAAAAAAAAAAAAEBgQA"
-						],
-						[
-							60,
-							1,
-							"insert",
-							{
-								"characters": "f"
-							},
-							"AQAAAJUUAAAAAAAAlhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJUUAAAAAAAAlRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							61,
-							1,
-							"insert",
-							{
-								"characters": " :"
-							},
-							"AgAAAJYUAAAAAAAAlxQAAAAAAAAAAAAAlxQAAAAAAACYFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJYUAAAAAAAAlhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							62,
-							1,
-							"insert",
-							{
-								"characters": " H"
-							},
-							"AgAAAJgUAAAAAAAAmRQAAAAAAAAAAAAAmRQAAAAAAACaFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJgUAAAAAAAAmBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							63,
-							1,
-							"insert",
-							{
-								"characters": " \\rightarrow"
-							},
-							"DAAAAJoUAAAAAAAAmxQAAAAAAAAAAAAAmxQAAAAAAACcFAAAAAAAAAAAAACcFAAAAAAAAJ0UAAAAAAAAAAAAAJ0UAAAAAAAAnhQAAAAAAAAAAAAAnhQAAAAAAACfFAAAAAAAAAAAAACfFAAAAAAAAKAUAAAAAAAAAAAAAKAUAAAAAAAAoRQAAAAAAAAAAAAAoRQAAAAAAACiFAAAAAAAAAAAAACiFAAAAAAAAKMUAAAAAAAAAAAAAKMUAAAAAAAApBQAAAAAAAAAAAAApBQAAAAAAAClFAAAAAAAAAAAAAClFAAAAAAAAKYUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJoUAAAAAAAAmhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							64,
-							1,
-							"insert",
-							{
-								"characters": " H;"
-							},
-							"AwAAAKYUAAAAAAAApxQAAAAAAAAAAAAApxQAAAAAAACoFAAAAAAAAAAAAACoFAAAAAAAAKkUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKYUAAAAAAAAphQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							65,
-							1,
-							"insert",
-							{
-								"characters": " \\:"
-							},
-							"AwAAAKkUAAAAAAAAqhQAAAAAAAAAAAAAqhQAAAAAAACrFAAAAAAAAAAAAACrFAAAAAAAAKwUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKkUAAAAAAAAqRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							66,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAKwUAAAAAAAArRQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKwUAAAAAAAArBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							67,
-							1,
-							"insert_snippet",
-							{
-								"contents": "($0)"
-							},
-							"AQAAAK0UAAAAAAAArxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAK0UAAAAAAAArRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							70,
-							1,
-							"insert",
-							{
-								"characters": "x,"
-							},
-							"AgAAAK4UAAAAAAAArxQAAAAAAAAAAAAArxQAAAAAAACwFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAK4UAAAAAAAArhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							71,
-							1,
-							"insert",
-							{
-								"characters": " y"
-							},
-							"AgAAALAUAAAAAAAAsRQAAAAAAAAAAAAAsRQAAAAAAACyFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALAUAAAAAAAAsBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							73,
-							1,
-							"insert",
-							{
-								"characters": " \\mapstol"
-							},
-							"CQAAALMUAAAAAAAAtBQAAAAAAAAAAAAAtBQAAAAAAAC1FAAAAAAAAAAAAAC1FAAAAAAAALYUAAAAAAAAAAAAALYUAAAAAAAAtxQAAAAAAAAAAAAAtxQAAAAAAAC4FAAAAAAAAAAAAAC4FAAAAAAAALkUAAAAAAAAAAAAALkUAAAAAAAAuhQAAAAAAAAAAAAAuhQAAAAAAAC7FAAAAAAAAAAAAAC7FAAAAAAAALwUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALMUAAAAAAAAsxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							74,
-							1,
-							"insert",
-							{
-								"characters": " \\"
-							},
-							"AgAAALwUAAAAAAAAvRQAAAAAAAAAAAAAvRQAAAAAAAC+FAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALwUAAAAAAAAvBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							75,
-							4,
-							"left_delete",
-							null,
-							"BAAAAL0UAAAAAAAAvRQAAAAAAAABAAAAXLwUAAAAAAAAvBQAAAAAAAABAAAAILsUAAAAAAAAuxQAAAAAAAABAAAAbLoUAAAAAAAAuhQAAAAAAAABAAAAbw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAL4UAAAAAAAAvhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							76,
-							1,
-							"insert",
-							{
-								"characters": "o"
-							},
-							"AQAAALoUAAAAAAAAuxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALoUAAAAAAAAuhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							77,
-							1,
-							"insert",
-							{
-								"characters": " \\left"
-							},
-							"BgAAALsUAAAAAAAAvBQAAAAAAAAAAAAAvBQAAAAAAAC9FAAAAAAAAAAAAAC9FAAAAAAAAL4UAAAAAAAAAAAAAL4UAAAAAAAAvxQAAAAAAAAAAAAAvxQAAAAAAADAFAAAAAAAAAAAAADAFAAAAAAAAMEUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALsUAAAAAAAAuxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							78,
-							1,
-							"insert_snippet",
-							{
-								"contents": "($0)"
-							},
-							"AQAAAMEUAAAAAAAAwxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMEUAAAAAAAAwRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							79,
-							1,
-							"insert",
-							{
-								"characters": "  \\right"
-							},
-							"CAAAAMIUAAAAAAAAwxQAAAAAAAAAAAAAwxQAAAAAAADEFAAAAAAAAAAAAADEFAAAAAAAAMUUAAAAAAAAAAAAAMUUAAAAAAAAxhQAAAAAAAAAAAAAxhQAAAAAAADHFAAAAAAAAAAAAADHFAAAAAAAAMgUAAAAAAAAAAAAAMgUAAAAAAAAyRQAAAAAAAAAAAAAyRQAAAAAAADKFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMIUAAAAAAAAwhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							81,
-							1,
-							"insert",
-							{
-								"characters": "\\tfrac"
-							},
-							"BgAAAMMUAAAAAAAAxBQAAAAAAAAAAAAAxBQAAAAAAADFFAAAAAAAAAAAAADFFAAAAAAAAMYUAAAAAAAAAAAAAMYUAAAAAAAAxxQAAAAAAAAAAAAAxxQAAAAAAADIFAAAAAAAAAAAAADIFAAAAAAAAMkUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMMUAAAAAAAAwxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							82,
-							1,
-							"insert_snippet",
-							{
-								"contents": "{$0}"
-							},
-							"AQAAAMkUAAAAAAAAyxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMkUAAAAAAAAyRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							83,
-							1,
-							"insert",
-							{
-								"characters": "-"
-							},
-							"AQAAAMoUAAAAAAAAyxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMoUAAAAAAAAyhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							84,
-							1,
-							"insert",
-							{
-								"characters": " x"
-							},
-							"AgAAAMsUAAAAAAAAzBQAAAAAAAAAAAAAzBQAAAAAAADNFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMsUAAAAAAAAyxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							86,
-							1,
-							"insert_snippet",
-							{
-								"contents": "{$0}"
-							},
-							"AQAAAM4UAAAAAAAA0BQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAM4UAAAAAAAAzhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							87,
-							1,
-							"insert",
-							{
-								"characters": "x"
-							},
-							"AQAAAM8UAAAAAAAA0BQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAM8UAAAAAAAAzxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							88,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAANAUAAAAAAAA0RQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANAUAAAAAAAA0BQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							89,
-							1,
-							"left_delete",
-							null,
-							"AQAAANAUAAAAAAAA0BQAAAAAAAABAAAAIA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANEUAAAAAAAA0RQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							90,
-							1,
-							"insert",
-							{
-								"characters": "^2"
-							},
-							"AgAAANAUAAAAAAAA0RQAAAAAAAAAAAAA0RQAAAAAAADSFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANAUAAAAAAAA0BQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							91,
-							1,
-							"insert",
-							{
-								"characters": " +"
-							},
-							"AgAAANIUAAAAAAAA0xQAAAAAAAAAAAAA0xQAAAAAAADUFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANIUAAAAAAAA0hQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							92,
-							1,
-							"insert",
-							{
-								"characters": " y^2"
-							},
-							"BAAAANQUAAAAAAAA1RQAAAAAAAAAAAAA1RQAAAAAAADWFAAAAAAAAAAAAADWFAAAAAAAANcUAAAAAAAAAAAAANcUAAAAAAAA2BQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANQUAAAAAAAA1BQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							94,
-							1,
-							"insert",
-							{
-								"characters": ","
-							},
-							"AQAAANkUAAAAAAAA2hQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANkUAAAAAAAA2RQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							95,
-							1,
-							"insert",
-							{
-								"characters": " \\tfrac"
-							},
-							"BwAAANoUAAAAAAAA2xQAAAAAAAAAAAAA2xQAAAAAAADcFAAAAAAAAAAAAADcFAAAAAAAAN0UAAAAAAAAAAAAAN0UAAAAAAAA3hQAAAAAAAAAAAAA3hQAAAAAAADfFAAAAAAAAAAAAADfFAAAAAAAAOAUAAAAAAAAAAAAAOAUAAAAAAAA4RQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANoUAAAAAAAA2hQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							96,
-							1,
-							"insert_snippet",
-							{
-								"contents": "{$0}"
-							},
-							"AQAAAOEUAAAAAAAA4xQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOEUAAAAAAAA4RQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							97,
-							1,
-							"insert",
-							{
-								"characters": "y"
-							},
-							"AQAAAOIUAAAAAAAA4xQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOIUAAAAAAAA4hQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							99,
-							1,
-							"insert_snippet",
-							{
-								"contents": "{$0}"
-							},
-							"AQAAAOQUAAAAAAAA5hQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOQUAAAAAAAA5BQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							100,
-							1,
-							"insert",
-							{
-								"characters": "x^2"
-							},
-							"AwAAAOUUAAAAAAAA5hQAAAAAAAAAAAAA5hQAAAAAAADnFAAAAAAAAAAAAADnFAAAAAAAAOgUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOUUAAAAAAAA5RQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							101,
-							1,
-							"insert",
-							{
-								"characters": " +"
-							},
-							"AgAAAOgUAAAAAAAA6RQAAAAAAAAAAAAA6RQAAAAAAADqFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOgUAAAAAAAA6BQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							102,
-							1,
-							"insert",
-							{
-								"characters": " y^2"
-							},
-							"BAAAAOoUAAAAAAAA6xQAAAAAAAAAAAAA6xQAAAAAAADsFAAAAAAAAAAAAADsFAAAAAAAAO0UAAAAAAAAAAAAAO0UAAAAAAAA7hQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOoUAAAAAAAA6hQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							107,
-							1,
-							"insert",
-							{
-								"characters": "."
-							},
-							"AQAAAPcUAAAAAAAA+BQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPcUAAAAAAAA9xQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							109,
-							1,
-							"insert",
-							{
-								"characters": "\nShow"
-							},
-							"BQAAAAcVAAAAAAAACBUAAAAAAAAAAAAACBUAAAAAAAAJFQAAAAAAAAAAAAAJFQAAAAAAAAoVAAAAAAAAAAAAAAoVAAAAAAAACxUAAAAAAAAAAAAACxUAAAAAAAAMFQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAcVAAAAAAAABxUAAAAAAAAAAAAAABiQQA"
-						],
-						[
-							110,
-							1,
-							"insert",
-							{
-								"characters": " that"
-							},
-							"BQAAAAwVAAAAAAAADRUAAAAAAAAAAAAADRUAAAAAAAAOFQAAAAAAAAAAAAAOFQAAAAAAAA8VAAAAAAAAAAAAAA8VAAAAAAAAEBUAAAAAAAAAAAAAEBUAAAAAAAARFQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAwVAAAAAAAADBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							111,
-							1,
-							"insert",
-							{
-								"characters": " $$"
-							},
-							"AwAAABEVAAAAAAAAEhUAAAAAAAAAAAAAEhUAAAAAAAATFQAAAAAAAAAAAAATFQAAAAAAABQVAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABEVAAAAAAAAERUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							113,
-							1,
-							"insert",
-							{
-								"characters": "f"
-							},
-							"AQAAABMVAAAAAAAAFBUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABMVAAAAAAAAExUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							115,
-							1,
-							"insert",
-							{
-								"characters": " is"
-							},
-							"AwAAABUVAAAAAAAAFhUAAAAAAAAAAAAAFhUAAAAAAAAXFQAAAAAAAAAAAAAXFQAAAAAAABgVAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABUVAAAAAAAAFRUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							116,
-							1,
-							"insert",
-							{
-								"characters": " a"
-							},
-							"AgAAABgVAAAAAAAAGRUAAAAAAAAAAAAAGRUAAAAAAAAaFQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABgVAAAAAAAAGBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							117,
-							1,
-							"insert",
-							{
-								"characters": " homeomor"
-							},
-							"CQAAABoVAAAAAAAAGxUAAAAAAAAAAAAAGxUAAAAAAAAcFQAAAAAAAAAAAAAcFQAAAAAAAB0VAAAAAAAAAAAAAB0VAAAAAAAAHhUAAAAAAAAAAAAAHhUAAAAAAAAfFQAAAAAAAAAAAAAfFQAAAAAAACAVAAAAAAAAAAAAACAVAAAAAAAAIRUAAAAAAAAAAAAAIRUAAAAAAAAiFQAAAAAAAAAAAAAiFQAAAAAAACMVAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABoVAAAAAAAAGhUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							118,
-							1,
-							"insert",
-							{
-								"characters": "phism."
-							},
-							"BgAAACMVAAAAAAAAJBUAAAAAAAAAAAAAJBUAAAAAAAAlFQAAAAAAAAAAAAAlFQAAAAAAACYVAAAAAAAAAAAAACYVAAAAAAAAJxUAAAAAAAAAAAAAJxUAAAAAAAAoFQAAAAAAAAAAAAAoFQAAAAAAACkVAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACMVAAAAAAAAIxUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							121,
-							1,
-							"insert",
-							{
-								"characters": " with"
-							},
-							"BQAAAH4UAAAAAAAAfxQAAAAAAAAAAAAAfxQAAAAAAACAFAAAAAAAAAAAAACAFAAAAAAAAIEUAAAAAAAAAAAAAIEUAAAAAAAAghQAAAAAAAAAAAAAghQAAAAAAACDFAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAH4UAAAAAAAAfhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							122,
-							1,
-							"insert",
-							{
-								"characters": " the"
-							},
-							"BAAAAIMUAAAAAAAAhBQAAAAAAAAAAAAAhBQAAAAAAACFFAAAAAAAAAAAAACFFAAAAAAAAIYUAAAAAAAAAAAAAIYUAAAAAAAAhxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIMUAAAAAAAAgxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							123,
-							1,
-							"insert",
-							{
-								"characters": " standard"
-							},
-							"CQAAAIcUAAAAAAAAiBQAAAAAAAAAAAAAiBQAAAAAAACJFAAAAAAAAAAAAACJFAAAAAAAAIoUAAAAAAAAAAAAAIoUAAAAAAAAixQAAAAAAAAAAAAAixQAAAAAAACMFAAAAAAAAAAAAACMFAAAAAAAAI0UAAAAAAAAAAAAAI0UAAAAAAAAjhQAAAAAAAAAAAAAjhQAAAAAAACPFAAAAAAAAAAAAACPFAAAAAAAAJAUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIcUAAAAAAAAhxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							124,
-							1,
-							"insert",
-							{
-								"characters": " topology."
-							},
-							"CgAAAJAUAAAAAAAAkRQAAAAAAAAAAAAAkRQAAAAAAACSFAAAAAAAAAAAAACSFAAAAAAAAJMUAAAAAAAAAAAAAJMUAAAAAAAAlBQAAAAAAAAAAAAAlBQAAAAAAACVFAAAAAAAAAAAAACVFAAAAAAAAJYUAAAAAAAAAAAAAJYUAAAAAAAAlxQAAAAAAAAAAAAAlxQAAAAAAACYFAAAAAAAAAAAAACYFAAAAAAAAJkUAAAAAAAAAAAAAJkUAAAAAAAAmhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJAUAAAAAAAAkBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							125,
-							1,
-							"left_delete",
-							null,
-							"AQAAAJkUAAAAAAAAmRQAAAAAAAABAAAALg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJoUAAAAAAAAmhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							126,
-							1,
-							"insert",
-							{
-								"characters": "."
-							},
-							"AQAAAJkUAAAAAAAAmhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJkUAAAAAAAAmRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							127,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAJoUAAAAAAAAmxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJoUAAAAAAAAmhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							128,
-							2,
-							"left_delete",
-							null,
-							"AgAAAJoUAAAAAAAAmhQAAAAAAAABAAAAIJkUAAAAAAAAmRQAAAAAAAABAAAALg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJsUAAAAAAAAmxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							129,
-							1,
-							"insert",
-							{
-								"characters": ","
-							},
-							"AQAAAJkUAAAAAAAAmhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJkUAAAAAAAAmRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							131,
-							1,
-							"insert",
-							{
-								"characters": ","
-							},
-							"AQAAAH4UAAAAAAAAfxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAH4UAAAAAAAAfhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							137,
-							1,
-							"insert",
-							{
-								"characters": " let"
-							},
-							"BAAAAJ8UAAAAAAAAoBQAAAAAAAAAAAAAoBQAAAAAAAChFAAAAAAAAAAAAAChFAAAAAAAAKIUAAAAAAAAAAAAAKIUAAAAAAAAoxQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJ8UAAAAAAAAnxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							138,
-							1,
-							"insert",
-							{
-								"characters": " us"
-							},
-							"AwAAAKMUAAAAAAAApBQAAAAAAAAAAAAApBQAAAAAAAClFAAAAAAAAAAAAAClFAAAAAAAAKYUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKMUAAAAAAAAoxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							139,
-							1,
-							"insert",
-							{
-								"characters": " define"
-							},
-							"BwAAAKYUAAAAAAAApxQAAAAAAAAAAAAApxQAAAAAAACoFAAAAAAAAAAAAACoFAAAAAAAAKkUAAAAAAAAAAAAAKkUAAAAAAAAqhQAAAAAAAAAAAAAqhQAAAAAAACrFAAAAAAAAAAAAACrFAAAAAAAAKwUAAAAAAAAAAAAAKwUAAAAAAAArRQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKYUAAAAAAAAphQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							142,
-							1,
-							"left_delete",
-							null,
-							"AQAAAFQVAAAAAAAAVBUAAAAAAAA9AQAACgpcYmVnaW57ZW51bWVyYXRlfQoKCVxpdGVtc2VwMGVtCglccGFyc2tpcDBlbQoKCVxpdGVtWyhpKV0gJFxybF4yJCBhbmQgdGhlIG9wZW4gYmFsbCAkQiBcZXFkZWYgQiBcbGVmdCggKDAsIDApLCAxIFxyaWdodCkgPSBcbGVmdFx7ICh4LCB5KSBcbWlkZGxlfCB4XjIgKyB5XjIgPCAxIFxyaWdodFx9JC4KCglcaXRlbVsoaWkpXSAkXHJsXjIkIGFuZCB0aGUgc3F1YXJlICRTIFxlcWRlZiAoLSAxLCAxKSBcdGltZXMgKC0gMSwgMSkgPSBcbGVmdFx7ICh4LCB5KSBcbWlkZGxlfCB4LCB5IFxpbiAoLSAxLCAxKSBccmlnaHRcfSQuCgpcZW5ke2VudW1lcmF0ZX0",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFQVAAAAAAAAkRYAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							148,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAAFQVAAAAAAAAVRUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFQVAAAAAAAAVBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							149,
-							1,
-							"paste",
-							null,
-							"AQAAAFUVAAAAAAAAlhUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFUVAAAAAAAAVRUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							152,
-							1,
-							"insert",
-							{
-								"characters": "Compute"
-							},
-							"CAAAAGcVAAAAAAAAaBUAAAAAAAAAAAAAaBUAAAAAAABoFQAAAAAAAC0AAABTaG93IGEgY29tcGxldGUgc29sdXRpb24gYW5kIGFsbCBvZiB5b3VyIHdvcmtoFQAAAAAAAGkVAAAAAAAAAAAAAGkVAAAAAAAAahUAAAAAAAAAAAAAahUAAAAAAABrFQAAAAAAAAAAAABrFQAAAAAAAGwVAAAAAAAAAAAAAGwVAAAAAAAAbRUAAAAAAAAAAAAAbRUAAAAAAABuFQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGcVAAAAAAAAlBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							153,
-							1,
-							"insert",
-							{
-								"characters": " $$"
-							},
-							"AwAAAG4VAAAAAAAAbxUAAAAAAAAAAAAAbxUAAAAAAABwFQAAAAAAAAAAAABwFQAAAAAAAHEVAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG4VAAAAAAAAbhUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							155,
-							1,
-							"insert",
-							{
-								"characters": "f"
-							},
-							"AQAAAHAVAAAAAAAAcRUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHAVAAAAAAAAcBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							156,
-							1,
-							"insert",
-							{
-								"characters": " \\circ"
-							},
-							"BgAAAHEVAAAAAAAAchUAAAAAAAAAAAAAchUAAAAAAABzFQAAAAAAAAAAAABzFQAAAAAAAHQVAAAAAAAAAAAAAHQVAAAAAAAAdRUAAAAAAAAAAAAAdRUAAAAAAAB2FQAAAAAAAAAAAAB2FQAAAAAAAHcVAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHEVAAAAAAAAcRUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							157,
-							1,
-							"insert",
-							{
-								"characters": " f"
-							},
-							"AgAAAHcVAAAAAAAAeBUAAAAAAAAAAAAAeBUAAAAAAAB5FQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHcVAAAAAAAAdxUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							160,
-							7,
-							"left_delete",
-							null,
-							"BwAAAG0VAAAAAAAAbRUAAAAAAAABAAAAZWwVAAAAAAAAbBUAAAAAAAABAAAAdGsVAAAAAAAAaxUAAAAAAAABAAAAdWoVAAAAAAAAahUAAAAAAAABAAAAcGkVAAAAAAAAaRUAAAAAAAABAAAAbWgVAAAAAAAAaBUAAAAAAAABAAAAb2cVAAAAAAAAZxUAAAAAAAABAAAAQw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG4VAAAAAAAAbhUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							161,
-							1,
-							"insert",
-							{
-								"characters": "First,"
-							},
-							"BgAAAGcVAAAAAAAAaBUAAAAAAAAAAAAAaBUAAAAAAABpFQAAAAAAAAAAAABpFQAAAAAAAGoVAAAAAAAAAAAAAGoVAAAAAAAAaxUAAAAAAAAAAAAAaxUAAAAAAABsFQAAAAAAAAAAAABsFQAAAAAAAG0VAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGcVAAAAAAAAZxUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							162,
-							1,
-							"insert",
-							{
-								"characters": " try"
-							},
-							"BAAAAG0VAAAAAAAAbhUAAAAAAAAAAAAAbhUAAAAAAABvFQAAAAAAAAAAAABvFQAAAAAAAHAVAAAAAAAAAAAAAHAVAAAAAAAAcRUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG0VAAAAAAAAbRUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							163,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAHEVAAAAAAAAchUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHEVAAAAAAAAcRUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							164,
-							4,
-							"left_delete",
-							null,
-							"BAAAAHEVAAAAAAAAcRUAAAAAAAABAAAAIHAVAAAAAAAAcBUAAAAAAAABAAAAeW8VAAAAAAAAbxUAAAAAAAABAAAAcm4VAAAAAAAAbhUAAAAAAAABAAAAdA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHIVAAAAAAAAchUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							165,
-							1,
-							"insert",
-							{
-								"characters": "compute"
-							},
-							"BwAAAG4VAAAAAAAAbxUAAAAAAAAAAAAAbxUAAAAAAABwFQAAAAAAAAAAAABwFQAAAAAAAHEVAAAAAAAAAAAAAHEVAAAAAAAAchUAAAAAAAAAAAAAchUAAAAAAABzFQAAAAAAAAAAAABzFQAAAAAAAHQVAAAAAAAAAAAAAHQVAAAAAAAAdRUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG4VAAAAAAAAbhUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							168,
-							1,
-							"left_delete",
-							null,
-							"AQAAAEwUAAAAAAAATBQAAAAAAAABAAAAZw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAE0UAAAAAAAATRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							169,
-							1,
-							"insert",
-							{
-								"characters": "f"
-							},
-							"AQAAAEwUAAAAAAAATRQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEwUAAAAAAAATBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							172,
-							1,
-							"insert",
-							{
-								"characters": "\\"
-							},
-							"AQAAAGEUAAAAAAAAYhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGEUAAAAAAAAYRQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							176,
-							1,
-							"left_delete",
-							null,
-							"AQAAABAAAAAAAAAAEAAAAAAAAAABAAAAMg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABEAAAAAAAAAEQAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							177,
-							1,
-							"insert",
-							{
-								"characters": "1"
-							},
-							"AQAAABAAAAAAAAAAEQAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							181,
-							1,
-							"",
-							null,
-							"BQAAAA4UAAAAAAAAGhQAAAAAAAAJAAAAXHNlY3Rpb24qpBEAAAAAAACwEQAAAAAAAAkAAABcc2VjdGlvbipjDgAAAAAAAG8OAAAAAAAACQAAAFxzZWN0aW9uKkoNAAAAAAAAVg0AAAAAAAAJAAAAXHNlY3Rpb24qtgoAAAAAAADCCgAAAAAAAAkAAABcc2VjdGlvbio",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABcUAAAAAAAADhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							186,
-							4,
-							"left_delete",
-							null,
-							"BAAAADgUAAAAAAAAOBQAAAAAAAACAAAAMjA3FAAAAAAAADcUAAAAAAAAAQAAACA2FAAAAAAAADYUAAAAAAAAAQAAAD01FAAAAAAAADUUAAAAAAAAAQAAACA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADgUAAAAAAAAOhQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							191,
-							1,
-							"insert",
-							{
-								"characters": "Prove"
-							},
-							"BgAAAD4VAAAAAAAAPxUAAAAAAAAAAAAAPxUAAAAAAAA/FQAAAAAAAAQAAABTaG93PxUAAAAAAABAFQAAAAAAAAAAAABAFQAAAAAAAEEVAAAAAAAAAAAAAEEVAAAAAAAAQhUAAAAAAAAAAAAAQhUAAAAAAABDFQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD4VAAAAAAAAQhUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							194,
-							1,
-							"insert",
-							{
-								"characters": "\\\\"
-							},
-							"AgAAAGAVAAAAAAAAYRUAAAAAAAAAAAAAYRUAAAAAAABiFQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGAVAAAAAAAAYBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							195,
-							2,
-							"left_delete",
-							null,
-							"AgAAAGEVAAAAAAAAYRUAAAAAAAABAAAAXGAVAAAAAAAAYBUAAAAAAAABAAAAXA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGIVAAAAAAAAYhUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							196,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAAGAVAAAAAAAAYRUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGAVAAAAAAAAYBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							199,
-							1,
-							"insert",
-							{
-								"characters": "Hint:"
-							},
-							"BQAAAHQVAAAAAAAAdRUAAAAAAAAAAAAAdRUAAAAAAAB2FQAAAAAAAAAAAAB2FQAAAAAAAHcVAAAAAAAAAAAAAHcVAAAAAAAAeBUAAAAAAAAAAAAAeBUAAAAAAAB5FQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHQVAAAAAAAAdBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							200,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAHkVAAAAAAAAehUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHkVAAAAAAAAeRUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							203,
-							1,
-							"insert",
-							{
-								"characters": " \\:"
-							},
-							"AwAAAF8UAAAAAAAAYBQAAAAAAAAAAAAAYBQAAAAAAABhFAAAAAAAAAAAAABhFAAAAAAAAGIUAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAF8UAAAAAAAAXxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							208,
-							1,
-							"paste",
-							null,
-							"AQAAAHMUAAAAAAAAdhQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHMUAAAAAAAAcxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							211,
-							1,
-							"paste",
-							null,
-							"AQAAAH8UAAAAAAAAghQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAH8UAAAAAAAAfxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							214,
-							1,
-							"paste",
-							null,
-							"AQAAAIgUAAAAAAAAixQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIgUAAAAAAAAiBQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							217,
-							1,
-							"paste",
-							null,
-							"AQAAACUSAAAAAAAAKBIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACUSAAAAAAAAJRIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							220,
-							1,
-							"paste",
-							null,
-							"AQAAADYSAAAAAAAAORIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADYSAAAAAAAANhIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							223,
-							1,
-							"paste",
-							null,
-							"AQAAAEISAAAAAAAARRIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEISAAAAAAAAQhIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							226,
-							1,
-							"paste",
-							null,
-							"AQAAAF0SAAAAAAAAYBIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAF0SAAAAAAAAXRIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							229,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AgAAAIkSAAAAAAAAihIAAAAAAAAAAAAAihIAAAAAAACLEgAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIkSAAAAAAAAiRIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							231,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AwAAAO0SAAAAAAAA7hIAAAAAAAAAAAAA7hIAAAAAAADvEgAAAAAAAAAAAACKEgAAAAAAAIoSAAAAAAAAAQAAAAk",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAO0SAAAAAAAA7RIAAAAAAAAAAAAAAABEQA"
-						],
-						[
-							233,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AgAAADkTAAAAAAAAOhMAAAAAAAAAAAAAOhMAAAAAAAA7EwAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADkTAAAAAAAAORMAAAAAAAD////////vfw"
-						],
-						[
-							244,
-							1,
-							"paste",
-							null,
-							"AQAAAPsKAAAAAAAA/goAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPsKAAAAAAAA+woAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							247,
-							1,
-							"paste",
-							null,
-							"AQAAABwLAAAAAAAAHwsAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABwLAAAAAAAAHAsAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							250,
-							1,
-							"paste",
-							null,
-							"AQAAACgLAAAAAAAAKwsAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACgLAAAAAAAAKAsAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							255,
-							1,
-							"paste",
-							null,
-							"AQAAAHoLAAAAAAAAfQsAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHoLAAAAAAAAegsAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							258,
-							1,
-							"paste",
-							null,
-							"AQAAACIPAAAAAAAAJQ8AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACIPAAAAAAAAIg8AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							261,
-							1,
-							"paste",
-							null,
-							"AQAAAD0PAAAAAAAAQA8AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD0PAAAAAAAAPQ8AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							264,
-							1,
-							"paste",
-							null,
-							"AQAAAEkPAAAAAAAATA8AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEkPAAAAAAAASQ8AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							267,
-							1,
-							"paste",
-							null,
-							"AQAAAFYPAAAAAAAAWQ8AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFYPAAAAAAAAVg8AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							295,
-							1,
-							"paste",
-							null,
-							"AQAAANMPAAAAAAAA8A8AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANMPAAAAAAAA0w8AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							300,
-							1,
-							"paste",
-							null,
-							"AQAAAL4SAAAAAAAA2xIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAL4SAAAAAAAAvhIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							315,
-							1,
-							"insert",
-							{
-								"characters": " $"
-							},
-							"BAAAADUSAAAAAAAANhIAAAAAAAAAAAAANhIAAAAAAAA2EgAAAAAAABMAAAAKXGJlZ2lue2VxdWF0aW9ufQoJehMAAAAAAAB6EwAAAAAAAAEAAAAJNhIAAAAAAAA3EgAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEgSAAAAAAAANRIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							318,
-							1,
-							"insert",
-							{
-								"characters": "$"
-							},
-							"AQAAAI0SAAAAAAAAjhIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI0SAAAAAAAAjRIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							321,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AgAAAI8SAAAAAAAAkBIAAAAAAAAAAAAAkBIAAAAAAACQEgAAAAAAAA8AAAAKXGVuZHtlcXVhdGlvbn0",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI8SAAAAAAAAnhIAAAAAAAAAAAAAALCTQA"
-						],
-						[
-							322,
-							1,
-							"left_delete",
-							null,
-							"AQAAAI8SAAAAAAAAjxIAAAAAAAABAAAACg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJASAAAAAAAAkBIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							327,
-							1,
-							"insert",
-							{
-								"characters": "$$"
-							},
-							"AwAAANQSAAAAAAAA1RIAAAAAAAAAAAAA1RIAAAAAAADVEgAAAAAAAAIAAABpdNUSAAAAAAAA1hIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANQSAAAAAAAA1hIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							329,
-							1,
-							"insert",
-							{
-								"characters": "\\"
-							},
-							"AQAAANUSAAAAAAAA1hIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANUSAAAAAAAA1RIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							332,
-							1,
-							"insert",
-							{
-								"characters": "cT"
-							},
-							"AgAAANYSAAAAAAAA1xIAAAAAAAAAAAAA1xIAAAAAAADYEgAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANYSAAAAAAAA1hIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							335,
-							1,
-							"insert",
-							{
-								"characters": "$$"
-							},
-							"AwAAAFkTAAAAAAAAWhMAAAAAAAAAAAAAWhMAAAAAAABaEwAAAAAAABUAAAB0aGUgY29maW5pdGUgdG9wb2xvZ3laEwAAAAAAAFsTAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFkTAAAAAAAAbhMAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							337,
-							1,
-							"insert",
-							{
-								"characters": "c"
-							},
-							"AQAAAFoTAAAAAAAAWxMAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFoTAAAAAAAAWhMAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							338,
-							1,
-							"left_delete",
-							null,
-							"AQAAAFoTAAAAAAAAWhMAAAAAAAABAAAAYw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFsTAAAAAAAAWxMAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							339,
-							1,
-							"insert",
-							{
-								"characters": "\\cT"
-							},
-							"AwAAAFoTAAAAAAAAWxMAAAAAAAAAAAAAWxMAAAAAAABcEwAAAAAAAAAAAABcEwAAAAAAAF0TAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFoTAAAAAAAAWhMAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							342,
-							1,
-							"left_delete",
-							null,
-							"AQAAAO4SAAAAAAAA7hIAAAAAAAAxAAAAICh3aGljaCB3ZSBjYWxsZWQgdGhlIGNvZmluaXRlIHRvcG9sb2d5IGluIGNsYXNzKQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAO4SAAAAAAAAHxMAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							357,
-							1,
-							"insert",
-							{
-								"characters": "amsr"
-							},
-							"BQAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAAqAAAAAAAAAAQAAABib29rKgAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALQAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACkAAAAAAAAALQAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							358,
-							1,
-							"left_delete",
-							null,
-							"AQAAACwAAAAAAAAALAAAAAAAAAABAAAAcg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC0AAAAAAAAALQAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							359,
-							1,
-							"insert",
-							{
-								"characters": "art"
-							},
-							"AwAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACwAAAAAAAAALAAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							367,
-							1,
-							"left_delete",
-							null,
-							"AQAAAM4KAAAAAAAAzgoAAAAAAAABAAAALg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAM8KAAAAAAAAzwoAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							370,
-							1,
-							"insert",
-							{
-								"characters": ":"
-							},
-							"AQAAANoKAAAAAAAA2woAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANoKAAAAAAAA2goAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							375,
-							1,
-							"insert",
-							{
-								"characters": ":"
-							},
-							"AQAAAIgNAAAAAAAAiQ0AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIgNAAAAAAAAiA0AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							378,
-							1,
-							"left_delete",
-							null,
-							"AQAAAHENAAAAAAAAcQ0AAAAAAAABAAAALg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHINAAAAAAAAcg0AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							382,
-							1,
-							"left_delete",
-							null,
-							"AQAAAI0OAAAAAAAAjQ4AAAAAAAABAAAALg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI4OAAAAAAAAjg4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							383,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAI0OAAAAAAAAjg4AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI0OAAAAAAAAjQ4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							384,
-							1,
-							"insert_snippet",
-							{
-								"contents": "($0)"
-							},
-							"AQAAAI4OAAAAAAAAkA4AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI4OAAAAAAAAjg4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							385,
-							1,
-							"insert",
-							{
-								"characters": "15+"
-							},
-							"AwAAAI8OAAAAAAAAkA4AAAAAAAAAAAAAkA4AAAAAAACRDgAAAAAAAAAAAACRDgAAAAAAAJIOAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI8OAAAAAAAAjw4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							386,
-							1,
-							"left_delete",
-							null,
-							"AQAAAJEOAAAAAAAAkQ4AAAAAAAABAAAAKw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJIOAAAAAAAAkg4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							387,
-							1,
-							"insert",
-							{
-								"characters": " +"
-							},
-							"AgAAAJEOAAAAAAAAkg4AAAAAAAAAAAAAkg4AAAAAAACTDgAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJEOAAAAAAAAkQ4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							388,
-							1,
-							"insert",
-							{
-								"characters": " 10"
-							},
-							"AwAAAJMOAAAAAAAAlA4AAAAAAAAAAAAAlA4AAAAAAACVDgAAAAAAAAAAAACVDgAAAAAAAJYOAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJMOAAAAAAAAkw4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							389,
-							1,
-							"insert",
-							{
-								"characters": " points"
-							},
-							"BwAAAJYOAAAAAAAAlw4AAAAAAAAAAAAAlw4AAAAAAACYDgAAAAAAAAAAAACYDgAAAAAAAJkOAAAAAAAAAAAAAJkOAAAAAAAAmg4AAAAAAAAAAAAAmg4AAAAAAACbDgAAAAAAAAAAAACbDgAAAAAAAJwOAAAAAAAAAAAAAJwOAAAAAAAAnQ4AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJYOAAAAAAAAlg4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							391,
-							1,
-							"insert",
-							{
-								"characters": " ="
-							},
-							"AgAAAJYOAAAAAAAAlw4AAAAAAAAAAAAAlw4AAAAAAACYDgAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJYOAAAAAAAAlg4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							392,
-							1,
-							"insert",
-							{
-								"characters": " 25"
-							},
-							"AwAAAJgOAAAAAAAAmQ4AAAAAAAAAAAAAmQ4AAAAAAACaDgAAAAAAAAAAAACaDgAAAAAAAJsOAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJgOAAAAAAAAmA4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							395,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AgAAACYSAAAAAAAAJxIAAAAAAAAAAAAAJxIAAAAAAAAnEgAAAAAAAAsAAAAKClxub2luZGVudA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADESAAAAAAAAJhIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							397,
-							1,
-							"insert",
-							{
-								"characters": ":"
-							},
-							"AQAAACUSAAAAAAAAJhIAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACUSAAAAAAAAJRIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							399,
-							1,
-							"left_delete",
-							null,
-							"AQAAAA8SAAAAAAAADxIAAAAAAAABAAAALg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABASAAAAAAAAEBIAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							402,
-							1,
-							"insert",
-							{
-								"characters": ":"
-							},
-							"AQAAAE8UAAAAAAAAUBQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAE8UAAAAAAAATxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							405,
-							1,
-							"left_delete",
-							null,
-							"AQAAAEIUAAAAAAAAQhQAAAAAAAABAAAALg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEMUAAAAAAAAQxQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							407,
-							1,
-							"insert",
-							{
-								"characters": " "
-							},
-							"AQAAAFAUAAAAAAAAURQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFAUAAAAAAAAUBQAAAAAAAD////////vfw"
-						],
-						[
-							408,
-							12,
-							"right_delete",
-							null,
-							"DAAAAFEUAAAAAAAAURQAAAAAAAABAAAAClEUAAAAAAAAURQAAAAAAAABAAAAClEUAAAAAAAAURQAAAAAAAABAAAAXFEUAAAAAAAAURQAAAAAAAABAAAAblEUAAAAAAAAURQAAAAAAAABAAAAb1EUAAAAAAAAURQAAAAAAAABAAAAaVEUAAAAAAAAURQAAAAAAAABAAAAblEUAAAAAAAAURQAAAAAAAABAAAAZFEUAAAAAAAAURQAAAAAAAABAAAAZVEUAAAAAAAAURQAAAAAAAABAAAAblEUAAAAAAAAURQAAAAAAAABAAAAdFEUAAAAAAAAURQAAAAAAAABAAAAIA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFEUAAAAAAAAURQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							413,
-							1,
-							"insert",
-							{
-								"characters": "You"
-							},
-							"BAAAAI0VAAAAAAAAjhUAAAAAAAAAAAAAjhUAAAAAAACOFQAAAAAAAAUAAABGaXJzdI4VAAAAAAAAjxUAAAAAAAAAAAAAjxUAAAAAAACQFQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI0VAAAAAAAAkhUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							414,
-							1,
-							"insert",
-							{
-								"characters": " mih"
-							},
-							"BAAAAJAVAAAAAAAAkRUAAAAAAAAAAAAAkRUAAAAAAACSFQAAAAAAAAAAAACSFQAAAAAAAJMVAAAAAAAAAAAAAJMVAAAAAAAAlBUAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJAVAAAAAAAAkBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							415,
-							1,
-							"left_delete",
-							null,
-							"AQAAAJMVAAAAAAAAkxUAAAAAAAABAAAAaA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJQVAAAAAAAAlBUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							416,
-							1,
-							"insert",
-							{
-								"characters": "ght"
-							},
-							"AwAAAJMVAAAAAAAAlBUAAAAAAAAAAAAAlBUAAAAAAACVFQAAAAAAAAAAAACVFQAAAAAAAJYVAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJMVAAAAAAAAkxUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							417,
-							1,
-							"insert",
-							{
-								"characters": " want"
-							},
-							"BQAAAJYVAAAAAAAAlxUAAAAAAAAAAAAAlxUAAAAAAACYFQAAAAAAAAAAAACYFQAAAAAAAJkVAAAAAAAAAAAAAJkVAAAAAAAAmhUAAAAAAAAAAAAAmhUAAAAAAACbFQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJYVAAAAAAAAlhUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							418,
-							1,
-							"insert",
-							{
-								"characters": " to"
-							},
-							"AwAAAJsVAAAAAAAAnBUAAAAAAAAAAAAAnBUAAAAAAACdFQAAAAAAAAAAAACdFQAAAAAAAJ4VAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJsVAAAAAAAAmxUAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							419,
-							1,
-							"right_delete",
-							null,
-							"AQAAAJ4VAAAAAAAAnhUAAAAAAAABAAAALA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJ4VAAAAAAAAnhUAAAAAAAAAAAAAAADwvw"
-						]
-					]
-				},
-				{
-					"file": "/home/akos/git/arch_backup/archinstall.txt",
-					"settings":
-					{
-						"buffer_size": 7681,
+						"buffer_size": 8603,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -2457,6 +768,10 @@
 				[
 					[
 						"Package Control: ",
+						"Package Control: List Packages"
+					],
+					[
+						"Package Control: remo",
 						"Package Control: Remove Package"
 					],
 					[
@@ -2492,142 +807,142 @@
 			},
 			"file_history":
 			[
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/midterm/math8-midterm.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm1/math145-midterm1.tex",
+				"/home/akos/.config/pcmanfm/default/pcmanfm.conf",
+				"/home/akos/Dropbox/quantum/leet/maxProfit.py",
+				"/home/akos/Dropbox/quantum/leet/twoSum.py",
+				"/home/akos/Dropbox/quantum/leet/add_two.py",
+				"/home/akos/Dropbox/quantum/leet/threeSum.py",
+				"/home/akos/Dropbox/quantum/leet/threeSumClosest.py",
+				"/home/akos/Dropbox/quantum/leet/solveSudoku.py",
 				"/home/akos/git/web/ucsb-dg-seminar.html",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm1/concepts/math145-midterm1_concepts.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW5/math145-HW5.tex",
+				"/home/akos/Dropbox/quantum/coding/leet/solveSudoku.py",
+				"/home/akos/.histfile",
+				"/home/akos/Dropbox/quantum/coding/leet/isValidSudoku.py",
+				"/home/akos/Dropbox/quantum/coding/leet/solveSudoku_production.py",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/math119b-midterm-1.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/Yaping-Li_letter/Yaping-Liu_letter.tex",
+				"/home/akos/yue-yang_letter/yue-yang_letter.tex",
+				"/home/akos/Dropbox/quantum/coding/leet/threeSumClosest.py",
+				"/home/akos/Dropbox/quantum/coding/leet/mySqrt.py",
+				"/home/akos/Dropbox/quantum/coding/leet/maxDistance.py",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/syllabus/syllabus-math119b-winter2023.tex",
+				"/home/akos/Dropbox/quantum/coding/leet/nextPermutation.py",
+				"/home/akos/Dropbox/quantum/coding/leet/isValid.py",
+				"/home/akos/Dropbox/quantum/coding/leet/maxArea.py",
+				"/home/akos/maxArea.py",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/practice/math119b-midterm-1_practice.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW3/math119b-HW3.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW1/math119b-HW1.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm1/concepts/math119b-midterm-1_concepts.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/math119b-midterm-2.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/practice/math119b-midterm-2_practice.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/exams/midterm2/concepts/math119b-midterm-2_concepts.tex",
+				"/home/akos/Dropbox/quantum/coding/leet/myAtoi.py",
+				"/home/akos/Dropbox/quantum/coding/leet/longestCommonPrefix.py",
+				"/home/akos/Dropbox/quantum/coding/leet/lengthOfLongestSubstring.py",
+				"/home/akos/Dropbox/quantum/coding/leet/int_to_roman.py",
+				"/home/akos/Dropbox/quantum/coding/leet/roman_to_int.py",
+				"/home/akos/Dropbox/quantum/coding/leet/add_two.py",
+				"/home/akos/Dropbox/quantum/coding/leet/fruits.py",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/nahm_to_bps.tex",
+				"/home/akos/temp/leet/leet.py",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/references.bib",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/Bib-Benoit.bib",
+				"/home/akos/Dropbox/projects/majorana/majorana.tex",
+				"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/exams/midterm/concepts/math119a-midterm_concepts.tex",
 				"/home/akos/git/web/index.html",
 				"/home/akos/Dropbox/stuff/latex/cv/akosnagy-cv.tex",
-				"/home/akos/.histfile",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-fall2020/exams/MT1/math8-mt1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/old/MT1/practice/math8-MT1_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/old/MT1/math8-MT1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/old/MT2/math8-mt2.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-fall2020/exams/MT1/practice/math8-mt1_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-fall2020/exams/MT2/math8-mt2.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-fall2020/exams/MT2/practice/math8-mt2_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/exams/MT1/practice/math8-MT1_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/midterm/practice/math8-midterm_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm1/practice/math145-midterm1_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW4/math145-HW4.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW3/math145-HW3.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW2/math145-HW2.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW1/math145-HW1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm/practice/math145-midterm_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm/math145-midterm.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/syllabus/syllabus-math145-spring2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/syllabus/syllabus-math8-spring2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW5/math8-HW5.tex",
-				"/home/akos/Dropbox/projects/majorana/majorana.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2022/exams/MT1/math8-MT1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/midterm/practice/math145-midterm_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm/concepts/math145-midterm_concepts.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/exams/midterm/concepts/math8-midterm_concepts.tex",
-				"/home/akos/git/nonmaximal_bps_paper/bps_to_nahm/bps_to_nahm.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW4/math8-HW4.tex",
-				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/nahm_to_bps.tex",
-				"/home/akos/nahm_to_bps/nahm_to_bps.tex",
-				"/home/akos/git/nonmaximal_bps_paper/bps_to_nahm/references.bib",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-winter2022/exams/final/makeup/math4b-final_makeup.tex",
-				"/home/akos/Dropbox/stuff/talks(html)/G2-mono_UOregon/G2-monopoles.html",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2022/HW/HW3/math8-HW3.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW7/math8-HW7.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW6/math8-HW6.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/10/math8-HW10.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/08/math8-HW08.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/06/math8-HW06.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/07/math8-HW07.tex",
-				"/home/akos/downloads/2003.11180",
-				"/home/akos/Dropbox/stuff/talks(html)/G2-mono_UOregon/g2monopoles.html",
-				"/home/akos/Dropbox/stuff/talks(html)/g2talk-oregon/g2monopoles.html",
-				"/home/akos/downloads/HW_template.tex",
-				"/home/akos/.config/compile.sh",
-				"/home/akos/Dropbox/active/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/hyperbolic_bloch.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW3/math8-HW3.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/04/math8-HW04.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/03/math8-HW03.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/02/math8-HW02.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW2/math8-HW2.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/old/05/math8-HW05.tex",
-				"/home/akos/downloads/courseid_16210_participants.csv",
-				"/home/akos/.config/waybar/config",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/HW/HW1/math8-HW1.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2022/exams/MT2/math8-mt2.tex",
-				"/home/akos/HW_template.tex",
-				"/home/akos/Dropbox/active/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/compile.sh",
-				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/references.bib",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-winter2022/exams/final/math4b-final.aux",
-				"/home/akos/Dropbox/stuff/latex/lor/kathryn_chen_letter/kathryn_chen_letter.tex",
-				"/home/akos/jingyuan_zheng-letter/jingyuan_zheng-letter.tex",
-				"/home/akos/Dropbox/stuff/latex/lor/katherine_letter/katherine_letter.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/MT1/math8-MT1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math145-spring2022/HW/HW1/math8-HW1.tex",
-				"/home/akos/Dropbox/projects/goncalo_stuff/Donaldson-Segal_program/Asymptotics of monopoles/MonopolesAsym.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2022/syllabus/syllabus-math8-winter2022.tex",
-				"/home/akos/Dropbox/active/job_stuff/research statement/akosnagy-rs.tex",
-				"/home/akos/Dropbox/active/job_stuff/research statement/references.bib",
-				"/home/akos/Dropbox/stuff/other/misc/Computer_Information",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-fall2020/syllabus/syllabus-math4b-fall2020.tex",
-				"/home/akos/Dropbox/stuff/latex/cv/akosnagy-cv.pdf",
-				"/home/akos/Dropbox/active/job_stuff/cover letter/ucr/akosnagy-coverletter.tex",
-				"/home/akos/Dropbox/g2talk-stony_brook/g2monopoles.html",
-				"/home/akos/Dropbox/g2talk-simons/g2monopoles.html",
-				"/home/akos/downloads/W22_MATH8_31641All.csv",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/final/makeup/math4b-final_makeup.tex",
-				"/home/akos/Dropbox/active/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/references.bib",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/final/concepts/math4b-Final_concepts.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/final/math4b-final.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/final/math8-final.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/MT2/math8-mt2.tex",
-				"/home/akos/temp/daniel_li-letter/daniel_li-letter.tex",
-				"/home/akos/Dropbox/stuff/latex/lor/jiale_gao_letter/jiale_gao_letter.tex",
-				"/home/akos/temp/xinhang_li-letter/xinhang_li-letter.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/final/practice/math8-final_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/Final/practice/math4b-final_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/Final/math4b-final.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-fall2020/exams/final/math4b-final.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-spring2022/syllabus/syllabus-math8-winter2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW8/math8-HW8.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW9/math8-HW9.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/syllabus/syllabus-math8-winter2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/MT2/makeup/math8-mt2_makeup.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/Final/concepts/math4b-Final_concepts.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/other/extras/linalg-summary/math4b-systems_summary.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/syllabus/syllabus-math4b-winter2022.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-spring2021/exams/MT3/practice/math4b-MT3_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-spring2021/exams/MT3/math4b-MT3.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math4b-summer2021/exams/MT3/math4b-MT3.tex",
-				"/home/akos/git/web/seminar.css",
+				"/home/akos/temp/leet/palindrom.py",
 				"/home/akos/.config/sway/config",
-				"/home/akos/Dropbox/projects/KS/curved_keller-segel/curved_keller-segel.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/MT2/math4b-MT2.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/MT2/makeup/math4b-MT2_makeup.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/exams/MT2/practice/math4b-MT2_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW7/math8-HW7.tex",
-				"/home/akos/aoe4.sh",
-				"/home/akos/hyperbolic_bloch/hyperbolic_bloch.tex",
-				"/home/akos/kathryn_chen_letter/kathryn_chen_letter.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/MT2/practice/math8-mt2_practice.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/other/extras/2nd_order_nonhomogeneous/math4b-second_order_nonhomogeneous_summary.tex",
-				"/home/akos/Dropbox/stuff/teaching/math4b-winter2022/Elementary-Differential-Equations-and-Boundary-Value-Problems-Boyce-11th-Edition.pdf",
-				"/home/akos/helgason.pdf",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW6/math8-HW6.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/exams/MT1/math8-MT1.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/HW5/math8-HW5.tex",
-				"/home/akos/Dropbox/stuff/teaching/math8-winter2022/HW/old/24/math8-HW24.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/HW/21/math8-HW21.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/HW/22/math8-HW22.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/HW/23/math8-HW23.tex",
-				"/home/akos/Dropbox/stuff/teaching/old/ucsb/math8-winter2021/HW/24/math8-HW24.tex"
+				"/home/akos/.config/kitty/kitty.conf",
+				"/home/akos/temp/nahm_question/nahm.tex",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/Bib-monopoles.bib",
+				"/home/akos/git/nonmaximal_bps_paper/bps_to_nahm/bps_to_nahm.tex",
+				"/home/akos/Dropbox/active/goncalo_stuff/Donaldson-Segal_program/Asymptotics of monopoles/MonopolesAsym.tex",
+				"/home/akos/Dropbox/temp/leet/palindrom.py",
+				"/home/akos/nahm_question/nahm.tex",
+				"/home/akos/nahm.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW2/math119b-HW2.tex",
+				"/home/akos/Dropbox/temp/title.txt",
+				"/home/akos/KS_York/keller-segel.html",
+				"/home/akos/Dropbox/active/keller-segel/curved_keller-segel/curved_keller-segel.tex",
+				"/home/akos/Dropbox/stuff/latex/nsf_grant/etc/old/akos-2021/description/akos_nsf_project_description.tex",
+				"/home/akos/Dropbox/stuff/talks(html)/GL_talk-ONEPAS/GL_talk-ONEPAS.html",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/research statement/akosnagy-rs.tex",
+				"/home/akos/JFA#1/round2/JFA_1_2.tex",
+				"/home/akos/Dropbox/jfa.txt",
+				"/home/akos/jfa.txt",
+				"/home/akos/ams_abstract.txt",
+				"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/HW/HW8/math119a-HW8.tex",
+				"/home/akos/Dropbox/stuff/teaching/past/ucsb/math119a-fall2022/HW/HW6/math119a-HW6.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW4/math119b-HW4.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW5/math119b-HW5.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW6/math119b-HW6.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-winter2023/HW/HW7/math119b-HW7.tex",
+				"/home/akos/ben_perron_letter/ben_perron_letter.tex",
+				"/home/akos/git/arch-backup/archinstall.txt",
+				"/home/akos/Dropbox/stuff/talks(html)/HBT_UCSB/hyperbolic_bloch_transform.html",
+				"/home/akos/title.txt",
+				"/home/akos/Dropbox/stuff/latex/lor/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119b-spring2023/syllabus/syllabus-math119a-fall2022.tex",
+				"/home/akos/git/nonmaximal_bps_paper/nahm_to_bps/TAMS submit/reply_to_TAMS_report_1/reply_to_TAMS_report_1.tex",
+				"/home/akos/leet/leet.py",
+				"/home/akos/Dropbox/stuff/talks(html)/HBT_Vancouver/hyperbolic_bloch_transform.html",
+				"/home/akos/Dropbox/stuff/latex/lor/kathryn_chen_letter/kathryn_chen_letter.tex",
+				"/home/akos/feier-wang_letter/feier-wang_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/josie_wu_letter/josie_wu_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/cui_letter/cui_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/yuxin_zhang_letter/yuxin_zhang_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/cover letter/akosnagy-coverletter.tex",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/publication list/akosnagy-publicationlist.tex",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/cv/akosnagy-cv.tex",
+				"/home/akos/Dropbox/stuff/latex/job_stuff/publication list/akosnagy-publicationlist.pdf",
+				"/home/akos/Dropbox/stuff/teaching/future/math8-spring2023/syllabus/syllabus-math8-spring2023.tex",
+				"/home/akos/yike_wu_letter/yike_wu_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/xuanchen_ren_letter/xuanchen_ren_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/cindy_su_letter/cindy_su_letter.tex",
+				"/home/akos/Dropbox/stuff/latex/lor/kevin_yu_letter/kevin_yu_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/old/math119a-fall2022/syllabus/syllabus-math119a-fall2022.tex",
+				"/home/akos/.gitconfig",
+				"/home/akos/.git-credentials",
+				"/home/akos/temp/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+				"/home/akos/temp/kevin_yu_letter/kevin_yu_letter.tex",
+				"/home/akos/Dropbox/active/instantons_on_S2xR2/instanton_paper/instantons_on_S2xR2.tex",
+				"/home/akos/Dropbox/projects/majorana/references.bib",
+				"/home/akos/kevin_yu_letter/kevin_yu_letter.tex",
+				"/home/akos/xinshou_zheng_letter/xinshou_zheng_letter.tex",
+				"/home/akos/HBT_Vancouver/hyperbolic_bloch_transform.html",
+				"/home/akos/Dropbox/projects/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/hyperbolic_bloch.tex",
+				"/home/akos/Dropbox/stuff/talks(html)/G2-mono_MSRI/G2-monopoles.html",
+				"/home/akos/downloads/S0001870822004819.bib",
+				"/home/akos/Dropbox/projects/steve_stuff/hyperbolic_bloch_stuff/hyperbolic_bloch/references.bib",
+				"/home/akos/.zshrc",
+				"/home/akos/xuanchen_ren_letter/xuanchen_ren_letter.tex",
+				"/home/akos/yuxin_zhang_letter/yuxin_zhang_letter.tex",
+				"/home/akos/cindy_su_letter/cindy_su_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/exams/final/math119a-final.tex",
+				"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/exams/final/math4b-final.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/syllabus/syllabus-math119a-fall2022.tex",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/exams/final/practice/math119a-final_practice.tex",
+				"/home/akos/temp/Yaping-Li_letter/Yaping-Liu_letter.tex",
+				"/home/akos/temp/Yaping-Li_letter/Yaping-Li_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/exams/final/practice/math4b-final_practice.tex",
+				"/home/akos/.aliases",
+				"/home/akos/pengweixia_letter/pengweixia_letter.tex",
+				"/home/akos/Dropbox/stuff/teaching/math4b-fall2022/syllabus/syllabus-math4b-fall2022.tex",
+				"/home/akos/.functions",
+				"/home/akos/.config/upgrade.sh",
+				"/home/akos/git/arch-backup/files/dotconfig/sway/config",
+				"/home/akos/.config/compile.sh",
+				"/home/akos/Dropbox/stuff/teaching/math119a-fall2022/HW/HW7/math119a-HW7.tex"
 			],
 			"find":
 			{
-				"height": 34.0
+				"height": 37.0
 			},
 			"find_in_files":
 			{
-				"height": 130.0,
+				"height": 136.0,
 				"where_history":
 				[
 				]
@@ -2637,134 +952,46 @@
 				"case_sensitive": true,
 				"find_history":
 				[
-					"subse",
-					"\\cT",
-					"itemize",
-					"\\left\\{",
-					"\\section*",
-					"Differe",
-					"Monge",
-					"Kahler",
-					"enumerate",
-					"Solution",
-					"$.",
-					"\\inf",
-					"\\noindent {\\small Show a complete solution and all of your work.}",
-					"[1.",
-					"\\cR_1",
-					"\\id_{",
-					"eq:mono1",
-					"To summ",
-					"\\todo",
-					"_i",
-					"which pro",
-					"|d",
-					"rule",
-					"will",
-					"\\rho (x)",
-					"\\prime",
-					"abstract",
-					"Zoom",
-					"image",
-					"eq:weitzenbocknablaPsi",
-					"eq:weitzenbockPsi",
-					"\\Xi",
-					"\\image",
-					"mono1",
-					"ker_",
-					"_{L^2 \\left( \\E \\right)}",
-					"hypothesis:HFS",
-					"\\id_\\Gamma",
-					"A_i",
-					"\\cI",
-					"\\image",
-					"(\\cL_t)",
-					"\\mo",
-					"coker",
-					"\\mathrm{image}",
-					"= 0.",
-					"$",
-					" 2 ",
-					"2 ",
-					"eq:kappa_parallel",
-					"BPS",
-					"sec:main",
-					"eq:mu_kappa_commutator",
-					"\\cC_",
-					"\\cC",
-					"Xianzh",
-					"Sigma",
-					"(dx^j)",
-					"(dx^i)",
-					"(F_\\nabla)",
-					"|df|",
-					"\\nabla^* \\nabla",
-					"Weitz",
-					"_{L^2 \\left( \\E \\right)}",
-					"hypothesis:monodecay",
-					"\\Phi_t",
-					"AP06",
-					"fadel_asymptotic_2020",
-					"\\cL_t^*",
-					"\\cL_t ",
-					"(\\rl^3; \\E)",
-					"(\\E)",
-					"(\\nabla, \\Phi)",
-					"eqdef",
-					"rest of ",
-					"fix",
-					"section{",
-					"section",
-					"q:Finfty_form",
-					"eq:flat_kappa",
-					"eq:flat_mu",
-					"eq:limDPhi",
-					"eq:limPhi",
-					"eq:limA",
-					"eq:BPSeq",
-					"q:YMH2",
-					"eq:YMH1",
-					"Final",
-					"st, let us compute, usi",
-					"Daniel",
-					"Daniel Li",
-					"underline",
-					"Problems from ",
-					"ath 8",
-					"tentative",
-					"Section ",
-					"Chapter 1, ",
-					"{\\nabla}",
-					"\\left( \\fU_\\nabla \\right)^{- 1}",
-					"A^\\nab",
-					"\\fU^",
-					"A^{\\left[ \\varrho, \\uv \\right]}",
-					"\\nabla^{\\left[ \\varrho, \\uv \\right]}",
-					"\\cU^",
-					"mathfrak",
-					"U^\\nabla",
-					"U^{\\left[ \\varrho, \\uv \\right]}",
-					"\\Irrep",
-					"\\Rep",
-					"Dirac}",
-					"hypoth",
-					"hypothesis:Gamma",
-					"sec:general",
-					"\\vol^",
-					"\\vol",
-					" \\& \\#",
-					"\n\n       Material: ",
-					" (remote)",
-					"^\\prime",
-					"\\whrho",
-					"\\BZ",
-					" map",
-					"Fadel",
-					"_{aa",
-					"_{a",
-					"\\U",
-					"A \\c",
-					"a_i"
+					"List",
+					"print",
+					"List",
+					"preemptives.remove(bag)",
+					"column",
+					"row",
+					"should",
+					"isit",
+					"print",
+					",,",
+					"Yuxin",
+					"Zhang",
+					"print",
+					"max_lenght",
+					"print",
+					"opt[",
+					"board",
+					"options",
+					"brd",
+					"options",
+					"start",
+					"options",
+					"board",
+					"0",
+					"print",
+					"threes",
+					",",
+					"\"\",\"\"",
+					",",
+					",.",
+					"print",
+					">0:",
+					">0 or",
+					"map",
+					"\\emph{",
+					",",
+					"\t",
+					" // ",
+					"\")",
+					"s.append("
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2772,134 +999,33 @@
 				"regex": false,
 				"replace_history":
 				[
-					"\\subsection*",
-					"K&auml;hler",
-					"itemize",
-					"Answer",
-					"[",
-					"R",
-					"eq:Agmon_nabla_Psi",
-					"eq:Agmon_Psi",
-					"\\Theta",
+					"list",
 					"",
-					"theorem:HFS",
-					"\\id",
-					"K_i",
-					"\\bI",
-					"\\left( \\cL_t^\\m \\right)",
-					"\\left( \\rd x^j \\right)",
-					"\\left( \\rd x^i \\right)",
-					"\\left( F_\\nabla \\right)",
-					"|\\rd f|",
-					"\\Delta_\\nabla",
+					"j",
 					"",
-					"eq:curvature_at_infinity",
-					"almorox_holomorphic_2006",
-					"fadel_asymptotic_2022",
-					"\\left( \\cL_t^\\m \\right)^*",
-					"\\cL_t^\\m ",
-					"\\left( \\E \\right)",
-					"\\left( \\nabla, \\Phi \\right)",
-					"eq:curvature_at_infinity",
-					"eq:kappa_parallel",
-					"eq:mu_parallel",
-					"eq:mono4",
-					"eq:mono3",
-					"eq:mono2",
-					"eq:mono1",
-					"eq:YMH_2",
-					"eq:YMH_1",
-					"Jingyuan",
-					"Jingyuan Zheng",
-					"ul",
-					"Problems from Section ",
-					"Chapter 1, Section ",
-					"",
-					"\\nabla",
-					"\\left( \\fU_\\nabla^{- 1} \\right)",
-					"A_\\nab",
-					"\\fU_",
-					"A^\\nabla",
-					"\\nabla",
-					"\\fU^",
-					"\\cU^\\nabla",
-					"U^\\nabla",
-					"\\Rep",
-					"\\Irrep",
-					"hypothesis:HFS",
-					"sec:abstract",
-					"\\rd \\mu^",
-					"--",
-					" Material: ",
-					" ",
-					"         ",
-					"",
-					"\\left[ \\varrho, \\uv \\right]",
-					"U^{\\whrho}",
-					"U^\\varrho",
-					"u^\\varrho",
-					"\\cE^{\\whrho}",
-					"U_{\\whrho}",
-					"\\left( \\dim \\left( \\whrho \\right) \\right)",
-					"\\widetilde{U}",
-					"\\BZ",
-					"BT_abstract",
-					"(y)",
-					"(x)",
-					"^{\\whrho}",
-					"\\gamma",
-					"widetilde{T}",
-					"\\whrho",
-					"\\bH",
-					"\\id_",
-					"\\id_\\E",
-					"Daniel",
-					"his",
-					"Xinhang",
-					"Xinhang Li",
-					"x_0",
-					"\\left[ \\varrho \\right]",
-					"\\Phi^{[\\varrho]}",
-					"\\upphi_",
-					"\\varphi_",
-					"\\varphi",
-					"X",
-					"\\varrho",
-					"\\rho_",
-					"{\\alpha, \\beta, \\gamma}",
-					"{\\alpha, \\beta}",
-					"sec:nahm_data",
-					"",
-					"\\su",
-					"1_\\bH",
-					"\\e",
-					"underline",
-					"m \\left( \\left[ V, \\rho \\right] \\right)",
-					"\\left[ V, \\rho \\right]",
-					"\\Rep_\\Gamma",
-					"\\BZ",
-					"mathrm",
-					"textnormal",
-					"\\dot{\\uppsi}",
-					"\\cH_0^\\cN",
-					"\\cH_1^\\cN",
-					"Kathryn",
-					"Kathryn Chen",
-					"\\rd^{(a)} T_\\alpha^{(a)}",
-					"\\rd^{(a)} \\uppsi_a",
-					"\\rd T",
-					"\\rd \\uppsi",
-					"\\rd_t \\uppsi",
-					"\\cS",
-					"charbonneau_nahm_2022",
-					" ",
-					"Jaden",
-					"Jaden Chau",
-					"#abstract0",
-					"id=\"abstract0",
-					"You can continue your work",
-					"ineq:D_gap_1",
-					"E^\\cN"
+					"j",
+					"i",
+					"Yue",
+					"Yang",
+					"max_size",
+					"options[",
+					"brd",
+					"opt",
+					"board",
+					"opt",
+					"brd",
+					"sums",
+					"\",\"",
+					",\".\"",
+					" == 0:",
+					" == 0 and",
+					"stuff",
+					"\\ul{",
+					"\",\"",
+					"    ",
+					"//",
+					"\"",
+					"s = s + "
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
@@ -2916,75 +1042,26 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/akos/Dropbox/stuff/teaching/math145-spring2022/exams/midterm1/math145-midterm1.tex",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6028,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5534,
-										5534
-									]
-								],
-								"settings":
-								{
-									"WordCount":
-									{
-										"changes": 0,
-										"count": 534,
-										"modified": false,
-										"selection": false,
-										"status": -1,
-										"syntax": "plain text"
-									},
-									"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 3859.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/akos/git/arch_backup/archinstall.txt",
+							"file": "/home/akos/git/arch-backup/archinstall.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 7681,
+								"buffer_size": 8603,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										76,
-										76
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"WordCount":
-									{
-										"changes": 0,
-										"count": 282,
-										"modified": false,
-										"selection": false,
-										"status": -1,
-										"syntax": "plain text"
-									},
 									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
+									"tab_size": 8,
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
@@ -3000,7 +1077,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 34.0
+				"height": 37.0
 			},
 			"input":
 			{
@@ -3034,11 +1111,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,800,600,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,1920,1046,1920,1080,0",
 			"project": "",
 			"replace":
 			{
-				"height": 64.0
+				"height": 70.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -3081,7 +1158,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 37,
+			"window_id": 109,
 			"workspace_name": ""
 		}
 	],

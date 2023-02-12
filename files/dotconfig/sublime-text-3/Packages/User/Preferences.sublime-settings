@@ -214,18 +214,30 @@
 		"traceless",
 		"endomorphism",
 		"Moser",
+		"diagonalize",
+		"nonmaximally",
+		"Hurtubise",
+		"octonionic",
+		"codomain",
+		"compactification",
+		"tensored",
+		"embeddings",
+		"homomorphisms",
+		"Neumann",
+		"Jacobian",
+		"nonabelian",
+		"Plancherel",
+		"symmetrized",
+		"symplectic",
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"font_face": "Noto Sans Mono",
-	"font_size": 13,
+	"font_size": 15,
 	"ignored_packages":
 	[
-		"Vintage"
-	],
-	"ignored_words":
-	[
-		"symplectic"
+		"Vintage",
 	],
 	"spell_check": true,
-	"tab_completion": false,
+	"tab_completion": true,
+	"translate_tabs_to_spaces": true,
 }

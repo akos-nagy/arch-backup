@@ -49,10 +49,10 @@ pkgconf
 profile-cleaner
 profile-sync-daemon
 pulsemixer
+python-setuptools
 qbittorrent
 qt6-wayland
 reflector
-speedify
 sublime-text
 sudo
 sway

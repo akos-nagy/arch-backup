@@ -1,4 +1,4 @@
-# With:       reflector --country US,CA --protocol https --latest 25 --number 10 --age 24 --sort rate --save /etc/pacman.d/mirrorlist --verbose
-# When:       2022-04-10 15:51:45 UTC
+# With:       reflector --country US,CA --protocol https --latest 50 --number 10 --age 24 --sort rate --save /etc/pacman.d/mirrorlist --verbose
+# When:       2023-01-11 14:40:35 UTC
 
 Server = https://mirrors.ocf.berkeley.edu/archlinux/$repo/os/$arch
