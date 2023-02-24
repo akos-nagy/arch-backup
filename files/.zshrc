@@ -21,3 +21,11 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt appendhistory
+
+#export PATH="/home/akos/anaconda3/bin:$PATH"
+
+# The base environment is activated by default
+#conda config --set auto_activate_base True
+
+# The base environment is not activated by default
+#conda config --set auto_activate_base False
