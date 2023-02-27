@@ -107,6 +107,7 @@ contents of /home/akos/.aliases:
 --------------------------------
 
 alias ls='exa -hal --group-directories-first --icons'
+alias screenlock='swaylock --daemonize --ignore-empty-password --screenshots --effect-blur 7x5 --indicator --indicator-radius 100 --clock --timestr='%l:%M %p' --datestr='%A, %-m/%-e/%y' --fade-in 0.5'
 
 
 
@@ -241,7 +242,7 @@ title	arch linux
 linux	/vmlinuz-linux-zen
 initrd	/intel-ucode.img
 initrd	/initramfs-linux-zen.img
-options	root=LABEL=ROOT quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth,iTCO_wdt mitigations=off
+options	root=LABEL=ROOT rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth,iTCO_wdt mitigations=off
 
 # change label through https://wiki.archlinux.org/index.php/Persistent_block_device_naming#by-label
 
