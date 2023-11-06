@@ -20,8 +20,8 @@ function upgrade() {
 	sudo printf "\n ${magenta}running: ${green}yay --noconfirm --sudoloop -Syu${normal} \n\n" ;
 	/usr/bin/yay --noconfirm --sudoloop -Syu ;
 
-	printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm --clean" ;
-	/usr/bin/yay --noconfirm --clean ;
+	printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm -Yc" ;
+	/usr/bin/yay --noconfirm -Yc ;
 
 	# printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${normal} \n\n" ;
 	# /usr/bin/systemctl --failed ;
@@ -72,13 +72,13 @@ function ltxcomp() {
 
 	elif [ $2 -eq 1 ]; then
 
-		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		xelatex $1.tex &&
 		printf "\n ${color}compilation done once\n time needed: $((($(date +%s%N)-$start)/1000000)) milliseconds${normal} \n\n"
 
 	elif [ $2 -eq 2 ]; then
 
 		xelatex -no-pdf -interaction=batchmode $1.tex &&
-		xelatex -no-pdf -interaction=batchmode $1.tex &&
+		xelatex $1.tex &&
 		printf "\n ${color}compilation done twice\n time needed: $((($(date +%s%N)-$start)/1000000)) milliseconds${normal} \n\n"
 
 	elif [ $2 -ge 3 ]; then
