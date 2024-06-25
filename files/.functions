@@ -20,8 +20,8 @@ function upgrade() {
 	sudo printf "\n ${magenta}running: ${green}yay --noconfirm --sudoloop -Syu${normal} \n\n" ;
 	/usr/bin/yay --noconfirm --sudoloop -Syu ;
 
-	printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm -Yc" ;
-	/usr/bin/yay --noconfirm -Yc ;
+	printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --Yc" ;
+	/usr/bin/yay -Yc ;
 
 	# printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${normal} \n\n" ;
 	# /usr/bin/systemctl --failed ;

@@ -7,7 +7,6 @@ files to save:
 	pcmanfm
 	psd
 	qBittorrent
-	sublime
 	sway
 	waybar
 	yay
@@ -26,7 +25,6 @@ files to save:
 /etc/fstab
 
 /etc/iwd/main.conf
-/etc/ca-certificates/extracted/cadir/eduroam.pem
 /etc/security/faillock.conf
 
 /etc/sysctl.d/50-coredump.conf
@@ -50,6 +48,10 @@ reflector --country US,CA --protocol https --latest 50 --number 10 --age 24 --so
 
 
 
+Server = https://mirror.csclub.uwaterloo.ca/archlinux/$repo/os/$arch
+
+
+
 contents of /etc/fstab: (figure out what isochar set to use)
 -----------------------
 
@@ -69,9 +71,6 @@ contents of /etc/fstab: (figure out what isochar set to use)
 # /dev/nvme0n1p3 UUID=d7237b60-ddcc-45c3-bb8f-ff10f07d9d99
 /dev/nvme0n1p3      	none      	swap      	defaults  	0 0
 
-# cache in tmpfs
-tmpfs                   /home/akos/.cache       tmpfs   rw,size=4G,nr_inodes=10k,noexec,nodev,nosuid,uid=akos,gid=wheel,mode=1700       0 0
-
 
 
 contents of /home/akos/.zshrc:
@@ -89,8 +88,9 @@ export VISUAL=rnano
 export GREP_OPTIONS=' — color=auto'
 
 export PATH="/usr/lib/ccache/bin/:$PATH"
-export GOPATH=$HOME/Dropbox/stuff/other/code/go
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+export PATH=$PATH:~/.local/bin
+
+export QT_QPA_PLATFORM=wayland
 
 autoload -Uz compinit
 compinit
@@ -106,31 +106,11 @@ setopt appendhistory
 contents of /home/akos/.aliases:
 --------------------------------
 
-alias ls='exa -hal --group-directories-first --icons'
+alias ls='eza -hal --group-directories-first --icons'
 alias screenlock='swaylock --daemonize --ignore-empty-password --screenshots --effect-blur 7x5 --indicator --indicator-radius 100 --clock --timestr='%l:%M %p' --datestr='%A, %-m/%-e/%y' --fade-in 0.5'
-
-
-
-contents of /home/akos/.functions:
-----------------------------------
-
-function ltxcomp() {
-        zsh /home/akos/.config/compile.sh $1 $2
-}
-
-function acp() {
-        git add .
-        git commit -m "$1"
-        git push
-}
-
-
-
-contents of /etc/resolv.conf.head: (should skip???)
-----------------------------------
-
-nameserver 8.8.8.8
-nameserver 8.8.4.4
+alias google-chrome='google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias home-monitor='swaymsg output DP-1 pos 0 0 res 3440x1440@144Hz && swaymsg output eDP-1 pos 1000 1440 res 2880x1800@90.001Hz'
+alias office-monitor='swaymsg output HDMI-A-1 pos 0 0 res 1920x1080@74.998Hz && swaymsg output eDP-1 pos 240 1080 res 2880x1800@90.001Hz'
 
 
 
@@ -139,7 +119,7 @@ contents of /etc/iwd/main.conf:
 
 [Network]
 NameResolvingService=systemd
-EnableIPv6=true
+EnableIPv6=false
 
 [General]
 EnableNetworkConfiguration=true
@@ -148,7 +128,7 @@ EnableNetworkConfiguration=true
 DisablePeriodicScan=true
 
 [Service]
-ExecStartPre=/usr/bin/sleep 5
+ExecStartPre=/usr/bin/sleep 2
 
 
 
@@ -183,7 +163,7 @@ contents of /boot/loader/loader.conf:
 -------------------------------------
 
 default         arch
-timeout		0
+timeout			0
 console-mode    max
 editor          no
 
@@ -196,7 +176,7 @@ title	arch linux
 linux	/vmlinuz-linux-zen
 initrd	/intel-ucode.img
 initrd	/initramfs-linux-zen.img
-options	root=LABEL=ROOT rw quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log_level=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth,iTCO_wdt mitigations=off
+options	root=LABEL=ROOT rw quiet loglevel=3 systemd.show_status=auto rd.udev.log_level=3 nowatchdog modprobe.blacklist=pcspkr,btusb,bluetooth,iTCO_wdt mitigations=off
 
 # change label through https://wiki.archlinux.org/index.php/Persistent_block_device_naming#by-label
 
@@ -252,10 +232,10 @@ net.ipv4.udp_rmem_min = 8192
 net.ipv4.udp_wmem_min = 8192
 net.ipv4.tcp_fastopen = 3
 
-vm.swappiness = 100
-vm.vfs_cache_pressure = 100
-vm.dirty_background_ratio = 3
-vm.dirty_ratio = 10
+vm.swappiness = 50
+vm.vfs_cache_pressure = 50
+vm.dirty_background_ratio = 1
+vm.dirty_ratio = 1
 vm.dirty_writeback_centisecs = 1500
 
 
@@ -263,7 +243,7 @@ vm.dirty_writeback_centisecs = 1500
 contents of /etc/udev/rules.d/60-ioschedulers.rules:
 ----------------------------------------------------
 
-ACTION=="add|change", KERNEL=="nvme[0-9]n[0-9]", ATTR{queue/scheduler}="none"
+ACTION=="add|change", KERNEL=="nvme[0-9]*", ATTR{queue/rotational}=="0", ATTR{queue/scheduler}="none"
 
 
 contents of /etc/pacman.d/hooks/1-systemd-boot.hook:
@@ -326,7 +306,6 @@ other:
 
 	useradd -m -g users -G wheel -s /bin/zsh akos
 	start fstrim.timer
-	bios passwd+boot from ssd
 
 maybe:
 ------

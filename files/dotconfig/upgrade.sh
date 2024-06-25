@@ -1,4 +1,3 @@
-#!/usr/bin/zsh
 magenta=$(tput setaf 5)
 green=$(tput setaf 2)
 cyan=$(tput setaf 6)
@@ -14,7 +13,7 @@ printf "   ${cyan}system upgrade using yay${normal}\n\n" ;
 sudo printf "\n ${magenta}running: ${green}yay --noconfirm --sudoloop -Syu${normal} \n\n" ;
 /usr/bin/yay --noconfirm --sudoloop -Syu ;
 
-printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay -Yc" ;
+printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay --noconfirm --Yc" ;
 /usr/bin/yay -Yc ;
 
 # printf "\n ${magenta}searching for failed services: ${green}systemctl --failed${normal} \n\n" ;
@@ -26,8 +25,8 @@ printf "\n ${magenta}removing orphans: ${green}%s%s${normal} \n\n" "yay -Yc" ;
 printf "\n ${magenta}running: ${green}systemd-analyze${normal} \n\n" ;
 /usr/bin/systemd-analyze ;
 
-#printf "\n ${magenta}running: ${green}profile-cleaner gc${normal} \n\n" ;
-#/usr/bin/profile-cleaner gc ;
+printf "\n ${magenta}running: ${green}profile-cleaner gc${normal} \n\n" ;
+/usr/bin/profile-cleaner gc ;
 
 printf "\n\n\n ${cyan}done! press any key to quit...${normal} "
 

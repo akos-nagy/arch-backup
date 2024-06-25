@@ -1,5 +1,5 @@
 alias ls='eza -hal --group-directories-first --icons'
 alias screenlock='swaylock --daemonize --ignore-empty-password --screenshots --effect-blur 7x5 --indicator --indicator-radius 100 --clock --timestr='%l:%M %p' --datestr='%A, %-m/%-e/%y' --fade-in 0.5'
 alias google-chrome='google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland'
-alias home-monitor=' swaymsg output DP-2 pos 0 0 res 3440x1440@100Hz && swaymsg output eDP-1 pos 760 1440 res 1920x1080'
-alias office-monitor=' swaymsg output DP-2 pos 0 0 res 1920x1080@74.998Hz && swaymsg output eDP-1 pos 0 1080 res 1920x1080@60.033Hz'
+alias home-monitor='swaymsg output DP-1 pos 0 0 res 3440x1440@144Hz && swaymsg output eDP-1 pos 1000 1440 res 2880x1800@90.001Hz'
+alias office-monitor='swaymsg output HDMI-A-1 pos 0 0 res 1920x1080@74.998Hz && swaymsg output eDP-1 pos 240 1080 res 2880x1800@90.001Hz'

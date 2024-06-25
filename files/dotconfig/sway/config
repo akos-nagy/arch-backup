@@ -1,20 +1,11 @@
-exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
-exec dbus-update-activation-environment 2>/dev/null && \
-     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
-
-input "2:1:PS/2_Synaptics_TouchPad" {
-    tap enabled
-    natural_scroll enabled
-    click_method clickfinger
-}
-
 set $mod Mod4
 
 # xwayland disable
 
 output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 
-exec google-chrome-stable --no-startup-window --ozone-platform=wayland --enable-features=UseOzonePlatform
+exec google-chrome-stable --ozone-platform=wayland --no-startup-window
+# exec iwgtk --indicators
 
 bindsym $mod+q kill
 
@@ -25,13 +16,14 @@ bindsym $mod+d exec wofi --show drun --style=/home/akos/.config/wofi/wofi.css --
 
 bindsym $mod+u exec kitty zsh /home/akos/.config/upgrade.sh
 
-bindsym $mod+c exec google-chrome-stable --ozone-platform=wayland --enable-features=UseOzonePlatform
-bindsym $mod+i exec google-chrome-stable --incognito --ozone-platform=wayland --enable-features=UseOzonePlatform
+bindsym $mod+c exec google-chrome-stable --ozone-platform=wayland
+bindsym $mod+i exec google-chrome-stable --ozone-platform=wayland --incognito
 bindsym $mod+p exec pcmanfm --new-win
 bindsym $mod+v exec codium
 bindsym $mod+a exec atril
+bindsym $mod+s exec gamemoderun steam-native
 
-bindsym Print exec grim screenshot.png
+bindsym $mod+Shift+p exec grim screenshot.png
 
 bindsym $mod+Escape       	exec swaylock --daemonize --ignore-empty-password --screenshots --effect-blur 7x5 --indicator --indicator-radius 100 --clock --timestr='%l:%M %p' --datestr='%A, %-m/%-e/%y' --fade-in 0.5
 bindsym $mod+Shift+Escape	exec systemctl poweroff --ignore-inhibitors

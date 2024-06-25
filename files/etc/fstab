@@ -13,6 +13,3 @@
 
 # /dev/nvme0n1p3 UUID=d7237b60-ddcc-45c3-bb8f-ff10f07d9d99
 /dev/nvme0n1p3          none        swap        defaults    0 0
-
-# cache in tmpfs
-tmpfs                   /home/akos/.cache       tmpfs   rw,size=4G,nr_inodes=10k,noexec,nodev,nosuid,uid=akos,gid=wheel,mode=1700       0 0

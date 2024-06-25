@@ -11,7 +11,8 @@ export GREP_OPTIONS=' — color=auto'
 
 export PATH="/usr/lib/ccache/bin/:$PATH"
 export PATH=$PATH:~/.local/bin
-#export JUPYTERLAB_DIR=$HOME/.local/share/jupyter/lab
+
+export QT_QPA_PLATFORM=wayland
 
 autoload -Uz compinit
 compinit
