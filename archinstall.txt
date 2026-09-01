@@ -44,9 +44,11 @@ yay -Qqtt > Qqtt.txt
 reflector usage:
 ----------------
 
-reflector --country US,CA --protocol https --latest 50 --number 10 --age 24 --sort rate --save /etc/pacman.d/mirrorlist --verbose
+reflector --country CA --protocol https --latest 50 --number 10 --age 24 --sort rate --save /etc/pacman.d/mirrorlist --verbose
 
 
+goog starter server for Ontario:
+--------------------------------
 
 Server = https://mirror.csclub.uwaterloo.ca/archlinux/$repo/os/$arch
 
@@ -101,6 +103,8 @@ HISTSIZE=1000
 SAVEHIST=1000
 setopt appendhistory
 
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 
 contents of /home/akos/.aliases:
@@ -110,7 +114,9 @@ alias ls='eza -hal --group-directories-first --icons'
 alias screenlock='swaylock --daemonize --ignore-empty-password --screenshots --effect-blur 7x5 --indicator --indicator-radius 100 --clock --timestr='%l:%M %p' --datestr='%A, %-m/%-e/%y' --fade-in 0.5'
 alias google-chrome='google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias home-monitor='swaymsg output DP-1 pos 0 0 res 3440x1440@144Hz && swaymsg output eDP-1 pos 1000 1440 res 2880x1800@90.001Hz'
-alias office-monitor='swaymsg output HDMI-A-1 pos 0 0 res 1920x1080@74.998Hz && swaymsg output eDP-1 pos 240 1080 res 2880x1800@90.001Hz'
+alias office-monitor='swaymsg output HDMI-A-1 pos 0 0 res 1920x1080@74.998Hz && swaymsg output eDP-1 pos 0 1080 res 2880x1800@90.001Hz'
+alias samsung-tv='swaymsg output DP-1 pos 0 0 res 4096x2160@60.000Hz && swaymsg output eDP-1 pos 1000 2160 res 2880x1800@90.001Hz'
+alias akosvenv='source /home/akos/.venvs/akos/bin/activate'
 
 
 
@@ -119,7 +125,6 @@ contents of /etc/iwd/main.conf:
 
 [Network]
 NameResolvingService=systemd
-EnableIPv6=false
 
 [General]
 EnableNetworkConfiguration=true
@@ -307,14 +312,7 @@ other:
 	useradd -m -g users -G wheel -s /bin/zsh akos
 	start fstrim.timer
 
-maybe:
-------
-
-	zfs (wait till nonaur)
-	full disk encryption (learn first)
-
 things that need xwayland:
 --------------------------
 
 	steam
-	qbittorrent

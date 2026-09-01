@@ -1,16 +1,28 @@
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+input "type:touchpad" {
+    	tap disabled
+   	dwt disabled
+	natural_scroll disabled
+	middle_emulation disabled
+	#click_method clickfinger
+}
+
 set $mod Mod4
 
-# xwayland disable
+xwayland disable
 
 output "*" bg /home/akos/Dropbox/stuff/other/misc/wallpaper.jpg fill
 
 exec google-chrome-stable --ozone-platform=wayland --no-startup-window
-# exec iwgtk --indicators
 
 bindsym $mod+q kill
 
 bindsym $mod+Return exec kitty
-bindsym $mod+Shift+Return exec kitty --working-directory /home/akos/Dropbox/quantum
 
 bindsym $mod+d exec wofi --show drun --style=/home/akos/.config/wofi/wofi.css --width 500 --prompt="" --insensitive --hide-scroll --lines 5
 
@@ -18,10 +30,10 @@ bindsym $mod+u exec kitty zsh /home/akos/.config/upgrade.sh
 
 bindsym $mod+c exec google-chrome-stable --ozone-platform=wayland
 bindsym $mod+i exec google-chrome-stable --ozone-platform=wayland --incognito
-bindsym $mod+p exec pcmanfm --new-win
-bindsym $mod+v exec codium
+bindsym $mod+p exec pcmanfm-qt --new-window
+bindsym $mod+v exec codium --ozone-platform=wayland
 bindsym $mod+a exec atril
-bindsym $mod+s exec gamemoderun steam-native
+# bindsym $mod+s exec gamemoderun steam-native
 
 bindsym $mod+Shift+p exec grim screenshot.png
 
@@ -31,15 +43,15 @@ bindsym $mod+Shift+Delete	exec systemctl reboot --ignore-inhibitors
 
 bindsym $mod+Shift+s		output eDP-1 toggle
 
-bindsym $mod+Left		focus left
-bindsym $mod+Down	     focus down
-bindsym $mod+Up		focus up
-bindsym $mod+Right		focus right
+bindsym $mod+Left		     focus left
+bindsym $mod+Down		     focus down
+bindsym $mod+Up			focus up
+bindsym $mod+Right		     focus right
 
 bindsym $mod+Shift+Left		move left
 bindsym $mod+Shift+Down		move down
 bindsym $mod+Shift+Up		move up
-bindsym $mod+Shift+Right      move right
+bindsym $mod+Shift+Right	     move right
 
 bindsym $mod+Shift+h split h
 bindsym $mod+Shift+v split v
@@ -83,10 +95,6 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
-bar {
-	swaybar_command waybar
-}
 
 exec swayidle -w \
           timeout 1800 'screenlock' \
